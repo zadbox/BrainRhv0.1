@@ -682,5 +682,152 @@ Puis redémarrer le serveur.
 
 ---
 
+## 🔧 Corrections du 09/11/2025
+
+### Fix: Boucles infinies React (useCallback + useEffect)
+
+**Date:** 2025-11-09 20:30 UTC
+
+**Fichiers modifiés:**
+- `frontend/src/pages/EnterpriseDetailPage.tsx` (ligne 142)
+- `frontend/src/pages/ProjectDetailPage.tsx` (ligne 67)
+- `frontend/src/pages/OffrePage.tsx` (ligne 92)
+- `frontend/src/pages/OffrePage_OLD.tsx` (ligne 87)
+
+**Problème:**
+Les pages `EnterpriseDetailPage`, `ProjectDetailPage` et `OffrePage` étaient en boucle infinie :
+- Erreur `ERR_INSUFFICIENT_RESOURCES`
+- Erreur `Maximum update depth exceeded`
+- Appels API répétés infiniment
+- Page bloquée sur "Loading company..." / "Loading project..."
+
+**Cause:**
+`useCallback` incluait `showError` (du hook `useToast`) dans ses dépendances. Le hook `useToast` crée de nouvelles références de fonctions à chaque rendu, ce qui recréait `fetchData` à chaque fois, déclenchant un nouveau `useEffect`, créant une boucle infinie.
+
+**Solution:**
+Retrait de `showError` des dépendances de `useCallback` avec `eslint-disable-next-line react-hooks/exhaustive-deps` :
+
+```typescript
+}, [enterpriseId]);  // Au lieu de [enterpriseId, showError]
+// eslint-disable-next-line react-hooks/exhaustive-deps
+```
+
+**Impact:**
+✅ Pages entreprises et projets chargent correctement
+✅ Plus de boucles infinies d'appels API
+✅ Navigation fluide entre les pages
+
+---
+
+### Fix: Validation dates invalides dans CVs
+
+**Date:** 2025-11-09 20:45 UTC
+
+**Fichier modifié:** `lib/experience_analyzer.py` (lignes 40-56)
+
+**Problème:**
+Erreur `month must be in 1..12` lors du matching quand un CV contenait des dates invalides (ex: mois = 0 ou 13).
+
+**Cause:**
+La fonction `parse_date` ne validait pas que le mois extrait était entre 1 et 12 avant de créer un objet `datetime`.
+
+**Solution:**
+Ajout de validations pour les formats MM/YYYY et YYYY-MM :
+
+```python
+# Format MM/YYYY
+match = re.match(r'(\d{1,2})/(\d{4})', date_str)
+if match:
+    month, year = int(match.group(1)), int(match.group(2))
+    # Valider que le mois est entre 1 et 12
+    if 1 <= month <= 12 and 1900 <= year <= 2100:
+        return datetime(year, month, 1)
+    return None
+
+# Format YYYY-MM
+match = re.match(r'(\d{4})-(\d{1,2})', date_str)
+if match:
+    year, month = int(match.group(1)), int(match.group(2))
+    # Valider que le mois est entre 1 et 12
+    if 1 <= month <= 12 and 1900 <= year <= 2100:
+        return datetime(year, month, 1)
+    return None
+```
+
+**Impact:**
+✅ Plus d'erreurs lors du matching avec des CVs contenant des dates invalides
+✅ Détection de gaps/overlaps plus robuste
+✅ Logs d'erreur plus clairs
+
+---
+
+### Fix: Persistence critères must-have/nice-have
+
+**Date:** 2025-11-09 21:25 UTC
+
+**Fichier modifié:** `frontend/src/pages/OffrePage.tsx` (lignes 73-103)
+
+**Problème critique:**
+Les critères must-have et nice-have n'étaient pas persistés lors du rechargement de la page. Quand l'utilisateur ajoutait des critères, les sauvegardait, puis revenait sur la page, les critères disparaissaient.
+
+**Cause identifiée:**
+1. Au chargement, l'offre était chargée dans `offreData` (avec `must_have` et `nice_have`)
+2. Mais `criteriaList` (state React) restait vide `[]`
+3. Lors de la sauvegarde, le code reconstruit `must_have`/`nice_have` DEPUIS `criteriaList`
+4. Résultat: les critères existants étaient écrasés par `[]`
+
+**Solution:**
+Ajout d'un `useEffect` qui initialise `criteriaList` depuis `offreData` au chargement :
+
+```typescript
+// Initialiser criteriaList depuis offreData au chargement
+useEffect(() => {
+  if (!offreData) return;
+
+  const loadedCriteria: CriteriaItem[] = [];
+
+  // Charger must_have existants
+  if (offreData.must_have && offreData.must_have.length > 0) {
+    loadedCriteria.push(
+      ...offreData.must_have.map((text) => ({
+        text,
+        source: 'manual' as const,
+        classification: 'Must-have' as const,
+      }))
+    );
+  }
+
+  // Charger nice_have existants
+  if (offreData.nice_have && offreData.nice_have.length > 0) {
+    loadedCriteria.push(
+      ...offreData.nice_have.map((text) => ({
+        text,
+        source: 'manual' as const,
+        classification: 'Nice-to-have' as const,
+      }))
+    );
+  }
+
+  // Ne mettre à jour que si criteriaList est vide (pour ne pas écraser les modifs en cours)
+  setCriteriaList((prev) => (prev.length === 0 ? loadedCriteria : prev));
+}, [offreData]);
+```
+
+**Test de validation:**
+Offre `banque-de-france-architecte-si-dentreprise` :
+- `must_have`: ["python"]
+- `nice_have`: ["scala", "TOGAF"]
+
+Avant le fix: ces critères disparaissaient au rechargement
+Après le fix: ils sont correctement affichés et persistés
+
+**Impact:**
+✅ Les critères must-have et nice-have sont maintenant correctement chargés
+✅ Les critères sont persistés entre les rechargements de page
+✅ Les modifications en cours ne sont pas écrasées (`prev.length === 0` check)
+✅ Le malus nice-have (0.95^n) peut maintenant fonctionner correctement
+
+---
+
 *Document généré le 03/11/2025 - Session de débogage et corrections*
-*Dernière mise à jour : 17h30 - Correction bug reranking XAI*
+*Dernière mise à jour : 09/11/2025 21:30 - Corrections boucles infinies, dates invalides et persistence critères*
