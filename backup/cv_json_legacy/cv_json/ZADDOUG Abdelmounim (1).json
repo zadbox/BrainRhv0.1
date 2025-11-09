@@ -1,0 +1,403 @@
+{
+    "identite": {
+        "nom": "ZADDOUG",
+        "prenom": "Abdelmounim",
+        "email": "zaddoug.abdelmounim@gmail.com",
+        "telephone": "+212 6 65 257541",
+        "adresse": "",
+        "linkedin": "https://www.linkedin.com/in/zaddoug-abdelmounim/",
+        "autres_reseaux": []
+    },
+    "titre": "Data Scientist et ingénieur en développement logiciel",
+    "resume_professionnel": "En tant que Data Scientist et ingénieur en développement logiciel, avec une expertise en intelligence artificielle et technologie blockchain, je combine des compétences analytiques solides et une maîtrise technique pour concevoir et mettre en œuvre des solutions innovantes basées sur les données.",
+    "competences_techniques": [
+        "LangChain",
+        "Python",
+        "JavaScript",
+        "NLP",
+        "embeddings",
+        "Hugging Face",
+        "LangGraph",
+        "LangSmith",
+        "Hyperledger Fabric",
+        "Smart Contract",
+        "TradingView API",
+        "CoinGecko API",
+        "NewsAPI",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "MySQL",
+        "Seaborn",
+        "Scikit-learn",
+        "PySpark",
+        "Flask",
+        "Tkinter",
+        "OS",
+        "R",
+        "GGPlot2",
+        "G5.0",
+        "Tree",
+        "Rpart",
+        "Scales",
+        "Plotly",
+        "Mapproj",
+        "Random Forest",
+        "KNN",
+        "XGBoost",
+        "SVM",
+        "GradientBoost",
+        "Naïve Bayes",
+        "K-means",
+        "Prophet",
+        "ARIMA",
+        "RNN",
+        "CNN",
+        "YOLO",
+        "Requests",
+        "BeautifulSoup",
+        "Selenium",
+        "Power BI",
+        "Tableau",
+        "Talend",
+        "Microsoft SQL Server",
+        "PL/SQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Robo 3T",
+        "Hadoop",
+        "Spark",
+        "Pig",
+        "Hive",
+        "HBase",
+        "Zookeeper",
+        "Sqoop",
+        "Solidity",
+        "Geth",
+        "DApp",
+        "IPFS",
+        "Storj",
+        "NodeJS",
+        "Hyperledger",
+        "Golang",
+        "PoS",
+        "PoW",
+        "ZKProof",
+        "Truffle IDE",
+        "Remix ETH IDE",
+        "Filecoin",
+        "Structure de marché",
+        "Analyse technique",
+        "Forex",
+        "NASDAQ",
+        "Crypto",
+        "Trading avec IA",
+        "GCP",
+        "Trading quantitatif",
+        "TensorFlow",
+        "OpenCV",
+        "Docker",
+        "Keras",
+        "Git",
+        "Node.js",
+        "PyCharm",
+        "Adobe Photoshop",
+        "Blender",
+        "Unity",
+        "Jupyter",
+        "VS Code",
+        "Trello",
+        "Power BI",
+        "DataRobot AI Cloud",
+        "MongoDB Compass",
+        "Oracle NoSQL",
+        "RStudio"
+    ],
+    "competences_transversales": [
+        "Observation",
+        "Prise de décision",
+        "Communication",
+        "Multi-tâches"
+    ],
+    "langues": [
+        "Anglais",
+        "Français",
+        "Chinois"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Développeur Technico-Fonctionnel",
+            "entreprise": "BRAIN Gen Technology",
+            "lieu": "Maroc",
+            "date_debut": "Janvier 2024",
+            "date_fin": "Aujourd'hui",
+            "durée": "1 an et 9 mois",
+            "missions": [
+                "Conception et supervision de projets R&D appliquant des approches d'IA (RAG, LLM, NLP) et des technologies blockchain pour concevoir des solutions modulaires visant à améliorer la performance opérationnelle, la sécurité des données et la personnalisation des processus dans les domaines du trading d'actifs numériques et de la gestion RH.",
+                "Réalisation d'états de l'art technologiques et mise en œuvre de prototypes combinant intelligence artificielle, traitement de langage naturel et traçabilité distribuée.",
+                "Conception d'architectures modulaires favorisant l'interopérabilité des technologies.",
+                "Implémentation de smart contracts pour automatiser et sécuriser les transactions et interactions.",
+                "Projet Brain Agent Invest - Plateforme de trading assistée par IA : analyse technique des marchés financiers avec intégration graphique via TradingView API.",
+                "Collecte et traitement de données (CoinGecko, Twitter via X, NewsAPI) avec NLP pour analyse en temps réel du sentiment et des tendances du marché.",
+                "Développement d'un système intelligent de recommandations combinant analyse technique et fondamentale via modèles LLM, LangChain, LangGraph et suivi de performance avec LangSmith.",
+                "Intégration d'une architecture modulaire favorisant l'interopérabilité des technologies.",
+                "Projet BRAIN RH+ - Solution SaaS pour la gestion des ressources humaines : recrutement automatisé avec parsing multilingue avancé des CV grâce au NLP, utilisation d'embeddings pour recherche et recommandation des profils, et classification automatique des candidatures.",
+                "Automatisation intelligente de documents administratifs via modèles LLM.",
+                "Suivi réglementaire dynamique utilisant des analyses contextuelles et législatives via RAG.",
+                "Développement d'un chatbot intelligent dédié à l'onboarding des collaborateurs et intégration d'un coffre-fort numérique sécurisé avec traçabilité assurée par blockchain.",
+                "Sécurisation des données sensibles via Hyperledger Fabric et automatisation des processus réglementaires par smart contracts.",
+                "Partage d'interfaces graphiques communes et réutilisation de modules entre Brain Agent Invest et BRAIN RH+."
+            ]
+        },
+        {
+            "poste": "Consultant en Intelligence Artificielle et Technologies Émergentes",
+            "entreprise": "LEYTON",
+            "lieu": "France",
+            "date_debut": "Décembre 2023",
+            "date_fin": "mars 2024",
+            "durée": "4 mois",
+            "missions": [
+                "Fournir des solutions en IA et technologies avancées pour des projets clients.",
+                "Gérer un portefeuille de clients dans le secteur technologique, offrant une expertise sur les tendances émergentes.",
+                "Évaluer des projets R&D pour leur alignement avec les avancées technologiques.",
+                "Conseiller les clients sur l'intégration et l'optimisation de l'IA et des nouvelles technologies."
+            ]
+        },
+        {
+            "poste": "Projet Data Science",
+            "entreprise": "Orange Business",
+            "lieu": "Casablanca | Maroc",
+            "date_debut": "Août 2022",
+            "date_fin": "Octobre 2022",
+            "durée": "3 mois",
+            "missions": [
+                "Développé des modèles de détection de fraude avec des méthodologies de data science.",
+                "Géré et prétraité des ensembles de données clients et fraude (IP spoofing, DNS).",
+                "Résolu le déséquilibre des classes avec SMOTE et optimisé les performances des modèles.",
+                "Technologies utilisées : Python, NumPy, Pandas, Scikit-learn.",
+                "Outils utilisés : Jupyter, VS Code, Git."
+            ]
+        },
+        {
+            "poste": "Projet IA, Big Data Analytics, Data Lake (BDA/DL)",
+            "entreprise": "Université Nice Sophia Antipolis",
+            "lieu": "Nice | France",
+            "date_debut": "Octobre 2022",
+            "date_fin": "Avril 2023",
+            "durée": "7 mois",
+            "missions": [
+                "Alimenté un data lake Hive à partir de diverses sources.",
+                "Nettoyé, traité et préparé les données pour analyse et modélisation.",
+                "Créé un modèle de classification supervisée pour prédire les catégories de véhicules.",
+                "Appliqué des modèles statistiques (classification, clustering) pour analyser le comportement des clients.",
+                "Technologies : Python, R, RHIVE, Kafka, NoSQL, SQL, Clustering, Big Data, Data Lake, Machine Learning, Sqoop.",
+                "Outils : MongoDB Compass, Hadoop, Hive, Oracle NoSQL, Git, RStudio."
+            ]
+        },
+        {
+            "poste": "Stagiaire en Machine Learning, Data Science, Solution IA",
+            "entreprise": "B2C Innov Company",
+            "lieu": "Toulouse | France",
+            "date_debut": "Juin 2021",
+            "date_fin": "Septembre 2021",
+            "durée": "4 mois",
+            "missions": [
+                "Analysé des données de voitures d'occasion et effectué du web scraping.",
+                "Construit une solution de prédiction de prix avec machine learning.",
+                "Rédigé des rapports et proposé des améliorations aux parties prenantes.",
+                "Technologies : Python, BeautifulSoup, Selenium.",
+                "Outils : PyCharm, Trello, Git, Power BI, Docker."
+            ]
+        },
+        {
+            "poste": "Stagiaire en AutoML",
+            "entreprise": "Data Robot AI, Corporate Software",
+            "lieu": "Casablanca | Maroc",
+            "date_debut": "Juin 2022",
+            "date_fin": "Août 2022",
+            "durée": "3 mois",
+            "missions": [
+                "Réalisation d'une analyse exploratoire des données (EDA).",
+                "Sélection de fonctionnalités et modèles pour la prédiction.",
+                "Outils : DataRobot AI Cloud."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master en Mobiquity, Big Data et Intégration de Systèmes",
+            "ecole": "Université Sophia Antipolis, Nice | FRANCE",
+            "annee_obtention": "2023",
+            "niveau": "Bac+5",
+            "specialite": "Mobiquity, Big Data et Intégration de Systèmes"
+        },
+        {
+            "diplome": "Diplôme d'Ingénieur en Informatique",
+            "ecole": "EMSI, Casablanca | MAROC",
+            "annee_obtention": "2023",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "Licence en Informatique",
+            "ecole": "IGA, Casablanca | MAROC",
+            "annee_obtention": "2021",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "IBM R for Data Science",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "IBM Data Analytics with Python",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Machine Learning Certificate",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Financial Trading with Python",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Business Intelligence / Power BI",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "SQL",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Exploratory Data Analysis in Python",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "IBM Data Science Professional Certificate",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Data Scientist with Python",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Blockchain (Smart Contracts, DApps)",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Machine Learning with PySpark",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Migrating to the AWS Cloud",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "AWS Specialization",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Machine Learning for Trading Specialization",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "AWS Certified Solutions Architect - Associate",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Blockchain Specialization",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "LangChain Chat with Your Data",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Brain Agent Invest - Plateforme de trading assistée par IA",
+            "description": "Plateforme d'analyse technique et fondamentale des marchés financiers intégrant NLP pour l'analyse de sentiment, recommandations via LLMs et suivi de performance.",
+            "technologies": [
+                "TradingView API",
+                "CoinGecko API",
+                "NewsAPI",
+                "NLP",
+                "LLM",
+                "LangChain",
+                "LangGraph",
+                "LangSmith",
+                "Python",
+                "JavaScript",
+                "Smart Contract"
+            ]
+        },
+        {
+            "titre": "BRAIN RH+ - Solution SaaS gestion des ressources humaines",
+            "description": "Solution SaaS pour automatisation du recrutement, parsing multilingue des CV, embeddings pour recherche et recommandation, automatisation de documents via LLM, chatbot d'onboarding et coffre-fort numérique sécurisé avec traçabilité blockchain.",
+            "technologies": [
+                "NLP",
+                "embeddings",
+                "LLM",
+                "RAG",
+                "Hyperledger Fabric",
+                "Smart Contract",
+                "Python",
+                "LangChain"
+            ]
+        },
+        {
+            "titre": "Projet Data Science - Segmentation et classification d'objets de mode",
+            "description": "Développement de modèles génératifs d'IA pour la segmentation et classification automatique d'objets de mode dans des images 2D et CAD; collaboration avec designers pour affiner les algorithmes pour le secteur du luxe.",
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "OpenCV",
+                "Docker",
+                "Node.js",
+                "MongoDB",
+                "Git"
+            ]
+        },
+        {
+            "titre": "Compétition Business Intelligence - Application web ventes",
+            "description": "Construction d'une application web pour les ventes avec nettoyage des données et visualisation via Power BI.",
+            "technologies": [
+                "SQL",
+                "ETL",
+                "EDA",
+                "Talend",
+                "Power BI",
+                "Tableau"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

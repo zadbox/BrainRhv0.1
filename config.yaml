@@ -1,0 +1,176 @@
+# Configuration du système de matching CV/RH
+# Version 2.0 (avec parallélisation + validation)
+
+# ===========================
+# MODÈLES & API
+# ===========================
+llm:
+  # Modèle principal pour parsing et matching
+  model: "gpt-5-mini"  # GPT-5 mini pour extraction/matching
+  fallback_models:
+    - "gpt-4.1-mini"    # Fallback 1
+    - "gpt-4o-mini"     # Fallback 2 (stable et disponible)
+  temperature_extraction: 0.1  # Température basse pour extraction structurée
+  temperature_reranking: 0.2   # Température basse pour re-ranking (cohérence)
+  seed: 42  # Seed pour résultats déterministes (même seed = mêmes résultats)
+  timeout: 30000  # millisecondes (30s - augmenté pour must-have)
+  max_retries: 2  # Nombre de retries
+
+  # Configuration des retries (exponential backoff)
+  retry_delay: 1000  # ms initial
+  retry_multiplier: 2.0
+
+  # Configuration parallélisation must-have
+  llm_concurrent: 10  # Nombre d'appels LLM simultanés
+  qps: 3.0            # Requêtes par seconde max (rate limiting)
+
+# ===========================
+# API ROME (France Travail)
+# ===========================
+rome:
+  enabled: true  # Flag pour activer/désactiver l'enrichissement ROME
+  base_urls:
+    fiches: "https://api.francetravail.io/partenaire/rome-fiches-metiers/v1"
+    competences: "https://api.francetravail.io/partenaire/rome-competences/v1"
+    metiers: "https://api.francetravail.io/partenaire/rome-metiers/v1"
+    contextes: "https://api.francetravail.io/partenaire/rome-contextes/v1"
+  token_url: "https://entreprise.francetravail.fr/connexion/oauth2/access_token?realm=/partenaire"
+  timeout: 10000  # millisecondes
+  max_retries: 3
+  # Les credentials sont dans .env (ROME_CLIENT_ID et ROME_CLIENT_SECRET)
+
+# ===========================
+# CHEMINS & RÉPERTOIRES
+# ===========================
+paths:
+  # Répertoire de base (racine du projet)
+  base_dir: "/Users/mac/Documents/ClaudeC/brainrh-cv-parser-fix"  # Chemin absolu du projet
+
+  # Répertoires de travail
+  cv_input_folder: "cv_input"        # CVs bruts (PDF/DOCX)
+#  cv_json_folder: (LEGACY - supprimé) "cv_json"          # CVs parsés en JSON
+  enterprises_folder: "enterprises"  # Structure hiérarchique entreprises/projets
+  offres_folder: "offres"            # Offres d'emploi
+  output_folder: "output"            # Résultats finaux
+  logs_folder: "logs"                # Logs d'audit
+#  projects_folder: (LEGACY - supprimé) "projects"        # Projets de recrutement (multi-projets)
+  cache_folder: "cache"              # Cache embeddings et LLM
+
+  # Fichiers de sortie
+  offre_parsed_file: "offre_parsed.json"
+  scorecard_file: "scorecard_results.json"
+  scorecard_csv_file: "scorecard_results.csv"
+
+# ===========================
+# BASE DE DONNÉES
+# ===========================
+database:
+  # URL de connexion (SQLite par défaut)
+  url: "sqlite:///brainrh.db"
+  # Pour PostgreSQL (futur):
+  # url: "postgresql://user:pass@localhost/brainrh"
+  echo: false  # Mettre true pour debug SQL
+
+# ===========================
+# SCORING & MATCHING
+# ===========================
+scoring:
+  # Poids par section (pour similarity section par section - V2)
+  section_weights:
+    competences_techniques: 0.40
+    experiences_professionnelles: 0.35
+    formations: 0.15
+    competences_transversales: 0.05
+    langues: 0.03
+    certifications: 0.02
+
+  # Seuils
+  top_rerank: 10           # Nombre de CVs à re-ranker avec commentaires LLM
+  min_similarity: 0.3      # Seuil minimum de similarité
+
+  # Provider pour le reranking (copie du llm.reranking_provider pour compatibilité)
+  reranking_provider: "xai"  # "openai" ou "xai" (Grok)
+
+  # Malus/Bonus
+  nice_have_malus_factor: 0.95  # Malus = 0.95^(nb_manquants)
+
+  # Bonus expériences
+  bonus_experience_exacte: 0.15
+  bonus_experience_tres_proche: 0.10
+  bonus_experience_proche: 0.05
+
+  # Capping du score final
+  score_min: 0.0
+  score_max: 1.0
+
+# ===========================
+# EMBEDDINGS
+# ===========================
+embeddings:
+  model: "all-MiniLM-L6-v2"  # SentenceTransformer
+  cache_enabled: true
+  batch_size: 32
+
+# ===========================
+# PARSING
+# ===========================
+parsing:
+  # OCR pour PDFs scannés (V2 - pas implémenté en V1)
+  ocr_enabled: false
+
+  # Normalisation du texte
+  lowercase: true
+  remove_special_chars: true
+  lemmatization: false  # À activer en V2
+
+# ===========================
+# AUDIT & LOGS
+# ===========================
+audit:
+  enabled: true
+  log_prompts: true           # Journaliser les prompts
+  log_responses: true         # Journaliser les réponses LLM
+  log_personal_data: false    # Ne pas logger nom/email/tél en clair
+  schema_version: "1.0"       # Version du schéma de données
+
+# ===========================
+# CACHE
+# ===========================
+cache:
+  enabled: true
+  ttl: 86400  # 24h en secondes
+  hash_algorithm: "sha256"
+
+# ===========================
+# INTERFACE UTILISATEUR
+# ===========================
+ui:
+  framework: "streamlit"  # ou "gradio"
+  port: 8501
+  title: "Système de Matching CV/RH"
+  theme: "light"
+
+# ===========================
+# V2: PARALLÉLISATION
+# ===========================
+parallel:
+  file_workers: 4          # Threads pour extraction de fichiers (I/O)
+  llm_concurrent: 10       # Appels LLM simultanés (aligné avec llm.llm_concurrent)
+  batch_size: 10           # Taille des batches pour traitement
+
+# ===========================
+# V2: VALIDATION & RÉPARATION
+# ===========================
+validation:
+  enabled: true            # Activer validation jsonschema
+  max_repair_attempts: 3   # Nombre max de tentatives de réparation
+  strict_mode: false       # Mode strict (reject si invalid après repair)
+
+  # Checks non-IA
+  checks:
+    cv_max_size_kb: 500          # Taille max CV (éviter spam)
+    offre_max_size_kb: 200       # Taille max offre
+    min_content_words: 50        # Contenu minimum (mots)
+    validate_emails: true        # Vérifier format emails
+    validate_phones: true        # Vérifier format téléphones
+    validate_rome_codes: true    # Vérifier format codes ROME

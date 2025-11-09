@@ -1,0 +1,340 @@
+{
+  "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].docx",
+  "identite": {
+    "nom": "T",
+    "prenom": "Karima",
+    "email": "",
+    "telephone": "",
+    "adresse": "39, rue Anatole France - CS 50227 - 92532 Levallois Perret CEDEX",
+    "linkedin": "",
+    "autres_reseaux": []
+  },
+  "titre": "Architecte Data et Fonctionnel",
+  "resume_professionnel": "17 années d'expérience en architecture des données et fonctionnelle. Expertise sur les domaines des données depuis les sources, l'urbanisation, la modélisation, l'implémentation jusqu'aux usages. Utilisation de la méthode TOGAF, intervention sur des études de stratégie cloud (GDPR, choix des technologies : data processing, moteur SQL, restitution). Expérience solide dans les secteurs bancaire, grande distribution et assurance. Compétences en urbanisation de data lake, modélisation conceptuelle et physique, architecture décisionnelle, mise en place d'entrepôts et datamarts, gouvernance et migration de plateformes.",
+  "competences_techniques": [
+    "Modélisation conceptuelle et physique",
+    "Merise",
+    "UML",
+    "MEGA",
+    "HOPEX",
+    "PowerDesigner",
+    "Teradata",
+    "Oracle",
+    "SQL Server",
+    "DB2",
+    "Marklogic",
+    "Hadoop",
+    "Snowflake",
+    "Azure Data Factory",
+    "AWS",
+    "SQL",
+    "Shell",
+    "XML",
+    "Javascript",
+    "XQuery",
+    "MicroStrategy",
+    "Power BI",
+    "SAS Enterprise Guide",
+    "Informatica",
+    "Datastage",
+    "Report Services / Report Builder",
+    "Elasticsearch",
+    "Confluence"
+  ],
+  "competences_transversales": [
+    "TOGAF",
+    "Méthode Agile (Scrum)",
+    "SAFe",
+    "Urbanisation des données",
+    "Gouvernance des données",
+    "Rédaction de spécifications fonctionnelles et techniques",
+    "Recette technique et fonctionnelle",
+    "Coordination et accompagnement",
+    "Responsable de migration",
+    "Chef de projet MOE",
+    "Cadrage et animation d'ateliers",
+    "Formation des utilisateurs",
+    "Homologation bancaire",
+    "Analyse de données métier",
+    "Cartographie et maintien des objets métiers",
+    "Présentation aux parties prenantes et comités d'architecture"
+  ],
+  "langues": [
+    "Anglais"
+  ],
+  "experiences_professionnelles": [
+    {
+      "poste": "Architecte des données",
+      "entreprise": "Covéa",
+      "lieu": "",
+      "date_debut": "02/2025",
+      "date_fin": "à ce jour",
+      "duree": "",
+      "missions": [
+        "Projet : Mise en place d’un outil de gestion pour la lutte contre le blanchiment des capitaux et le financement du terrorisme (LCB-FT). Mise en place d’une base bâti COVEA. Mise en place d’une base de demande pour les contrôles IBAN.",
+        "Conception et modélisation fonctionnelle des données",
+        "Garant du respect des normes et des bonnes pratiques",
+        "Support des AMOA et des Tech Lead",
+        "Collaboration étroite avec le Data Office"
+      ]
+    },
+    {
+      "poste": "Architecte des données",
+      "entreprise": "Rexel",
+      "lieu": "",
+      "date_debut": "11/2023",
+      "date_fin": "12/2024",
+      "duree": "",
+      "missions": [
+        "Projet de migration et d'évolution de la plateforme de données : Migration de SQL Server vers Snowflake, intégration de nouvelles fonctionnalités et cas d'utilisation.",
+        "Garant de chaque changement dans la data plate-forme",
+        "Faire véhiculer les bonnes pratiques à appliquer",
+        "S'assurer que les changements respectent l'architecture existante",
+        "Avoir une vision globale de chaque usage",
+        "Présentation aux parties prenantes de chaque changement par un « weekly design »",
+        "Modélisation physique des données",
+        "Support des product owner et des tech lead",
+        "Collaboration avec le data office"
+      ]
+    },
+    {
+      "poste": "Architecte Fonctionnel / Architecte des données",
+      "entreprise": "Société Générale",
+      "lieu": "",
+      "date_debut": "03/2021",
+      "date_fin": "09/2023",
+      "duree": "",
+      "missions": [
+        "Mise en place d'une plateforme unifiée pour tous les usages de stress-test risque de crédit. Rationalisation et gouvernance permettant d'assurer la traçabilité des modèles de risque de crédit dans chaque étape de leur cycle de vie",
+        "Elaboration d'une architecture cible en cohérence avec l'ensemble du système d'information ainsi que le standard du groupe",
+        "Réalisation des dossiers d'architecture et passage en comité d'architecture",
+        "Accompagnement des métiers et de l'équipe de projet dans l'instruction de sujets fonctionnels et data",
+        "Accompagnement de l'équipe projet dans le choix de la trajectoire ainsi que les sources des données",
+        "Référent architecte du data lake Risque et finance et garant de la cohérence",
+        "Orientation sur les transformations du SI central et le décommissionnement des applications d'origine",
+        "Maintien de la cartographie synthétique des objets métiers majeurs dans le data lake",
+        "Présentation à la BCE et aux parties prenantes, présentation en comité des travaux",
+        "Conseils sur l'utilisation d'outils de gouvernance de données (catalogue, évaluation, contrôle qualité, modélisation, data lineage)",
+        "Préconisation sur la stratégie d'historisation des données"
+      ]
+    },
+    {
+      "poste": "Architecte des données / Analyste des données",
+      "entreprise": "Malakoff Humanis",
+      "lieu": "",
+      "date_debut": "11/2018",
+      "date_fin": "10/2020",
+      "duree": "",
+      "missions": [
+        "Projet vision 360 du tiers : vision 360 du tiers sur son contrat, ses garanties, ses prestations santé et prévoyance consultable par les gestionnaires ainsi que les clients en se basant sur le référentiel unique du tiers. POC sur l’utilisation d’un identifiant contrat unique pour les clients Malakoff et Humanis dans le cadre de la fusion",
+        "Modélisation conceptuelle et détaillée par objets métiers majeurs",
+        "Accompagnement de l’équipe projet",
+        "Ateliers avec les différents métiers des domaines à modéliser",
+        "Modélisation sous MEGA",
+        "Audit des modèles du système d’information décisionnel",
+        "Analyste des données : analyses dans les deux systèmes de gestion à fusionner pour apporter des réponses aux questionnements des métiers"
+      ]
+    },
+    {
+      "poste": "Business analyst",
+      "entreprise": "Société Générale",
+      "lieu": "",
+      "date_debut": "03/2017",
+      "date_fin": "10/2018",
+      "duree": "",
+      "missions": [
+        "Titrisation sur les prêts immobiliers. Exigence réglementaire permettant une supervision unique de la BCE de la collecte des données de crédit",
+        "Cadrage et divers ateliers avec les métiers",
+        "Participation au comité projet",
+        "Analyser des données pour les métiers",
+        "Enrichissement des données et homologation bancaire",
+        "Rédaction des spécifications technico-fonctionnelles / Recette technico-fonctionnelle",
+        "Encadrement des développements d’un centre de service",
+        "POC d’utilisation POWER BI pour contrôler la qualité des données"
+      ]
+    },
+    {
+      "poste": "Consultante décisionnelle",
+      "entreprise": "Les Mousquetaires",
+      "lieu": "",
+      "date_debut": "03/2014",
+      "date_fin": "10/2016",
+      "duree": "",
+      "missions": [
+        "Mise en place de dashboards : Analyse de prix permettant de suivre mensuellement par article le rang d’Intermarché par rapport aux autres enseignes. Suivi des articles de démarque. Suivi des adhérents Intermarché",
+        "Ateliers avec les métiers",
+        "Rédaction des spécifications techniques",
+        "Collaboration avec l’équipe en charge de l’alimentation des données",
+        "Réalisation des tests unitaires et tests fonctionnels",
+        "Formation des utilisateurs à l’utilisation de l’outil sous MicroStrategy"
+      ]
+    },
+    {
+      "poste": "Architecte des données / Business analyst / Chef de projet",
+      "entreprise": "BNP Paribas",
+      "lieu": "",
+      "date_debut": "09/2010",
+      "date_fin": "08/2013",
+      "duree": "",
+      "missions": [
+        "Mise en place d’un entrepôt de donnée Marketing pour Fortis",
+        "Référent des modèles de données",
+        "Accompagnement de l’équipe pendant les phases de modélisation",
+        "Mettre en place des règles de nommage",
+        "Accompagnement dans le choix d’architecture, s’assurer de la cohérence",
+        "Développement sous Teradata, Unix",
+        "Recette fonctionnelle de cohérence des données",
+        "Référent fonctionnel dans l’équipe MOE",
+        "Chiffrage des domaines fonctionnels, gestion des ressources, suivi d’équipe"
+      ]
+    },
+    {
+      "poste": "Consultante décisionnelle",
+      "entreprise": "Carrefour Groupe",
+      "lieu": "",
+      "date_debut": "09/2006",
+      "date_fin": "08/2010",
+      "duree": "",
+      "missions": [
+        "Mise en place de dashboards pour l’analyse et la performance des ventes, les marges, le suivi des stocks hebdomadaires, mensuels, annuels, le suivi client",
+        "Conception de rapports, graphes et documents Reports Services",
+        "Création des tableaux de bord",
+        "Mise à disposition d'un outil permettant à l'utilisateur de mettre en forme son propre rapport (Report Builder)"
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "Diplôme d’Ingénieur spécialiste en communication numérique",
+      "ecole": "École des Mines d’Alès",
+      "annee_obtention": "2006",
+      "niveau": "Bac+5",
+      "specialite": "communication numérique"
+    },
+    {
+      "diplome": "Formation data management, Formation Teradata avancé et Formation Elastic Search",
+      "ecole": "",
+      "annee_obtention": "2021",
+      "niveau": "",
+      "specialite": ""
+    }
+  ],
+  "certifications": [
+    {
+      "nom": "TOGAF 9.1",
+      "organisme": "",
+      "annee": "2022"
+    },
+    {
+      "nom": "Scrum Product Owner",
+      "organisme": "",
+      "annee": "2020"
+    },
+    {
+      "nom": "MicroStrategy Fast Track, MicroStrategy Report Services",
+      "organisme": "MicroStrategy",
+      "annee": "2011"
+    },
+    {
+      "nom": "IBM Infosphere Information Server",
+      "organisme": "IBM",
+      "annee": "2010"
+    }
+  ],
+  "projets": [
+    {
+      "titre": "Outil de gestion LCB-FT (Covéa)",
+      "description": "Mise en place d’un outil de gestion pour la lutte contre le blanchiment des capitaux et le financement du terrorisme, base bâti COVEA et base de demande pour les contrôles IBAN.",
+      "technologies": [
+        "Confluence",
+        "MEGA HOPEX"
+      ]
+    },
+    {
+      "titre": "Migration plateforme données (Rexel)",
+      "description": "Migration de la plateforme de données de SQL Server vers Snowflake et intégration de nouvelles fonctionnalités et cas d'usage.",
+      "technologies": [
+        "SQL Server",
+        "Snowflake",
+        "Azure Data Factory",
+        "Confluence"
+      ]
+    },
+    {
+      "titre": "Plateforme stress-test risque de crédit (Société Générale)",
+      "description": "Mise en place d'une plateforme unifiée pour les usages de stress-test risque de crédit avec traçabilité des modèles et gouvernance.",
+      "technologies": [
+        "Hadoop (on premise)",
+        "AWS",
+        "Outils de gouvernance (catalogue, data lineage)"
+      ]
+    },
+    {
+      "titre": "Vision 360 tiers / Fusion (Malakoff Humanis)",
+      "description": "Projet vision 360 du tiers basé sur un référentiel unique et POC identifiant contrat unique pour clients Malakoff et Humanis.",
+      "technologies": [
+        "MEGA / HOPEX",
+        "PowerDesigner",
+        "DB2",
+        "SQL Server",
+        "Marklogic",
+        "SAS Enterprise Guide",
+        "SQL",
+        "XQuery",
+        "Javascript"
+      ]
+    },
+    {
+      "titre": "Titrisation prêts immobiliers (Société Générale)",
+      "description": "Projet de titrisation pour supervision BCE de la collecte des données de crédit.",
+      "technologies": [
+        "Teradata",
+        "Informatica",
+        "SQL",
+        "Shell",
+        "Power BI"
+      ]
+    },
+    {
+      "titre": "Dashboards Analyse Prix (Les Mousquetaires)",
+      "description": "Mise en place de dashboards d'analyse de prix et suivi des démarques et adhérents Intermarché.",
+      "technologies": [
+        "Teradata",
+        "MicroStrategy",
+        "SQL",
+        "SQL Server",
+        "Oracle"
+      ]
+    },
+    {
+      "titre": "Entrepôt de données Marketing (BNP Paribas / Fortis)",
+      "description": "Mise en place d'un entrepôt de données marketing, règles de nommage et accompagnement modélisation.",
+      "technologies": [
+        "Teradata",
+        "Datastage",
+        "SQL",
+        "PowerDesigner",
+        "Shell"
+      ]
+    },
+    {
+      "titre": "Dashboards ventes/marges/stocks (Carrefour)",
+      "description": "Conception et mise en place de tableaux de bord pour l'analyse des ventes, marges, suivi des stocks et suivi client.",
+      "technologies": [
+        "MicroStrategy",
+        "Oracle",
+        "SQL",
+        "Report Services",
+        "Report Builder"
+      ]
+    }
+  ],
+  "mobilite": {
+    "permis_conduire": false,
+    "disponibilite_geographique": ""
+  },
+  "autres": {
+    "loisirs": [],
+    "engagements": []
+  }
+}

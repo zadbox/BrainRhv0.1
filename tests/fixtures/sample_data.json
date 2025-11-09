@@ -1,0 +1,371 @@
+{
+  "enterprises": [
+    {
+      "id": "bnp-paribas",
+      "nom": "BNP Paribas",
+      "site_web": "https://www.bnpparibas.fr",
+      "secteur": "Banque et Finance",
+      "notes": "Grande banque française, besoin de profils tech",
+      "contacts": [
+        {
+          "nom": "Dupont",
+          "prenom": "Marie",
+          "email": "marie.dupont@bnpparibas.fr",
+          "telephone": "+33 1 42 98 12 34",
+          "poste": "RH Tech"
+        }
+      ],
+      "logo": "",
+      "created_at": "2025-01-15T10:00:00",
+      "last_modified": "2025-01-15T10:00:00",
+      "projects_count": 2
+    },
+    {
+      "id": "airbus",
+      "nom": "Airbus",
+      "site_web": "https://www.airbus.com",
+      "secteur": "Aéronautique",
+      "notes": "Leader européen aéronautique, profils ingénieurs",
+      "contacts": [
+        {
+          "nom": "Martin",
+          "prenom": "Pierre",
+          "email": "pierre.martin@airbus.com",
+          "telephone": "+33 5 61 93 33 33",
+          "poste": "Directeur RH"
+        }
+      ],
+      "logo": "",
+      "created_at": "2025-01-18T14:30:00",
+      "last_modified": "2025-01-18T14:30:00",
+      "projects_count": 1
+    }
+  ],
+  "projects": [
+    {
+      "id": "bnp-data-scientist-2025",
+      "nom": "Data Scientist Senior 2025",
+      "description": "Recrutement Data Scientists pour équipe Analytics",
+      "enterprise_id": "bnp-paribas",
+      "created_at": "2025-01-16T09:00:00",
+      "last_modified": "2025-01-20T16:45:00",
+      "status": "actif",
+      "offre_saved": true,
+      "matchings_count": 3
+    },
+    {
+      "id": "bnp-dev-fullstack",
+      "nom": "Développeur Full Stack",
+      "description": "Recrutement développeurs pour application bancaire",
+      "enterprise_id": "bnp-paribas",
+      "created_at": "2025-01-17T11:30:00",
+      "last_modified": "2025-01-19T10:20:00",
+      "status": "actif",
+      "offre_saved": true,
+      "matchings_count": 1
+    },
+    {
+      "id": "airbus-ingenieur-systemes",
+      "nom": "Ingénieur Systèmes Embarqués",
+      "description": "Recrutement ingénieurs systèmes embarqués avionique",
+      "enterprise_id": "airbus",
+      "created_at": "2025-01-19T08:15:00",
+      "last_modified": "2025-01-21T14:00:00",
+      "status": "actif",
+      "offre_saved": false,
+      "matchings_count": 0
+    }
+  ],
+  "cvs": [
+    {
+      "cv": "cv_data_scientist_1.json",
+      "identite": {
+        "nom": "Leblanc",
+        "prenom": "Sophie",
+        "email": "sophie.leblanc@email.fr",
+        "telephone": "+33 6 12 34 56 78",
+        "adresse": "Paris, France",
+        "linkedin": "linkedin.com/in/sophie-leblanc",
+        "autres_reseaux": []
+      },
+      "titre": "Data Scientist Senior",
+      "resume_professionnel": "Data Scientist avec 7 ans d'expérience en machine learning et analyse de données financières. Expert Python, TensorFlow, et modèles prédictifs.",
+      "competences_techniques": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Scikit-learn",
+        "Pandas",
+        "NumPy",
+        "SQL",
+        "Git",
+        "Docker",
+        "AWS",
+        "Machine Learning",
+        "Deep Learning",
+        "NLP"
+      ],
+      "competences_transversales": [
+        "Communication",
+        "Travail en équipe",
+        "Résolution de problèmes",
+        "Gestion de projet"
+      ],
+      "langues": ["Français", "Anglais"],
+      "experiences_professionnelles": [
+        {
+          "poste": "Data Scientist Senior",
+          "entreprise": "Société Générale",
+          "lieu": "Paris",
+          "date_debut": "2020-03",
+          "date_fin": "2025-01",
+          "duree": "5 ans",
+          "missions": [
+            "Développement de modèles de détection de fraude",
+            "Analyse prédictive des risques de crédit",
+            "Mise en production de modèles ML sur AWS"
+          ]
+        },
+        {
+          "poste": "Data Analyst",
+          "entreprise": "BNP Paribas",
+          "lieu": "Paris",
+          "date_debut": "2018-01",
+          "date_fin": "2020-02",
+          "duree": "2 ans",
+          "missions": [
+            "Analyse de données clients",
+            "Reporting et visualisation",
+            "Création de dashboards"
+          ]
+        }
+      ],
+      "formations": [
+        {
+          "diplome": "Master Data Science",
+          "ecole": "Université Paris-Saclay",
+          "annee": "2017"
+        }
+      ],
+      "certifications": [],
+      "projets": []
+    },
+    {
+      "cv": "cv_data_scientist_2.json",
+      "identite": {
+        "nom": "Dubois",
+        "prenom": "Thomas",
+        "email": "thomas.dubois@email.fr",
+        "telephone": "+33 6 23 45 67 89",
+        "adresse": "Lyon, France",
+        "linkedin": "linkedin.com/in/thomas-dubois",
+        "autres_reseaux": []
+      },
+      "titre": "Data Scientist",
+      "resume_professionnel": "Data Scientist spécialisé en computer vision et deep learning avec 4 ans d'expérience.",
+      "competences_techniques": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "OpenCV",
+        "Docker",
+        "Kubernetes",
+        "Computer Vision",
+        "Deep Learning"
+      ],
+      "competences_transversales": [
+        "Autonomie",
+        "Esprit d'analyse",
+        "Innovation"
+      ],
+      "langues": ["Français", "Anglais"],
+      "experiences_professionnelles": [
+        {
+          "poste": "Data Scientist",
+          "entreprise": "Orange",
+          "lieu": "Lyon",
+          "date_debut": "2021-06",
+          "date_fin": "2025-01",
+          "duree": "4 ans",
+          "missions": [
+            "Développement de modèles de computer vision",
+            "Détection d'objets et classification d'images",
+            "Déploiement sur infrastructure cloud"
+          ]
+        }
+      ],
+      "formations": [
+        {
+          "diplome": "Master Intelligence Artificielle",
+          "ecole": "INSA Lyon",
+          "annee": "2021"
+        }
+      ],
+      "certifications": [],
+      "projets": []
+    },
+    {
+      "cv": "cv_fullstack_1.json",
+      "identite": {
+        "nom": "Garcia",
+        "prenom": "Lucas",
+        "email": "lucas.garcia@email.fr",
+        "telephone": "+33 6 34 56 78 90",
+        "adresse": "Toulouse, France",
+        "linkedin": "linkedin.com/in/lucas-garcia",
+        "autres_reseaux": []
+      },
+      "titre": "Développeur Full Stack",
+      "resume_professionnel": "Développeur Full Stack avec 5 ans d'expérience. Expert React, Node.js, et architectures cloud.",
+      "competences_techniques": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "Git"
+      ],
+      "competences_transversales": [
+        "Agilité",
+        "Communication",
+        "Collaboration"
+      ],
+      "langues": ["Français", "Anglais", "Espagnol"],
+      "experiences_professionnelles": [
+        {
+          "poste": "Développeur Full Stack",
+          "entreprise": "Capgemini",
+          "lieu": "Toulouse",
+          "date_debut": "2020-01",
+          "date_fin": "2025-01",
+          "duree": "5 ans",
+          "missions": [
+            "Développement d'applications web full stack",
+            "Architecture microservices",
+            "CI/CD avec GitLab"
+          ]
+        }
+      ],
+      "formations": [
+        {
+          "diplome": "Master Informatique",
+          "ecole": "Université Paul Sabatier",
+          "annee": "2019"
+        }
+      ],
+      "certifications": [],
+      "projets": []
+    },
+    {
+      "cv": "cv_ingenieur_systemes_1.json",
+      "identite": {
+        "nom": "Moreau",
+        "prenom": "Julie",
+        "email": "julie.moreau@email.fr",
+        "telephone": "+33 6 45 67 89 01",
+        "adresse": "Bordeaux, France",
+        "linkedin": "linkedin.com/in/julie-moreau",
+        "autres_reseaux": []
+      },
+      "titre": "Ingénieur Systèmes Embarqués",
+      "resume_professionnel": "Ingénieur systèmes embarqués avec 6 ans d'expérience en développement logiciel temps réel et avionique.",
+      "competences_techniques": [
+        "C",
+        "C++",
+        "RTOS",
+        "Linux embarqué",
+        "CAN bus",
+        "ARINC 429",
+        "DO-178C",
+        "Git",
+        "DOORS"
+      ],
+      "competences_transversales": [
+        "Rigueur",
+        "Esprit analytique",
+        "Gestion de projet"
+      ],
+      "langues": ["Français", "Anglais"],
+      "experiences_professionnelles": [
+        {
+          "poste": "Ingénieur Systèmes Embarqués",
+          "entreprise": "Thales",
+          "lieu": "Bordeaux",
+          "date_debut": "2019-03",
+          "date_fin": "2025-01",
+          "duree": "6 ans",
+          "missions": [
+            "Développement logiciel embarqué avionique",
+            "Tests et validation systèmes critiques",
+            "Respect normes DO-178C"
+          ]
+        }
+      ],
+      "formations": [
+        {
+          "diplome": "Diplôme d'Ingénieur Systèmes Embarqués",
+          "ecole": "ENSEIRB-MATMECA",
+          "annee": "2019"
+        }
+      ],
+      "certifications": [],
+      "projets": []
+    },
+    {
+      "cv": "cv_junior_1.json",
+      "identite": {
+        "nom": "Petit",
+        "prenom": "Emma",
+        "email": "emma.petit@email.fr",
+        "telephone": "+33 6 56 78 90 12",
+        "adresse": "Nantes, France",
+        "linkedin": "linkedin.com/in/emma-petit",
+        "autres_reseaux": []
+      },
+      "titre": "Développeur Junior",
+      "resume_professionnel": "Jeune diplômée en informatique, passionnée par le développement web et mobile.",
+      "competences_techniques": [
+        "Python",
+        "Java",
+        "JavaScript",
+        "React",
+        "SQL",
+        "Git"
+      ],
+      "competences_transversales": [
+        "Curiosité",
+        "Apprentissage rapide",
+        "Motivation"
+      ],
+      "langues": ["Français", "Anglais"],
+      "experiences_professionnelles": [
+        {
+          "poste": "Stage Développeur",
+          "entreprise": "Startup Tech",
+          "lieu": "Nantes",
+          "date_debut": "2024-03",
+          "date_fin": "2024-08",
+          "duree": "6 mois",
+          "missions": [
+            "Développement d'une application web React",
+            "Tests unitaires",
+            "Documentation"
+          ]
+        }
+      ],
+      "formations": [
+        {
+          "diplome": "Master Informatique",
+          "ecole": "Université de Nantes",
+          "annee": "2024"
+        }
+      ],
+      "certifications": [],
+      "projets": []
+    }
+  ]
+}

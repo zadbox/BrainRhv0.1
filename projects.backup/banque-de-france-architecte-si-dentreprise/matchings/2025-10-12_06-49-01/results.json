@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].docx",
+      "score_final": 0.0,
+      "score_base": 0.0,
+      "bonus_nice_have_multiplicateur": 1.0,
+      "coefficient_qualite_experience": 1.2,
+      "nice_have_manquants": [],
+      "commentaire_scoring": "Score base de 0.734 indiquant une bonne adéquation sur les compétences data/architecture. Nice-have manquant : [\"python\"] → multiplicateur appliqué 0.95 (0.95^1). Score final communiqué : 0.698 (0.734 × 0.95).",
+      "appreciation_globale": "Profil solide en architecture des données avec expériences récentes chez Rexel (migration SQL Server → Snowflake, gouvernance de plateforme) et Covéa (modélisation, conformité LCB-FT, support Data Office). Le candidat montre une forte maîtrise de la modélisation (Merise, UML), des outils EA (MEGA, HOPEX) et de la gouvernance, ce qui est très pertinent pour un rôle Enterprise Data/IA. Points forts : conduite de migration cloud-data, gouvernance et capacité d'animation des parties prenantes; preuves d'accompagnement AMOA et Tech Lead. Axes de vigilance : peu d'éléments démontrant une expérience IA/ML stratégique, automatisation avancée et compétences Python/programmation. Recommandation RH : Recommandé pour un entretien technique centré sur architecture data et roadmap IA afin d'évaluer la capacité à porter la partie IA et l'infrastructure associée."
+    }
+  ],
+  "metadata": {
+    "total_cvs": 3,
+    "filtered_must_have": 1,
+    "top_reranked": 1,
+    "duree_totale_s": 42.11,
+    "timestamp": "2025-10-12T04:49:43Z"
+  }
+}

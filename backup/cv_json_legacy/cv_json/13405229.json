@@ -1,0 +1,165 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "SECURITY BAGGAGE HANDLER/PERSONNEL SCREENER",
+    "resume_professionnel": "Highly enthusiastic customer service professional with [number] years client interface experience. Customer-focused Retail Sales Associate with a solid understanding of the dynamics of the retail apparel and shoe industry. Currently maintain an active Security Clearance of Secret. Deans List. References/DD214/ Transcripts upon Request.",
+    "competences_techniques": [
+        "MS Excel",
+        "MS Access",
+        "MS Word",
+        "MS Power Point",
+        "MS Outlook",
+        "Adobe Acrobat",
+        "Navy Enterprise Resource Planning",
+        "FedEx systems",
+        "United Parcel Service (UPS)",
+        "Webflis",
+        "DODDAC",
+        "FACTS",
+        "X-ray equipment",
+        "Explosive detection equipment",
+        "Narcotics detection equipment",
+        "Magnetometer",
+        "Hand held scanning equipment",
+        "Video monitoring camera systems",
+        "Electronic countermeasures equipment",
+        "Ordnance loading/unloading",
+        "Armament/ordnance systems",
+        "Aircraft weapon release/launching/firing systems",
+        "Shipboard weapons elevators",
+        "Magazine and stowage systems",
+        "Aircraft armament equipment",
+        "Armament weapon support equipment",
+        "Mechanical handling equipment",
+        "Test equipment (inspection, weight testing, calibration)",
+        "Inventory systems",
+        "Excel spreadsheet databases",
+        "Scanning",
+        "Security screening"
+    ],
+    "competences_transversales": [
+        "Customer service",
+        "Supervision",
+        "Instruction and training",
+        "Force protection security",
+        "Monitoring and surveillance",
+        "Inventory management",
+        "Cash handling",
+        "Attention to detail",
+        "Operational management",
+        "Team leadership",
+        "Logistics and requisitioning"
+    ],
+    "langues": [
+        "Spanish"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Security baggage handler/Personnel Screener",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "March 2014",
+            "date_fin": "Current",
+            "durée": "11 ans et 7 mois",
+            "missions": [
+                "Provide information to space \"A\" travelers as well as PCS customers.",
+                "Loaded over 5,000 60 to 75lb bags on state of the art Air Force X-ray equipment.",
+                "Provided force protection security for the AMC military terminal.",
+                "Monitor all illegal material using the available x-ray, explosive and narcotics detection, magnetometer, hand held scanning equipment, and video monitoring camera.",
+                "Identify illegal material including weapons, explosives, narcotics, and any other materials which are unauthorized for air transportation."
+            ]
+        },
+        {
+            "poste": "Aviation Ordnanceman",
+            "entreprise": "Company Name",
+            "lieu": "CVN 77, Virginia Beach, Virginia",
+            "date_debut": "January 2010",
+            "date_fin": "January 2012",
+            "durée": "2 ans",
+            "missions": [
+                "Inspect, maintained and repaired aircraft mechanical and electrical armament/ordnance systems.",
+                "Serviced aircraft guns and accessories.",
+                "Stowed, assembled and loaded aviation ammunition including aerial mines, torpedoes, missiles and rockets.",
+                "Serviced bomb, missile and rocket releasing and launching devices.",
+                "Loaded supplementary munitions.",
+                "Assembled, tested and maintained air-launched guided missiles.",
+                "Supervised operation of aviation ordnance shops, armories and stowage facilities.",
+                "Requisitioned, received, inspected, un-packed, inventoried, accounted for, stored, handled, and processed shipments for: air/surface/sub-surface launched missiles, bombs, and components; special weapons; aircraft gun ammunition, cartridges, and actuated devices; rockets; launchers; aircrew escape propulsion systems; pyrotechnics/screening/marking devices; airborne targets/drones/decoys; unmanned air vehicles; aerial mines/torpedoes; and underwater sound signals/son buoys, ashore and afloat.",
+                "Tested, inspected and assembled fuses, loaded/downloaded, and armed/de-armed listed ammunition/airborne weapons, supplementary stores, and electronic countermeasures equipment.",
+                "Installed, removed and repaired inventory.",
+                "Maintained pre-/post-operational test/inspection, weight testing/calibration, corrosion control of aircraft weapon release/launching/firing systems, shipboard weapons elevators, magazines, sprinkler systems, aircraft armament equipment, armament weapon support equipment, mechanical handling equipment, and test equipment.",
+                "Instructed, supervised, and managed operational/training."
+            ]
+        },
+        {
+            "poste": "Armament Division Maintenance Technician",
+            "entreprise": "Company Name",
+            "lieu": "Naval Strike and Warfare Center NAS Fallon, Nevada (and other locations)",
+            "date_debut": "January 2007",
+            "date_fin": "January 2010",
+            "durée": "3 ans",
+            "missions": [
+                "Performed scheduled/unscheduled maintenance and ordnance loading/downloading evolutions on 24 F/A-18, 14 F-16, 4 MH-60's aircraft.",
+                "Performed maintenance on aircraft mechanical and electrical armament/ordnance systems.",
+                "Supervised, inventoried, stored, ordered merchandise for Top Gun pilot school (Auxiliary Retail Outlet Top Gun).",
+                "Cashier duties, maintained Excel spreadsheet database, currency handler, bank handler responsibility.",
+                "Flawlessly handled over $60,000 worth of merchandise and $50,000 worth of MWR funds and transactions, which led to MWR having extra $6,000 for the command Christmas party."
+            ]
+        },
+        {
+            "poste": "Military Experience (various roles)",
+            "entreprise": "Company Name",
+            "lieu": "Oceana Naval Air Station / USS George Bush (CVN 77), Virginia Beach, Virginia; NAS Fallon, Nevada; other locations",
+            "date_debut": "January 1977",
+            "date_fin": "January 2010",
+            "durée": "33 ans",
+            "missions": [
+                "Provide information to space \"A\" travelers as well as PCS customers.",
+                "Loaded over 5,000 60 to 75lb bags on state of the art Air Force X-ray equipment.",
+                "Provided force protection security for the AMC military terminal.",
+                "Monitor all illegal material using the available x-ray, explosive and narcotics detection, magnetometer, hand held scanning equipment, and video monitoring camera.",
+                "Inspect, maintained and repaired aircraft mechanical and electrical armament/ordnance systems.",
+                "Serviced aircraft guns and accessories.",
+                "Stowed, assembled and loaded aviation ammunition including aerial mines, torpedoes, missiles and rockets.",
+                "Serviced bomb, missile and rocket releasing and launching devices.",
+                "Loaded supplementary munitions; assembled, tested and maintained air-launched guided missiles.",
+                "Requisitioned, received, inspected, unpacked, inventoried, accounted for, stored, handled, and processed shipments for a wide range of munitions and weapons-related equipment.",
+                "Tested, inspected and assembled fuses, loaded/downloaded, and armed/de-armed ammunition/airborne weapons, supplementary stores, and electronic countermeasures equipment.",
+                "Installed, removed and repaired inventory and maintained corrosion control and calibration of weapons and support systems.",
+                "Instructed, supervised, and managed operational/training."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Bachelor of Arts",
+            "ecole": "Saint Leo University, Chesapeake, VA",
+            "annee_obtention": "2015",
+            "niveau": "Bac+3",
+            "specialite": "Criminal Justice"
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Security Clearance - Secret",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

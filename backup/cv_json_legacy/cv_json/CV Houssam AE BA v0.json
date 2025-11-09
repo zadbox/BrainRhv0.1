@@ -1,0 +1,231 @@
+{
+    "identite": {
+        "nom": "NOUREDDINE",
+        "prenom": "Houssam",
+        "email": "Houssam-nr@outlook.fr",
+        "telephone": "+33970405503 / +33664414274",
+        "adresse": "75020 Paris",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "Architecte SI d'entreprise / BA Paiements",
+    "resume_professionnel": "Autonome et enthousiaste, je porte un intérêt marqué pour la data et les nouvelles technologies, ainsi que pour l'architecture IT. Ma capacité à m'adapter rapidement me permet d'identifier et de répondre efficacement aux besoins métiers dans ces domaines.",
+    "competences_techniques": [
+        "PYTON",
+        "JAVA",
+        "SCALA",
+        "SQL",
+        "VBA",
+        "POWERBI",
+        "AWS",
+        "Apache STORM",
+        "Apache KAFKA",
+        "IBM MQ",
+        "SPARK",
+        "SPARK SQL",
+        "ARIS Connect",
+        "Pack office",
+        "MS-Project",
+        "Sharepoint",
+        "Confluence",
+        "pgAdmin-PostgreSQL",
+        "SAFE",
+        "TOGAF",
+        "PostgreSQL",
+        "Elasticsearch",
+        "MongoDB",
+        "HDFS",
+        "Windows",
+        "Unix",
+        "UNIX Shell",
+        "AXURE-RP",
+        "MS-Visio"
+    ],
+    "competences_transversales": [
+        "Autonome",
+        "Enthousiaste",
+        "Adaptabilité",
+        "Leadership",
+        "Gestion de projet",
+        "Pilotage d'équipes",
+        "Animation d'ateliers",
+        "Planification",
+        "Reporting",
+        "Rédaction de spécifications",
+        "Communication",
+        "Gestion des plannings et budgets",
+        "Qualification et validation technique",
+        "Pilotage de phases d'opportunité et de cadrage",
+        "Modélisation de processus métier"
+    ],
+    "langues": [
+        "Français",
+        "Arabe",
+        "Anglais",
+        "Berbère"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Architecte SI d'entreprise / BA Paiements",
+            "entreprise": "Banque de France",
+            "lieu": "75020 Paris",
+            "date_debut": "2021",
+            "date_fin": "2024",
+            "durée": "3 ans",
+            "missions": [
+                "Architecte SI entreprise et BA pour les domaines : Services bancaires, Marchés et surveillance des infrastructures et systèmes de paiements.",
+                "Élaboration du SDSI (schéma directeur SI) pour la Direction générale de la stabilité financière et des opérations à horizon 2030.",
+                "Contribution à l'élaboration du SDSI pour l'ensemble de la DSI.",
+                "Contribution à la mise en place de la stratégie DATA.",
+                "Contribution à l'établissement du cadre de référence pour les architectures SI.",
+                "Définition des architectures fonctionnelles et applicatives, intégration des projets dans la stratégie métier et SI.",
+                "Présentation des dossiers d'architecture au comité de direction.",
+                "Pilotage de l'activité des architectes solutions du domaine métier (2 architectes solution).",
+                "Pilotage des phases d'opportunité et de cadrage des projets d'architectures et coordination des équipes d'architecture (Architecte Solution, Architecte Exploitabilité, Architecte sécurité, Architecte DATA…).",
+                "Mise en place du paiement instantané.",
+                "Renforcement du dispositif de lutte contre la fraude : conception d'un système commun pour l'ensemble des banques de la FBF (Fédération Bancaire Française).",
+                "Refonte du dispositif de lutte contre la fraude : intégration d'un filtre basé sur l'IA combiné à de l'analyse statistique pour le scoring des transactions frauduleuses.",
+                "Refonte du dispositif LCB (Lutte contre le Blanchiment des Capitaux) : mise en place de tableaux de bord de suivi de l'activité LCB et mise en place d'un workflow pour les déclarations des soupçons à TRACFIN.",
+                "Refonte du système de criblage des PPE (Personnalités Politiquement Exposées).",
+                "Création d'un laboratoire pour outiller l'activité de reporting et d'analyse du middle et back office marché de la BDF.",
+                "Pour le compte de l'ACPR et la BDF : développement d'une application pour la collecte, intégration, stockage et exploitation des données des CCP (Central Counterparty).",
+                "Reporting pour SRB (Single Resolution Board) : mise en place d'une application pour les reporting de la BDF en tant que custodian et portfolio manager.",
+                "Outils utilisés : Sharepoint, PowerBI, ARIS Connect."
+            ]
+        },
+        {
+            "poste": "Leader PMO",
+            "entreprise": "ONEPOINT (en mission chez la Banque de France)",
+            "lieu": "Banque de France",
+            "date_debut": "2016",
+            "date_fin": "2021",
+            "durée": "5 ans",
+            "missions": [
+                "Suivi des migrations techniques du parc applicatif de la BDF.",
+                "À partir de 2019 : leader d'une équipe de 4 PMO au sein de la même cellule.",
+                "Planification des migrations techniques avec les MOE et suivi des plannings et budgets des migrations du parc applicatif.",
+                "Participer aux comités de qualification des nouveaux composants techniques à la BDF.",
+                "Organiser et animer les kick-off de début des projets de migrations.",
+                "Assurer l'alignement des référentiels des architectures techniques, des matériels serveurs et le suivi des projets de migrations techniques.",
+                "Réaliser des audits automatisés pour retracer le différentiel entre les demandes des budgets d'évolutions techniques et les évolutions validées ou programmées en comité d'architectes.",
+                "Suivi des projets de montées de versions des OS Serveurs, BDD, Sharepoint, MQcentral.",
+                "Élaborer et présenter la roadmap annuelle des projets de migrations techniques à l'ensemble des MOE/MOA de la BDF.",
+                "Participer à la modélisation des paternes d'architecture réutilisables.",
+                "Rédaction de spécifications fonctionnelles, reporting mensuels d'avancement, rapports d'audits, création et administration des sous-sites de suivi Sharepoint.",
+                "Outils utilisés : Sharepoint, PowerBI, Pack-office, VBA, UNIX Shell."
+            ]
+        },
+        {
+            "poste": "Business analyste",
+            "entreprise": "KLEE Intégration et conseil",
+            "lieu": "",
+            "date_debut": "",
+            "date_fin": "",
+            "durée": "",
+            "missions": [
+                "Animation d'ateliers clients et modélisation des processus métier.",
+                "Conception ergonomique des sites et rédaction des dossiers de spécifications.",
+                "Pilotage des phases de recette : définition des plans de tests, animation de tests usine, remontées d'anomalies et correction, qualification des retours clients.",
+                "Participation aux phases d'avant-vente : définition des solutions fonctionnelles proposées dans le cadre des appels d'offres.",
+                "Outils utilisés : AXURE-RP, MS-Project, MS-Visio."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master DATA Architecture",
+            "ecole": "Openclassrooms - CentraleSupélec",
+            "annee_obtention": "Janvier 2022",
+            "niveau": "Bac+5",
+            "specialite": "Data Architecture"
+        },
+        {
+            "diplome": "Master Administration des Entreprises",
+            "ecole": "Sorbonne Université (IAE Paris), Paris",
+            "annee_obtention": "Août 2017",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "Diplôme d'ingénieur",
+            "ecole": "Arts et Métiers ParisTech, Paris",
+            "annee_obtention": "Septembre 2016",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Certification PO-PM SAFE",
+            "organisme": "",
+            "annee": "2023"
+        },
+        {
+            "nom": "TOEIC (score 890)",
+            "organisme": "",
+            "annee": "2015"
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Mise en place du paiement instantané",
+            "description": "Projet de mise en place du paiement instantané au sein des infrastructures de paiement.",
+            "technologies": []
+        },
+        {
+            "titre": "Système commun de lutte contre la fraude (FBF)",
+            "description": "Conception d'un système commun de lutte contre la fraude pour l'ensemble des banques de la Fédération Bancaire Française.",
+            "technologies": []
+        },
+        {
+            "titre": "Filtre IA pour scoring des transactions frauduleuses",
+            "description": "Refonte du dispositif de lutte contre la fraude avec intégration d'un filtre basé sur l'IA combiné à de l'analyse statistique pour le scoring des transactions frauduleuses.",
+            "technologies": [
+                "IA",
+                "Analyse statistique"
+            ]
+        },
+        {
+            "titre": "Refonte dispositif LCB",
+            "description": "Mise en place de tableaux de bord de suivi de l'activité LCB et d'un workflow pour les déclarations des soupçons à TRACFIN.",
+            "technologies": [
+                "PowerBI",
+                "Sharepoint"
+            ]
+        },
+        {
+            "titre": "Refonte du système de criblage des PPE",
+            "description": "Refonte du système de criblage des Personnalités Politiquement Exposées.",
+            "technologies": []
+        },
+        {
+            "titre": "Laboratoire de reporting et d'analyse pour le middle/back office marché",
+            "description": "Création d'un laboratoire pour outiller l'activité de reporting et d'analyse du middle et back office marché de la BDF.",
+            "technologies": [
+                "PowerBI",
+                "Sharepoint"
+            ]
+        },
+        {
+            "titre": "Application collecte et exploitation des données CCP",
+            "description": "Développement d'une application pour la collecte, intégration, stockage et exploitation des données des CCP pour le compte de l'ACPR et la BDF.",
+            "technologies": []
+        },
+        {
+            "titre": "Application de reporting pour SRB",
+            "description": "Mise en place d'une application pour les reporting de la BDF en tant que custodian et portfolio manager pour le SRB (Single Resolution Board).",
+            "technologies": [
+                "PowerBI",
+                "Sharepoint"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

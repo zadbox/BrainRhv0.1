@@ -1,0 +1,172 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "ENGINEERING MANAGER",
+    "resume_professionnel": "Dedicated [job title] with excellent technical, analytical and communication skills demonstrated by [number] years of experience. Results-driven Mechanical Engineer with solid product engineering and QA experience.",
+    "competences_techniques": [
+        "Microsoft Office",
+        "Pro/ENGINEER",
+        "Pro/Mechanical",
+        "Solid Edge",
+        "AutoCAD",
+        "Microsoft Navision",
+        "Microsoft Project",
+        "Moldflow",
+        "3D (modélisation 3D)",
+        "CAD",
+        "Photo-realistic 3D modeling",
+        "Bills of Material (BOM) preparation",
+        "Fabrication drawings",
+        "Sheet metal design",
+        "Optic design",
+        "Material selection",
+        "Procurement",
+        "ETL (Intertek) processes",
+        "UL Standards (Underwriters Laboratory)",
+        "ASME codes",
+        "ADA compliance",
+        "Fire Safety Codes",
+        "Lean manufacturing",
+        "Bill of Material",
+        "Installation instructions and Specification Sheets"
+    ],
+    "competences_transversales": [
+        "Project Management",
+        "Customer Interface",
+        "Project Coordination",
+        "Mentoring",
+        "Training",
+        "Supervision d'équipe",
+        "Cross-functional team leadership",
+        "Sales support (quotation, technical solutions, lead times, cost estimates)",
+        "Liaison avec inspecteurs (UL)",
+        "Communication",
+        "Analytical skills",
+        "Problem solving",
+        "Technical support",
+        "Collaboration with architects and designers",
+        "Time management",
+        "Quality and cost control"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Engineering Manager",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "October 2013",
+            "date_fin": "Current",
+            "durée": "12 ans",
+            "missions": [
+                "Managed the manufacturing and engineering team.",
+                "Supported the manufacturing startup in the US, by mentoring and training of production personnel.",
+                "Supported the sales team during the project quotation process, by providing technical solutions to client request, lead times and cost estimates for requests.",
+                "Supervised the creation of fixture submission packages for client approval.",
+                "Designed fixtures for manufacturing.",
+                "Plan and execute all manufacturing projects, including the preparation of BOM, procurement of material, preparation of production orders.",
+                "Liaised with UL Inspector in ensuring that all lighting fixtures comply with Underwriters Laboratory Standards.",
+                "Worked with product development and ETL Intertek to ensure all fixtures are certified per UL Standards.",
+                "Created fixture sample kits for sales representatives."
+            ]
+        },
+        {
+            "poste": "Senior Design Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "August 2005",
+            "date_fin": "October 2013",
+            "durée": "8 ans et 2 mois",
+            "missions": [
+                "Collaborated with Architect and Lighting Designer in providing cost effective and environmentally friendly Lighting Solutions for unique Architectural Condition.",
+                "Prepared product concepts and submittal drawings from Lighting Specifications, Ceiling plans and details to support Sales and Marketing as required to meet project timelines.",
+                "Designed Lighting fixtures that met company's quality and cost.",
+                "Evaluated and redesigned existing products for lean manufacturing.",
+                "Prepared fabrication drawings for manufacturing and vending, including sheet metal design, optic design, material selection and Bills of Material preparation.",
+                "Supported Product Management in the preparation of Installation instructions and Specification Sheets.",
+                "Supported manufacturing staff during the fabrication and assembly process.",
+                "Successfully managed cross functional project team in launching new product line.",
+                "Liaised with UL Inspector in ensuring that all lighting fixtures comply with Underwriters Laboratory Standards."
+            ]
+        },
+        {
+            "poste": "CAD Designer",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "September 2004",
+            "date_fin": "August 2005",
+            "durée": "11 mois",
+            "missions": [
+                "Analyzed specifications from customer for initial elevator fixture design that will conform to all relevant ASME and Fire Safety Codes.",
+                "Revised drawings based on customer corrections and updated information from field surveys.",
+                "Check fixture design for required components for full functionality and compliance with ASME, ADA & Local Fire Codes.",
+                "Prepared fabrication drawings for manufacturing and assembly.",
+                "Prepared Bill of Material for production and special material list for vending."
+            ]
+        },
+        {
+            "poste": "Design Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "December 2000",
+            "date_fin": "September 2004",
+            "durée": "3 ans et 9 mois",
+            "missions": [
+                "Analyzed specifications received from customers for order processing.",
+                "Designed lighting fixtures that can be easily manufactured at the lowest possible cost based on the interpretation of the given specifications using CAD software.",
+                "Consulted with Lighting Specifiers in relation to the needs of Architects.",
+                "Spearheaded the development of new lighting fixtures for unique situations and lighting requirements.",
+                "Procured the required raw components/materials for these projects.",
+                "Developed prototypes for functional and aesthetic evaluation.",
+                "Liaised with the Manufacturing Department during the production process.",
+                "Provided technical support in solving problems that arise during manufacturing.",
+                "Collaborated with graphics designer in the production of lighting fixture brochures/catalogs and order processing specification forms.",
+                "Prepared CAD drawings, photo realistic 3D model and technical specifications for the Graphics Designer."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master of Science Mechanical Engineering",
+            "ecole": "New Jersey Institute of Technology",
+            "annee_obtention": "",
+            "niveau": "Bac+5",
+            "specialite": "Mechanical Engineering"
+        },
+        {
+            "diplome": "Bachelor of Science Mechanical Engineering",
+            "ecole": "University of Guyana",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "",
+            "description": "",
+            "technologies": []
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

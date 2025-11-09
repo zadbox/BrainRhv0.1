@@ -1,0 +1,176 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "SENIOR MARKETING AUTOMATION CONSULTANT",
+    "resume_professionnel": "I am a passionate and technically-skilled marketing automation consultant, committed to building trusted relationships with clients, vendors, colleagues, and people who dream big. My mission is to empower modern marketers and organizations to achieve success, innovation, and business value through marketing automation and technology. My background includes a unique and diverse mix of experience in both corporate and independent/small business settings, creating a well-rounded and distinct blend of strengths including creative, strategic, analytical, optimization/process, communication, and hands-on production.",
+    "competences_techniques": [
+        "Eloqua",
+        "Oracle Eloqua",
+        "On24",
+        "CVENT",
+        "Citrix",
+        "WebEx",
+        "Salesforce",
+        "Salesforce.com implementation",
+        "Siebel",
+        "Oracle Sales Cloud",
+        "Twitter",
+        "Relationship ONE",
+        "API",
+        "Custom Data Objects",
+        "Program Builder",
+        "Insight reports",
+        "Subscription management centers",
+        "Automation testing",
+        "QA Processes",
+        "Data imports",
+        "Lead routing systems",
+        "Lead scoring programs",
+        "Dynamic content",
+        "Emails",
+        "Segmentation",
+        "A/B Testing",
+        "Data cleansing",
+        "Email marketing analytics",
+        "Database management",
+        "Web content auditing",
+        "System integration",
+        "Third party systems integration"
+    ],
+    "competences_transversales": [
+        "Digital marketing",
+        "Systems integration",
+        "Database management",
+        "Complex problem solving",
+        "Cross-functional collaboration",
+        "Innovation",
+        "Enthusiastic team player",
+        "Strong written and verbal communication",
+        "Detail-oriented",
+        "Passionate",
+        "Project planning",
+        "Process improvement",
+        "Training and advisory",
+        "Stakeholder management",
+        "Vendor management",
+        "Event and program management",
+        "Analytical skills",
+        "Optimization"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Senior Marketing Automation Consultant",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "09/2014",
+            "date_fin": "Current",
+            "durée": "11 ans et 1 mois",
+            "missions": [
+                "Focused on delivering Best Practices, Product Education and Configuration to marketing and sales organizations to ensure that their investment in marketing technology is maximized.",
+                "Provide advisory and support to a variety of organizations including PwC, Vision Service Plan, TD Ameritrade, Tyco, and Parker Hannifin.",
+                "Evaluate client needs and develop strategic marketing automation roadmap and solutions that fit business requirements.",
+                "Implement marketing technologies with Eloqua including: On24, CVENT, Citrix, WebEx, Salesforce, Siebel, Oracle Sales Cloud, Twitter, Relationship ONE and other various 3rd party systems.",
+                "Develop custom subscription management centers to support global business requirements.",
+                "Build custom Insight reports to perform greater analysis of Eloqua data.",
+                "Develop automation testing efforts for Eloqua, Salesforce, and other integrated technology platforms.",
+                "Design and build complex programs and solutions within Program Builder for managing data cleansing, contact duplication, API data imports, lead routing systems, lead scoring programs, and subscription management.",
+                "Define and implement QA Processes, procedures, workflows, and develop documentation for internal sharing.",
+                "Build complex multi-step campaigns and marketing assets including: Custom Data Objects, dynamic content, emails, and segmentation.",
+                "Develop testing strategy for continuous improvement and optimization.",
+                "Provide marketing technology best practices, advisory and training to Marketing and Sales organizations."
+            ]
+        },
+        {
+            "poste": "Marketing Automation Manager",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "10/2011",
+            "date_fin": "09/2014",
+            "durée": "2 ans et 11 mois",
+            "missions": [
+                "Contributed to the growth and development of Integrated Marketing programs and initiatives as sole Power User for the Eloqua platform.",
+                "Led the planning, design and execution of marketing automation programs and projects for continuous improvement while driving sales and marketing effectiveness throughout the funnel.",
+                "Day-to-day management of the Eloqua platform including Salesforce integration and lead management programs.",
+                "Develop and implement process improvements and workflows to improve efficiency.",
+                "Collaborate with cross functional teams to develop, execute and test marketing campaigns/assets.",
+                "Implement and promote email best practices including A/B Testing, segmentation, dynamic content and data cleansing to increase email and campaign engagement.",
+                "Support web development team with web content auditing and asset management.",
+                "Ownership of email marketing analytics and reporting including: Report creation, monitoring Database health, tracking effectiveness and efficiency across all campaigns, and hosting regular sessions to update stakeholders on campaign performance against KPI's and best practices.",
+                "Assist with implementation and training of new marketing technologies and services."
+            ]
+        },
+        {
+            "poste": "Marketing Programs and Events Intern",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "05/2006",
+            "date_fin": "10/2011",
+            "durée": "5 ans et 5 mois",
+            "missions": [
+                "Responsible for setting the direction and overseeing successful execution of Marketing strategy, member programs and events.",
+                "Develop programs focused on community outreach, parent and member communications, student registrations, member recruitment, training events, and staff/facility management.",
+                "Areas of project management include: budgeting, scheduling, vendor and venue due diligence, contract negotiations, catering selection, and entertainment and décor.",
+                "Responsible for contracts management and driving membership, including account renewals and program sales; Increased year over year membership contracts by 30%.",
+                "Support accounting department where responsibilities include monthly invoicing, updating account receivables in billing system, and expense balancing; Increased on-time payment rates by 60%."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Modern Marketing Luminary Certification : 5 Tenets of Modern Marketing",
+            "ecole": "Oracle Marketing Cloud Academy",
+            "annee_obtention": "2015",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "B2B Oracle Eloqua Masters : Marketing Automation",
+            "ecole": "Eloqua University",
+            "annee_obtention": "2013",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "Bachelor of Arts : Communication Studies",
+            "ecole": "San Francisco State University",
+            "annee_obtention": "2011",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Modern Marketing Luminary Certification : 5 Tenets of Modern Marketing",
+            "organisme": "Oracle Marketing Cloud Academy",
+            "annee": "2015"
+        },
+        {
+            "nom": "B2B Oracle Eloqua Masters : Marketing Automation",
+            "organisme": "Eloqua University",
+            "annee": "2013"
+        }
+    ],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [
+            "Fourth Princess titleholder in the 2014 Miss Chinatown U.S.A. Pageant",
+            "Shaolin Kung Fu (Achieved Black Sash ranking, 2010)"
+        ],
+        "engagements": [
+            "Markie Awards Judge for Modern Marketing Experience 2015",
+            "Expert speaker for Eloqua University Education sessions during Modern Marketing Experience 2015"
+        ]
+    }
+}

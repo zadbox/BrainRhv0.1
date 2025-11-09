@@ -1,0 +1,272 @@
+{
+    "identite": {
+        "nom": "N",
+        "prenom": "Houssam",
+        "email": "",
+        "telephone": "",
+        "adresse": "39, rue Anatole France - CS 50227 - 92532 Levallois Perret CEDEX",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "Architecte SI d'entreprise et fonctionnel",
+    "resume_professionnel": "09 années d'expérience. Architecte SI d'entreprise et fonctionnel ayant exercé au sein de la Banque de France (08/2016 - 05/2024) puis Groupe La Poste (10/2024 - Poste actuel). Expérience couvrant urbanisation SI, architecture d'entreprise, architecture data, gouvernance SI, pilotage d'équipes d'architecture et PMO. Réalisation de SDSI, conception d'architectures fonctionnelles/applicatives/data, refontes de dispositifs LCB/LCB FT/lutte contre la fraude, mise en place de DATAHUBs, migrations techniques et projets de reporting. Disponible immédiatement.",
+    "competences_techniques": [
+        "PYTON",
+        "JAVA",
+        "SCALA",
+        "SQL",
+        "VBA",
+        "SAS VIYA",
+        "POWERBI",
+        "AWS",
+        "Apache STORM",
+        "Apache KAFKA",
+        "IBM MQ",
+        "SPARK",
+        "SPARK SQL",
+        "ARIS Connect",
+        "Pack office",
+        "MS-Project",
+        "Sharepoint",
+        "Confluence",
+        "pgAdmin-PostgreSQL",
+        "GitLab",
+        "Jira",
+        "AXURE-RP",
+        "MS-Visio",
+        "UNIX Shell",
+        "SAFe",
+        "TOGAF",
+        "PostgreSQL",
+        "Elasticsearch",
+        "MongoDB",
+        "HDFS",
+        "DERBY",
+        "Windows",
+        "Unix"
+    ],
+    "competences_transversales": [
+        "Méthodologies urbanisation SI & architecture d'entreprise",
+        "Architecture d'entreprise",
+        "Architecture DATA",
+        "Gouvernance SI (processus projet, template livrable, mise en place de comitologie/organisation, etc)",
+        "Communication sur l'offre des cellules d'architecture et d'urbanisme SI",
+        "Cartographies SI",
+        "Coordination équipes MOA/MOE",
+        "Réalisation étude urbanisme",
+        "BPM/BPR",
+        "AMOA",
+        "Modélisation objets métiers/processus/fonctionnelle",
+        "Modélisation des paternes",
+        "Rédaction des documents d'architecture (HDL, DA, DEA, DIA, POS, Matrices des plateformes, diagramme des processus…)",
+        "Gestion de projet",
+        "Planification et organisation",
+        "Suivi budgétaire",
+        "Gestion des risques",
+        "Communication efficace",
+        "Leadership et management d'équipe",
+        "Banque : services bancaires (Gestion des comptes, paiement unitaire, paiements de masse, LCB FT, lutte contre la fraude, comptabilité, facturation, SI client, gestion des risques, opérations de marché, opérations de règlement-livraison)"
+    ],
+    "langues": [
+        "Anglais"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Architecte SI d'entreprise et fonctionnel",
+            "entreprise": "Groupe La Poste",
+            "lieu": "",
+            "date_debut": "10/2024",
+            "date_fin": "Poste actuel",
+            "durée": "1 an",
+            "missions": [
+                "Contexte : En charge de la refonte du portail de reporting du cloud privé du Groupe La Poste.",
+                "Architecture métier et fonctionnelle : Modélisation des processus existants, optimisation des processus métiers et identification des processus futurs.",
+                "Conception de l'architecture fonctionnelle cible, intégrant les besoins métiers et alignée avec les objectifs stratégiques.",
+                "Identification des écarts fonctionnels entre l'existant et la cible pour guider la transformation.",
+                "Architecture data : Cartographie des sources de données existantes et identification des sources futures.",
+                "Rationalisation de l'architecture data pour garantir une interopérabilité optimale et une performance accrue.",
+                "Conception de l'architecture DATA couvrant les étapes de collecte, préparation, stockage et mise à disposition des données nécessaires pour alimenter le portail de reporting.",
+                "Architecture applicative et solution : Étude approfondie de l'existant d'un point de vue technique et applicatif.",
+                "Évaluation des solutions du marché et recommandations adaptées pour répondre aux besoins identifiés.",
+                "Conception de l'architecture applicative et de l'architecture solution du futur portail de reporting.",
+                "Outils et frameworks utilisés : TOGAF, GitLab, Jira."
+            ]
+        },
+        {
+            "poste": "Architecte SI d'entreprise et fonctionnel (périmètre : 130 applications)",
+            "entreprise": "Banque de France",
+            "lieu": "",
+            "date_debut": "08/2016",
+            "date_fin": "05/2024",
+            "durée": "7 ans et 9 mois",
+            "missions": [
+                "Contexte : Architecte SI entreprise pour les domaines : Services bancaires, Marchés et surveillance des infrastructures et systèmes de paiements.",
+                "Élaboration du SDSI (schéma directeur SI) avec une approche DATA CENTRIC pour la Direction générale de la stabilité financière et des opérations à horizon 2030.",
+                "Contribution à l'élaboration du SDSI pour l'ensemble de la DSI.",
+                "Contribution à la mise en place de la stratégie DATA.",
+                "Cadre de référence : Contribution à l'établissement du cadre de référence pour les architectures SI.",
+                "Architectures : Définition des architectures fonctionnelles et applicatives, intégration des projets dans la stratégie métier et SI.",
+                "Rédaction des documents d'architecture (HDL, DAS, DAT, DA, DEA, DIA, POS, Matrices des plateformes, diagramme des processus…).",
+                "Présentation des dossiers d'architecture au comité de direction.",
+                "Pilotage de l'activité des architectes solutions du domaine métier (2 architectes solution).",
+                "Pilotage des phases d'opportunité et de cadrage des projets d'architectures (Pilotage des travaux des équipes d'architecture : Architecte Solution, Architecte Exploitabilité, Architecte sécurité, Architecte DATA…).",
+                "Exemples de projets portés : mise en place du paiement instantané (cadrage de solutions SAAS 2022 et On-Prem 2024), renforcement du dispositif de lutte contre la fraude (conception d'un système commun pour les banques de la FBF), refonte du dispositif LCB (mise en place de tableaux de bord et workflow de déclaration TRACFIN), refonte du système de criblage des PPE, création d'un laboratoire pour outiller le reporting et l'analyse du middle/back office marché, développement d'une application pour la collecte/intégration/stockage/exploitation des données des CCP pour l'ACPR et la BDF, intégration d'un filtre basé sur l'IA combiné à de l'analyse statistique pour le scoring des transactions frauduleuses, reporting pour SRB, mise en place d'un DATAHUB marché (Optimizer, Monitoring, administration), migration DERBY -> SAS VIYA.",
+                "Environnement : Sharepoint, PowerBI, ARIS Connect."
+            ]
+        },
+        {
+            "poste": "Leader PMO (Domaine architecture)",
+            "entreprise": "Banque de France",
+            "lieu": "",
+            "date_debut": "2019",
+            "date_fin": "05/2024",
+            "durée": "5 ans",
+            "missions": [
+                "Contexte : Suivi des migrations techniques du parc applicatif de la BDF (A partir de 2019, Leader d'équipe au sein de la même cellule).",
+                "Participation à des projets en mode Agile et contribution à des projets de migration technique complexes (certification SAFe PO/PM).",
+                "Suivi budgétaire et prévisionnel des projets de migration.",
+                "Leadership et management d'équipe : supervision d'une équipe de 4 PMO.",
+                "Optimisation des migrations techniques en alignement avec la roadmap des évolutions des infrastructures et composants techniques.",
+                "Participation aux comités techniques et qualification des nouveaux composants techniques.",
+                "Organisation et animation des kick-off des projets de migration.",
+                "Coordination avec MOE, MOA, directions et fournisseurs.",
+                "Gestion proactive des risques, identification des goulots d'étranglement et réalisation d'audits automatisés.",
+                "Élaboration de la roadmap annuelle des projets de migrations techniques et modélisation d'architectures réutilisables (patterns).",
+                "Documentation et reporting : spécifications fonctionnelles, rapports d'audits, reporting mensuel d'avancement, création et administration de sous-sites SharePoint."
+            ]
+        },
+        {
+            "poste": "Business Analyst",
+            "entreprise": "Ministère du travail",
+            "lieu": "",
+            "date_debut": "01/2016",
+            "date_fin": "07/2016",
+            "durée": "7 mois",
+            "missions": [
+                "Animation d'ateliers clients, modélisation des processus métier, conception ergonomique des sites, rédaction des dossiers de spécifications.",
+                "Pilotage des phases de recette : définition des plans de tests, animation de tests usine, remontées d'anomalies et correction, qualification des retours clients.",
+                "Participation aux phases d'avant-vente : définition des solutions fonctionnelles proposées dans le cadre des appels d'offres.",
+                "Environnement : AXURE-RP, MS-Project, MS-Visio."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master DATA Architecture OC",
+            "ecole": "CentraleSupélec",
+            "annee_obtention": "2022",
+            "niveau": "Bac+5",
+            "specialite": "Data Architecture"
+        },
+        {
+            "diplome": "Master Administration des Entreprises",
+            "ecole": "Sorbonne Université (IAE Paris)",
+            "annee_obtention": "2017",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "Diplôme d'ingénieur",
+            "ecole": "Arts et Métiers ParisTech",
+            "annee_obtention": "2016",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Certification PO-PM SAFE",
+            "organisme": "",
+            "annee": "2023"
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Refonte du portail de reporting - Groupe La Poste",
+            "description": "Refonte du portail de reporting du cloud privé : conception de l'architecture fonctionnelle, data et applicative ; modélisation des processus et rationalisation des sources de données.",
+            "technologies": [
+                "TOGAF",
+                "GitLab",
+                "Jira"
+            ]
+        },
+        {
+            "titre": "Mise en place du paiement instantané",
+            "description": "Cadrage de deux solutions (SAAS en 2022 et On-Prem en 2024) pour la mise en place du paiement instantané dans le cadre des directives/lois européennes.",
+            "technologies": [
+                "SAAS",
+                "On-Prem"
+            ]
+        },
+        {
+            "titre": "Renforcement du dispositif de lutte contre la fraude (FBF)",
+            "description": "Conception d'un système commun de lutte contre la fraude pour l'ensemble des banques de la Fédération Bancaire Française.",
+            "technologies": [
+                "IA",
+                "analyse statistique"
+            ]
+        },
+        {
+            "titre": "Refonte du dispositif LCB",
+            "description": "Mise en place de tableaux de bord de suivi de l'activité LCB et d'un workflow pour les déclarations de soupçons à TRACFIN.",
+            "technologies": [
+                "PowerBI",
+                "workflow"
+            ]
+        },
+        {
+            "titre": "Refonte du système de criblage des PPE",
+            "description": "Refonte du dispositif de criblage des Personnalités Politiquement Exposées.",
+            "technologies": []
+        },
+        {
+            "titre": "Laboratoire de reporting et d'analyse - marché BDF",
+            "description": "Création d'un laboratoire pour outiller l'activité de reporting et d'analyse du middle et back office marché de la BDF.",
+            "technologies": [
+                "SAS VIYA",
+                "PowerBI"
+            ]
+        },
+        {
+            "titre": "Application de collecte et exploitation des données CCP",
+            "description": "Développement d'une application pour la collecte, intégration, stockage et exploitation des données des CCP pour le compte de l'ACPR et la BDF.",
+            "technologies": []
+        },
+        {
+            "titre": "Filtre IA pour scoring des transactions frauduleuses",
+            "description": "Intégration d'un filtre basé sur l'IA combiné à de l'analyse statistique pour le scoring des transactions frauduleuses.",
+            "technologies": [
+                "IA",
+                "analyse statistique"
+            ]
+        },
+        {
+            "titre": "Reporting pour SRB",
+            "description": "Mise en place d'une application pour les reporting de la BDF en tant que custodian et portfolio manager pour le Single Resolution Board.",
+            "technologies": []
+        },
+        {
+            "titre": "Mise en place d'un DATAHUB marché",
+            "description": "Mise en place d'un DATAHUB marché avec composantes d'Optimizer, Monitoring et administration.",
+            "technologies": [
+                "DATAHUB"
+            ]
+        },
+        {
+            "titre": "Migration DERBY -> SAS VIYA",
+            "description": "Migration de plateforme de DERBY vers SAS VIYA.",
+            "technologies": [
+                "DERBY",
+                "SAS VIYA"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": "Immédiate"
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

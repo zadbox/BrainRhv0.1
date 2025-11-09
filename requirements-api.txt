@@ -1,0 +1,17 @@
+# Requirements pour l'API FastAPI
+# À installer avec: pip install -r requirements-api.txt
+
+# FastAPI et serveur
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6  # Pour upload de fichiers
+
+# Déjà dans requirements.txt (hérité de Streamlit)
+# openai>=1.0.0
+# pydantic>=2.0.0
+# python-dotenv
+# PyMuPDF (fitz)
+# docx2txt
+# sentence-transformers
+# numpy
+# scikit-learn

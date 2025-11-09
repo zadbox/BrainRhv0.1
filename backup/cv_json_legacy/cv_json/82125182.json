@@ -1,0 +1,127 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "CHEMICAL ENGINEERING INTERN",
+    "resume_professionnel": "To obtain employment as an entry level Chemical Engineer utilizing my current experience and education.",
+    "competences_techniques": [
+        "Observation et analyse des procédés (hydrogenation, oxidation, extraction, distillation, mélange, chargement)",
+        "Mise à jour et utilisation des portails OAM, MES, OEE",
+        "ChemCad",
+        "OAM",
+        "MES",
+        "EPI",
+        "OEE",
+        "SAP (connaissance de travail)",
+        "C+ (connaissance de travail)",
+        "Java (connaissance de travail)",
+        "Microsoft Office",
+        "P&ID - red-line revisions",
+        "Instrumentation industrielle (transmetteurs de pression différentielle, sondes capacitatives RF)",
+        "DCS configuration",
+        "Installation et réglage de vannes de contrôle",
+        "Plaques d'orifice pour contrôle de débit",
+        "Tuyauterie process (incl. remplacement par tuyau 316L)",
+        "Contrôle de niveau et interface",
+        "Contrôle qualité",
+        "Amélioration des processus",
+        "Suivi et analyse de données de processus et d'expériences",
+        "Procédures de sécurité en milieu de procédés chimiques",
+        "Séparation de composants liquides/gazeux",
+        "Dépannage des procédés de fabrication chimique",
+        "Évaluation et optimisation d'équipements et de procédés",
+        "Réalisation de tests de validation d'équipements/procédés",
+        "Rédaction et collecte de spécifications produit",
+        "Obtention de devis pour travaux mécaniques, électriques et instrumentation",
+        "Planification et gestion de la portée de projets (estimation budgétaire)"
+    ],
+    "competences_transversales": [
+        "Gestion de projet",
+        "Planification / outils de scheduling",
+        "Leadership (conduite de réunions Management of Change)",
+        "Coordination fournisseur / obtention de devis",
+        "Travail en équipe",
+        "Présentation et communication orale",
+        "Compétences en laboratoire",
+        "Mentorat (Peer Mentor)",
+        "Sens de la sécurité et conformité",
+        "Capacité d'adaptation internationale / awareness global",
+        "Organisation et gestion du temps",
+        "Rigueur dans la documentation et le reporting"
+    ],
+    "langues": [
+        "German",
+        "Spanish"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Chemical Engineering Intern",
+            "entreprise": "AkzoNobel",
+            "lieu": "Columbus, Mississippi, USA",
+            "date_debut": "05/2017",
+            "date_fin": "Current",
+            "durée": "Depuis mai 2017",
+            "missions": [
+                "Intern at AkzoNobel assigned to the Columbus, Mississippi plant working 30-40 hours weekly in the Hydrogen Peroxide division.",
+                "Observation des différents procédés : hydrogenation, oxidation, extraction, distillation, mixing, and loading of peroxide and its components.",
+                "Mise à jour quotidienne des portails OAM, MES et OEE avec les informations du chief technician.",
+                "Collecte de devis et spécifications produits pour deux projets assignés.",
+                "Red-lining des P&ID en préparation des modifications dans l'usine.",
+                "Assistance sur diverses tâches selon les besoins du superviseur.",
+                "Conduite des réunions Management of Change pour les projets assignés.",
+                "Projet 1 : Remplacement d'une vanne automatique par une vanne de contrôle sur un tank de condensat ; ajout d'un transmetteur de pression différentielle pour contrôler le niveau du tank ; installation d'une plaque d'orifice dans la conduite pour contrôler le débit vers le tank. Responsabilités : obtention de devis pour main d'oeuvre mécanique, électrique et instrumentation, configuration DCS et devis instrumentation. Portée du projet : $50,000.",
+                "Projet 2 : Installation d'une sonde capacitatives RF sur une vue liquide existante d'un tank de stockage ; remplacement d'un tuyau chimique par un tuyau en acier inoxydable 316L et installation d'une vanne de contrôle pour gérer le niveau d'interface. Responsabilités : obtention de devis pour main d'oeuvre mécanique, électrique et instrumentation, configuration DCS et devis instrumentation. Portée anticipée : $30,000-$50,000."
+            ]
+        },
+        {
+            "poste": "Participant - Chemical Engineering Summer School (ChESS Vienna)",
+            "entreprise": "ChESS Vienna (Chemical Engineering Summer School)",
+            "lieu": "Vienna, Austria",
+            "date_debut": "07/2016",
+            "date_fin": "08/2016",
+            "durée": "2 mois",
+            "missions": [
+                "Participation au cours axé sur l'exploration pratique des opérations unitaires d'ingénierie des procédés à l'échelle de laboratoire.",
+                "Visites de diverses installations de traitement chimique à Vienne.",
+                "Développement des compétences en travail d'équipe, présentation et techniques de laboratoire.",
+                "Approfondissement de la conscience globale et préparation à des environnements internationaux."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Bachelor of Science : Chemical Engineering",
+            "ecole": "University of Alabama",
+            "annee_obtention": "2018",
+            "niveau": "Bac+4",
+            "specialite": "Chemical Engineering"
+        },
+        {
+            "diplome": "High School Diploma : International Baccalaureate Program",
+            "ecole": "Fairhope High School",
+            "annee_obtention": "2013",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": [
+            "Member - American Institute of Chemical Engineers",
+            "Brother of Alpha Kappa Psi - Professional Business Fraternity",
+            "UA College of Engineering - Peer Mentor"
+        ]
+    }
+}

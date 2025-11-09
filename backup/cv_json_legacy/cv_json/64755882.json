@@ -1,0 +1,208 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "ENGINEERING OFFICER",
+    "resume_professionnel": "Looking for opportunities to work in an research environment for creating solutions using digital systems at circuit as well as system level.",
+    "competences_techniques": [
+        "LabVIEW",
+        "Synopsys Design Vision",
+        "Modelsim",
+        "Cadence Virtuoso",
+        "C/C++",
+        "Verilog",
+        "Windows",
+        "Linux",
+        "OSX",
+        "Oscilloscope",
+        "Spectrum Analyzer",
+        "Multimeter",
+        "Distributed Control Systems (DCS)",
+        "Programmable Logic Controllers (PLC)",
+        "Allen-Bradley PLC",
+        "FPGA",
+        "Virtual Instrumentation",
+        "Neural Network (implementation on FPGA)",
+        "Thermistor linearization",
+        "PID controllers (tuning and parameters)",
+        "Infrared sensors",
+        "Electro-pneumatic systems",
+        "Intrinsically safe devices",
+        "Gas analyzers",
+        "Cylinder gas leak detectors",
+        "Washer leak detectors",
+        "Drive units maintenance",
+        "Compressors",
+        "LPG pumps",
+        "Electrical panels and control systems",
+        "Instrument interfacing and communication protocols",
+        "PWM",
+        "PI control",
+        "Fuzzy PI control",
+        "Fractional Order PI controller"
+    ],
+    "competences_transversales": [
+        "Team leadership",
+        "Supervision et gestion d'équipe",
+        "Préventive maintenance",
+        "Approvisionnement et gestion des stocks",
+        "Gestion des opérations de production",
+        "Optimisation des lignes de production",
+        "Respect des normes de sécurité",
+        "Calibration et vérification des équipements",
+        "Conception et modification d'équipements",
+        "Rédaction de documentation technique / rapports",
+        "Présentation en conférence"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Engineering Officer",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "07/2014",
+            "date_fin": "06/2015",
+            "durée": "11 mois",
+            "missions": [
+                "Spearheaded a team of electricians and technicians to carry out preventive maintenance of equipment of LPG bottling plant.",
+                "Procurement of spares and materials and maintain inventory at plant.",
+                "Maintenance and calibration of equipment such as cylinder gas leak detectors, washer leak detectors, gas analyzers etc.",
+                "Upkeep of electrical panels and control systems.",
+                "Maintenance of drive units, compressors, LPG pumps etc.",
+                "Modified and developed various plant equipments to improve production line throughput."
+            ]
+        },
+        {
+            "poste": "Operations Officer",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "06/2013",
+            "date_fin": "06/2014",
+            "durée": "1 an",
+            "missions": [
+                "Oversaw the operations of LPG bottling plant production activities.",
+                "Managed workforce on the production line to give maximum production while maintaining safety standards.",
+                "Optimized the production line equipment and maintained regular calibration checks of equipments like quality check machines to produce hazard free bottled cylinders."
+            ]
+        },
+        {
+            "poste": "Intern",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "06/2012",
+            "date_fin": "07/2012",
+            "durée": "2 mois",
+            "missions": [
+                "Engaged in various automation and control system design using Distributed Control Systems and Programmable Logical Controllers.",
+                "Learned interfacing of instruments with Controllers and their respective communication protocols.",
+                "Documented and created a report as a reference manual on the technical details of various systems and instruments which was presented to the company."
+            ]
+        },
+        {
+            "poste": "Intern",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "06/2011",
+            "date_fin": "07/2011",
+            "durée": "2 mois",
+            "missions": [
+                "Learned about the various instruments used in different process applications of the petroleum refinery.",
+                "Gained knowledge of the use of intrinsically safe devices in hazardous areas and the ratings of equipment as per the hazardous zones.",
+                "Interfacing of these instruments with Distributed Control Systems and parameters of tuning the PID controllers."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master of Science : Electrical Engineering",
+            "ecole": "North Carolina State University",
+            "annee_obtention": "2017",
+            "niveau": "Bac+5",
+            "specialite": "Electrical Engineering"
+        },
+        {
+            "diplome": "Bachelor of Engineering : Instrumentation and Control Engineering",
+            "ecole": "Netaji Subhas Institute Of Technology",
+            "annee_obtention": "2013",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Academic Merit Award / Certificate of Merit",
+            "organisme": "NSIT",
+            "annee": "2012"
+        },
+        {
+            "nom": "Academic Merit Award / Certificate of Merit",
+            "organisme": "NSIT",
+            "annee": "2013"
+        },
+        {
+            "nom": "Black Belt in Taekwon-do",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Programmable Logic Controller (PLC) Based Chain Conveyor Tripping System",
+            "description": "Designed a control loop interfaced with an Allen-Bradley PLC to read current readings of individual drive units and provide appropriate tripping signals as per motor health.",
+            "technologies": [
+                "Allen-Bradley PLC",
+                "Programmable Logic Controller",
+                "Drive current monitoring",
+                "Motor tripping logic"
+            ]
+        },
+        {
+            "titre": "Infrared Sensor based telescopic boom tripping system",
+            "description": "IR sensor based intrinsically safe system that detects presence of objects in front of moving machinery and trips them instantly.",
+            "technologies": [
+                "Infrared sensors",
+                "Intrinsically safe design",
+                "Safety tripping system"
+            ]
+        },
+        {
+            "titre": "Infrared sensor based automatic hot air sealing machine",
+            "description": "Modified old pneumatic based cylinder sealing system to an electro-pneumatic and infrared sensor based sealing system. Improved production line performance by 1000 cylinders/hour.",
+            "technologies": [
+                "Infrared sensors",
+                "Electro-pneumatic systems",
+                "Automation of sealing machine"
+            ]
+        },
+        {
+            "titre": "Some Intelligent Controllers for HVAC system",
+            "description": "Implementation of various control techniques for power management like PWM, PI control, Fuzzy PI control on FPGA as standalone controller for HVAC. Designed and implemented a Fractional Order PI controller on target which obtained better results.",
+            "technologies": [
+                "FPGA",
+                "PWM",
+                "PI control",
+                "Fuzzy PI control",
+                "Fractional Order PI controller",
+                "Verilog"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [
+            "Taekwon-do"
+        ],
+        "engagements": [
+            "Green House Vice Captain, Senior Secondary"
+        ]
+    }
+}

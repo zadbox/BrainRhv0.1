@@ -1,0 +1,215 @@
+{
+    "identite": {
+        "nom": "NOUREDDINE",
+        "prenom": "Houssam",
+        "email": "Houssam-nr@outlook.fr",
+        "telephone": "+33970405503 / +33664414274",
+        "adresse": "75020 Paris",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "Architecte SI d'entreprise",
+    "resume_professionnel": "Autonome et enthousiaste, je porte un intérêt marqué pour la data et les nouvelles technologies, ainsi que pour l'architecture IT. Ma capacité à m'adapter rapidement me permet d'identifier et de répondre efficacement aux besoins métiers dans ces domaines.",
+    "competences_techniques": [
+        "PYTON",
+        "JAVA",
+        "SCALA",
+        "SQL",
+        "VBA",
+        "POWERBI",
+        "AWS",
+        "Apache STORM",
+        "Apache KAFKA",
+        "IBM MQ",
+        "SPARK",
+        "SPARK SQL",
+        "ARIS Connect",
+        "Pack office",
+        "MS-Project",
+        "Sharepoint",
+        "Confluence",
+        "pgAdmin-PostgreSQL",
+        "SAFE",
+        "TOGAF",
+        "PostgreSQL",
+        "Elasticsearch",
+        "MongoDB",
+        "HDFS",
+        "Windows",
+        "Unix"
+    ],
+    "competences_transversales": [
+        "Autonomie",
+        "Enthousiasme",
+        "Adaptabilité",
+        "Pilotage d'équipes",
+        "Gestion de projet / PMO",
+        "Animation d'ateliers",
+        "Rédaction de spécifications",
+        "Planification et suivi budgétaire",
+        "Reporting",
+        "Leadership"
+    ],
+    "langues": [
+        "Français",
+        "Arabe",
+        "Anglais",
+        "Berbère"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Architecte SI d'entreprise",
+            "entreprise": "Banque de France (en interne)",
+            "lieu": "75020 Paris",
+            "date_debut": "2021",
+            "date_fin": "2024",
+            "durée": "3 ans",
+            "missions": [
+                "Architecte SI entreprise pour les domaines : Services bancaires, Marchés et surveillance des infrastructures et systèmes de paiements.",
+                "Élaboration du SDSI (schéma directeur SI) pour la Direction générale de la stabilité financière et des opérations à horizon 2030",
+                "Contribution à l'élaboration du SDSI pour l'ensemble de la DSI",
+                "Contribution à la mise en place de la stratégie DATA",
+                "Contribution à l'établissement du cadre de référence pour les architectures SI.",
+                "Définition des architectures fonctionnelles et applicatives, intégration des projets dans la stratégie métier et SI",
+                "Présentation des dossiers d'architecture au comité de direction",
+                "Pilotage de l'activité des architectes solution du domaine métier (2 architectes solution)",
+                "Pilotage des phases d'opportunité et de cadrage des projets d'architectures (pilotage des travaux des équipes d'architecture : Architecte solution, Architecte exploitabilité, Architecte sécurité, Architecte DATA…)",
+                "Mise en place du paiement instantané",
+                "Renforcement du dispositif de lutte contre la fraude au travers de la conception d'un système commun pour l'ensemble des banques de la FBF (Fédération Bancaire Française).",
+                "Refonte du dispositif de lutte contre la fraude au travers de l'intégration d'un filtre basé sur l'IA combiné à de l'analyse statistique pour le scoring des transactions frauduleuses.",
+                "Refonte du dispositif LCB (Lutte contre le Blanchiment des Capitaux) : Mise en place de tableaux de bord de suivi de l'activité LCB et mise en place d'un workflow pour les déclarations des soupçons à TRACFIN",
+                "Refonte du système de criblage des PPE (Personnalités Politiquement Exposées)",
+                "Création d'un laboratoire pour outiller l'activité de reporting et d'analyse du middle et back office marché de la BDF.",
+                "Pour le compte de l'ACPR et la BDF : développement d'une application pour la collecte, intégration, stockage et exploitation des données des CCP (Central Counterparty).",
+                "Reporting pour SRB (Single Resolution Board) : Mise en place d'une application pour les reporting de la BDF en tant que custodian et portfolio manager.",
+                "Outils utilisés : Sharepoint, PowerBI, ARIS Connect"
+            ]
+        },
+        {
+            "poste": "Leader PMO",
+            "entreprise": "ONEPOINT (en mission chez la Banque de France)",
+            "lieu": "75020 Paris",
+            "date_debut": "2016",
+            "date_fin": "2021",
+            "durée": "5 ans",
+            "missions": [
+                "Suivi des migrations techniques du parc applicatif de la BDF (à partir de 2019, Leader d'une équipe de 4 PMO au sein de la même cellule)",
+                "Planification des migrations techniques avec les MOE et suivi des plannings et budgets des migrations du parc applicatif",
+                "Participer aux comités de qualification des nouveaux composants techniques à BDF",
+                "Organiser et animer les kick-off de début des projets de migrations",
+                "Assurer l'alignement des référentiels des architectures techniques, des matériels serveurs et le suivi des projets de migrations techniques",
+                "Réaliser des audits automatisés pour retracer le différentiel entre les demandes des budgets d'évolutions techniques et les évolutions validées ou programmées en comité d'architectes",
+                "Suivi des projets de montée de versions des OS Serveurs, BDD, Sharepoint, MQcentral …",
+                "Élaborer et présenter la roadmap annuelle des projets de migrations techniques à l'ensemble des MOE/MOA de la BDF",
+                "Participer à la modélisation des patterns d'architecture réutilisables",
+                "Rédaction de spécifications fonctionnelles, reporting mensuels d'avancement, rapports d'audits, création et administration des sous-sites de suivi Sharepoint",
+                "Outils utilisés : Sharepoint, PowerBI, Pack-office, VBA, UNIX Shell"
+            ]
+        },
+        {
+            "poste": "Consultant fonctionnel",
+            "entreprise": "KLEE Intégration et conseil",
+            "lieu": "",
+            "date_debut": "",
+            "date_fin": "",
+            "durée": "",
+            "missions": [
+                "Animation d'ateliers clients, modélisation des processus métier, conception ergonomique des sites, rédaction des dossiers de spécifications",
+                "Pilotage des phases de recette : définition des plans de tests, animation de tests usine, remontées d'anomalies et correction, qualification des retours clients",
+                "Participation aux phases d'avant-vente : définition des solutions fonctionnelles proposées dans le cadre des appels d'offres",
+                "Outils utilisés : AXURE-RP, MS-Project, MS-Visio"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master DATA Architecture",
+            "ecole": "Openclassrooms - CentraleSupelec",
+            "annee_obtention": "Janvier 2022",
+            "niveau": "Bac+5",
+            "specialite": "DATA Architecture"
+        },
+        {
+            "diplome": "Master Administration des Entreprises",
+            "ecole": "Sorbonne Université (IAE Paris), Paris, 75",
+            "annee_obtention": "Août 2017",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "Diplôme d'ingénieur",
+            "ecole": "Arts et Métiers ParisTech, Paris, 75",
+            "annee_obtention": "Septembre 2016",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Certification PO-PM SAFE",
+            "organisme": "",
+            "annee": "2023"
+        },
+        {
+            "nom": "TOEIC 890",
+            "organisme": "",
+            "annee": "2015"
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Mise en place du paiement instantané",
+            "description": "Projet visant à implémenter le paiement instantané au sein des services bancaires.",
+            "technologies": []
+        },
+        {
+            "titre": "Système commun de lutte contre la fraude (FBF)",
+            "description": "Conception d'un système commun pour l'ensemble des banques de la FBF afin de renforcer le dispositif de lutte contre la fraude.",
+            "technologies": []
+        },
+        {
+            "titre": "Filtre IA pour scoring des transactions frauduleuses",
+            "description": "Refonte du dispositif de lutte contre la fraude par intégration d'un filtre basé sur l'IA combiné à de l'analyse statistique pour le scoring des transactions.",
+            "technologies": [
+                "IA",
+                "Analyse statistique"
+            ]
+        },
+        {
+            "titre": "Refonte du dispositif LCB",
+            "description": "Mise en place de tableaux de bord de suivi de l'activité LCB et d'un workflow pour les déclarations des soupçons à TRACFIN.",
+            "technologies": [
+                "Tableaux de bord",
+                "Workflow"
+            ]
+        },
+        {
+            "titre": "Refonte du système de criblage des PPE",
+            "description": "Refonte du système de criblage des Personnalités Politiquement Exposées (PPE).",
+            "technologies": []
+        },
+        {
+            "titre": "Laboratoire de reporting et d'analyse",
+            "description": "Création d'un laboratoire pour outiller l'activité de reporting et d'analyse du middle et back office marché de la BDF.",
+            "technologies": []
+        },
+        {
+            "titre": "Application de collecte et exploitation des données CCP",
+            "description": "Développement d'une application pour la collecte, intégration, stockage et exploitation des données des CCP pour le compte de l'ACPR et la BDF.",
+            "technologies": []
+        },
+        {
+            "titre": "Application de reporting SRB",
+            "description": "Mise en place d'une application pour les reporting de la BDF en tant que custodian et portfolio manager pour le SRB (Single Resolution Board).",
+            "technologies": []
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

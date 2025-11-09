@@ -1,0 +1,10 @@
+{
+  "id": "test",
+  "nom": "test",
+  "description": "test",
+  "created_at": "2025-10-06T00:01:18.775843",
+  "last_modified": "2025-10-06T02:14:12.428596",
+  "status": "actif",
+  "offre_saved": false,
+  "matchings_count": 0
+}

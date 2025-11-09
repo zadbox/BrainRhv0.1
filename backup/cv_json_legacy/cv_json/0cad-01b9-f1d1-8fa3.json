@@ -1,0 +1,65 @@
+{
+    "identite": {
+        "nom": "NOUREDDINE",
+        "prenom": "HOUSSAM",
+        "email": "",
+        "telephone": "",
+        "adresse": "107 RUE PAUL VAILLANT 94140 ALFORTVILLE",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "Acquéreur / Preneur du bien",
+    "resume_professionnel": "Preneuer/acquéreur du lot n°3402, a visité le bien et procédé à un état contradictoire des lieux lors de la pré-livraison le 16/04/2025 à L'ENVOL, ZAC DES HORIZONS (91080 EVRY-COURCOURONNES). Compte rendu listant plusieurs réserves techniques adressées aux entreprises intervenantes.",
+    "competences_techniques": [],
+    "competences_transversales": [],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Preneuer / Acquéreur (état des lieux de pré-livraison)",
+            "entreprise": "",
+            "lieu": "L'ENVOL, ZAC DES HORIZONS - Croisement de la rue du pont Amar et de l'avenue de l'Orme, 91080 EVRY-COURCOURONNES",
+            "date_debut": "16/04/2025",
+            "date_fin": "16/04/2025",
+            "durée": "1 jour",
+            "missions": [
+                "Visite du bien immobilier (lot n°3402, étage R+04, Bâtiment Bat 3)",
+                "Procédé à un état contradictoire des lieux lors de la pré-livraison",
+                "Identification et constatation de réserves (électricité, peinture, menuiseries, plomberie, sols, cloisons, terrassement, etc.)",
+                "Signature du compte rendu de pré-livraison",
+                "Coordination des constats avec les entreprises intervenantes (IDEE, BATI PRO 77, CLN BATIMENT, NOVATHERMIQUE, HILZINGER DOLMEN, SOMAG SARL)",
+                "Transmission des observations complémentaires (parking 94, annexes, plan 3402)"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "",
+            "ecole": "",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "",
+            "description": "",
+            "technologies": []
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

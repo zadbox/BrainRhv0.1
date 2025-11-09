@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "titre": "Architecte d'entreprise Data/IA - H/F",
+    "description": "",
+    "resume_professionnel": "",
+    "competences_techniques": [
+      "Architecture d'entreprise",
+      "Data (gestion de la donnée, socle technique, gouvernance de la donnée)",
+      "Intelligence Artificielle (IA) : définition des cas d'usage, contributions au schéma directeur IA",
+      "Services de valorisation de la data",
+      "Outils analytiques",
+      "Modélisation de l'architecture d'entreprise (outils de modélisation)",
+      "Architecture SI (instruction des aspects architecture dans opportunité et cadrage)",
+      "Infrastructure, cloud interne et externe",
+      "Sécurité numérique",
+      "Modernisation et automatisation des processus",
+      "Conception et mise en oeuvre de stratégie informatique",
+      "Pilotage de schémas directeurs",
+      "Gouvernance des données et catalogage (Data Catalog, Data Lineage)",
+      "Architecture Data (Data Lake / Data Warehouse / Data Mesh)"
+    ],
+    "competences_transversales": [
+      "Crédibilité opérationnelle",
+      "Forte culture informatique",
+      "Maîtrise des enjeux stratégiques des organisations",
+      "Aptitude à convaincre",
+      "Capacité d'accompagnement et conseil aux métiers",
+      "Référent sur orientations techniques et métiers",
+      "Capacité à stimuler l'innovation",
+      "Capacité à conjuguer expertise métier et technologies de pointe",
+      "Capacité à travailler en coordination avec architectes produits et équipes"
+    ],
+    "outils": [],
+    "langages": [],
+    "langues": [
+      "Anglais (maîtrise à l'écrit et à l'oral exigée)"
+    ],
+    "experiences_professionnelles": [
+      {
+        "poste": "Architecte d'entreprise Data/IA - H/F",
+        "duree": "Expérience significative (plusieurs années) sur les aspects data/IA et en architecture d'entreprise ; expérience au sein d'une DSI de plusieurs centaines de collaborateurs ou en cabinet de conseil auprès de grands comptes, ou dans un établissement financier (banque/assurance) à caractère systémique"
+      }
+    ],
+    "formations": [],
+    "certifications": [
+      "TOGAF",
+      "ISACA",
+      "SAFE",
+      "ITIL"
+    ],
+    "projets": [
+      "Travaux de définition de la stratégie informatique et schéma directeur",
+      "Projets d'architecture d'entreprise (construction de schémas directeurs)",
+      "Projets data/IA : définition de cas d'usage et mise en place de services de valorisation de la data",
+      "Évolutions des capacités de gestion de la donnée (socle technique, outils analytiques, IA)",
+      "Projets de modernisation et automatisation des processus",
+      "Projets cloud (interne et externe) et d'infrastructure",
+      "Accompagnement des métiers dans leurs projets pour bon usage des capacités techniques"
+    ],
+    "mobilite": {
+      "permis_conduire": false,
+      "disponibilite_geographique": "Poste basé à 75002 Paris 2e. Sites DGSI mentionnés : Paris, Vincennes, Marne la Vallée, La Courneuve, Poitiers. Télétravail éligible après période d'intégration."
+    },
+    "responsabilites": [],
+    "informations_complementaires": {
+      "quelle_est_la_taille_et_la_composition_de_léquipe_": {
+        "question": "Quelle est la taille et la composition de l'équipe d'architecture actuelle (nombre d'architectes Data/IA) ?",
+        "reponse": "55"
+      }
+    }
+  },
+  "must_have": [
+    "python"
+  ],
+  "nice_have": [
+    "TOGAF"
+  ]
+}

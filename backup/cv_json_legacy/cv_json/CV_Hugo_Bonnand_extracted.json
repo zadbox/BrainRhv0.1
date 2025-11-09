@@ -1,0 +1,134 @@
+{
+    "identite": {
+        "nom": "BONNAND",
+        "prenom": "HUGO",
+        "email": "hugo.bonnand@neuf.fr",
+        "telephone": "+33 6 17 88 18 38",
+        "adresse": "Lyon, France",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre_cv": "Student engineer seeking an engineering internship for March- July 2024",
+    "resume_professionnel": "As a curious and rigorous engineering student specialized in fluid mechanics, I am currently intersted in a 5-month internship in the space or aeronautical industry. I am a fast learner and very excited to discover the professional world through this internship.",
+    "competences_techniques": [
+        "Fluid Mechanics",
+        "Transport Phenomenon",
+        "Boundary layer and Radiation",
+        "Thermodynamics",
+        "CFD",
+        "Turbomachinery",
+        "Informatics",
+        "Statistics",
+        "Data Analysis",
+        "Machine Learning",
+        "Economics",
+        "Python",
+        "Matlab",
+        "Rstudio",
+        "SQL",
+        "Fluent",
+        "EazyBI",
+        "Adobe Illustrator",
+        "SolidWorks",
+        "Fortran",
+        "Jira",
+        "Confluence",
+        "BigPicture"
+    ],
+    "competences_transversales": [
+        "Aisance pour le travail en équipe",
+        "Gestion de Projet"
+    ],
+    "langues": [
+        {
+            "langue": "Français",
+            "niveau": "Langue maternelle"
+        },
+        {
+            "langue": "Anglais",
+            "niveau": "B2 IELTS"
+        },
+        {
+            "langue": "Espagnol",
+            "niveau": "B1 SIELE"
+        },
+        {
+            "langue": "Italien",
+            "niveau": "Utilisateur indépendant"
+        }
+    ],
+    "experiences_professionnelles": [
+        {
+            "titre": "WORK PLACEMENT",
+            "entreprise": "VISIONS SYSTEMS",
+            "dates": "February 2022",
+            "description": "Work on assembly lines for finished products for the aeronautical industry"
+        },
+        {
+            "titre": "HOSPITAL CLEANER & HOST",
+            "entreprise": "HOSPITAL OF FOURVIERE",
+            "dates": "July 2022 & July 2023",
+            "description": "Ensuring the maintenance and tidying of common areas and rooms in compliance with the rules of hospital hygiene\nParticipating in the comfort and the well-being of the hospitalized person\nManaging the switchboard and customer enquiries\nMonitoring hospital admissions and discharges"
+        },
+        {
+            "titre": "INTERNSHIP IN INDUSTRIALISATION METHODS",
+            "entreprise": "DASSAULT AVIATION",
+            "dates": "September 2023 - February 2024",
+            "description": "Use of Jira, Confluence, BigPicture and EazyBI software in a project aimed at optimising industrialisation planning of various Dassault Aviation sites in France"
+        }
+    ],
+    "formations": [
+        {
+            "titre": "ENGINEERING DIPLOMA AT MASTER'S DEGREE LEVEL",
+            "etablissement": "MINES NANCY",
+            "dates": "SINCE 2021",
+            "description": "General engineer of the Mines | Energy Department\nEnergy Department\nCore Curriculum\nElected Courses\nAeronautical Elected Course\nProjects\nFluid Mechanics,Transport Phenomenon, Boundary layer and Radiation, Thermodynamics, CFD, Turbomachinery\nInformatics, Statistics, Data Analysis, Machine Learning, Economics\nAnthropology and Ecology, Market finance, Sport and physical awareness, Marketing\nLessons on the main scientific, technical and socio-economic principles and issues of the aeronautical sector: propulsion, flight dynamics, transonic flows, choice of materials, metallic and composite materials, ecological impact\nProject Disobeying, Resisting: a special citizen's story\nProject of a demonstration model of hydrogen and steel production on Mars"
+        },
+        {
+            "titre": "UNDERGRADUATE PROGRAMME",
+            "etablissement": "",
+            "dates": "2019/2021",
+            "description": "Honours class\nFrench equivalent of Advanced levels/High School Leaving diploma specialised in Maths, Physics, Chemistry\nProject on the study of the phenomena that allow an aircraft to fly - 2019"
+        },
+        {
+            "titre": null,
+            "etablissement": "HIGH SCHOOL LA FAVORITE SAINTE-THÉRÈSE",
+            "dates": "2016/2019",
+            "description": "Two-year undergraduate programme prior to the highly selective entrance examination to prestigious French engineering schools (Advanced and Applied Maths and Physics)\nProject on the study of the operation of a hydroelectric power station - 2021\nBaccalauréat Scientifique passed with distinction | 2019"
+        }
+    ],
+    "certifications": [
+        "Brevet d'Initiation à l'Aéronautique - 2016",
+        "Federal coaching diploma of table tennis - 2017",
+        "B2 IELTS certification awarded by the British Council, January 2023",
+        "B1 SIELE, June 2023"
+    ],
+    "projets": [
+        "Project on the study of the phenomena that allow an aircraft to fly - 2019",
+        "Project on the study of the operation of a hydroelectric power station - 2021",
+        "Project Disobeying, Resisting: a special citizen's story",
+        "Project of a demonstration model of hydrogen and steel production on Mars",
+        "MOOC Project Management (Gestion de Projet)"
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [
+            "Aeronautical and Aerospace",
+            "Table Tennis",
+            "Football"
+        ],
+        "engagements": [
+            "In charge of the logistics of the humanitarian society called \"Burkin'Action\" at Mines Nancy",
+            "Trip Manager of the Surfing club at Mines Nancy",
+            "Treasurer of the sailing club at Mines Nancy",
+            "Secretary of the studen union at my undergraduate school",
+            "Organization of breakfasts twice a week for a year, management of 50 volunteers, to finance a vegetable garden in a village in Burkina Faso, Africa",
+            "Organization of a 3-day trip for 110 people, budget €17 000. Search for and booking of a campsite, bus and surfing club",
+            "Participation of 30 people in a one-week sailing race, budget €20 000",
+            "In charge of social networks, communications and minutes for reports"
+        ]
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "INDEPENDENT PUBLIC RELATIONS CONSULTANT",
+    "resume_professionnel": "Accomplished professional with demonstrated ability to deliver strategic internal and external communications. Experienced in hospitality industry. Highly-skilled in event creation, oversight and management, as well as all aspects of media relations. Core accomplishments include: Initiated re-branding and imaging campaign which resulted in 10%-20% increased visitation per year; created and managed private and public events for parties, corporate break-outs, weddings, family days and visiting VIPs; initiated a public relations capital campaign for a non-profit raising over $20 million in pledges and support; garnered national and international coverage for a 40+ year old institution with more than 40 features and spotlight listings each year; spearheaded new social media programs which increased program sales 25% within the first year; represented clients on tourism initiatives resulting in record-breaking stays and visitation for three fiscal years; coordinated major press events with national exposure; researched and created national pitches resulting in international coverage in more than 15 countries.",
+    "competences_techniques": [
+        "MS Office",
+        "Dreamweaver",
+        "HTML",
+        "Social media platforms",
+        "Websites",
+        "E-blasts",
+        "Advertising"
+    ],
+    "competences_transversales": [
+        "Leadership",
+        "Communication",
+        "Creative pitching",
+        "Promotional campaigns",
+        "Spokesperson",
+        "Event management",
+        "International relations",
+        "Project management",
+        "Market research and analysis",
+        "Copywriting",
+        "Copyediting",
+        "Customer-oriented",
+        "Deadline-driven",
+        "Fundraising",
+        "Grant writing",
+        "Media relations",
+        "Stakeholder/community relations",
+        "Training and coaching",
+        "Negotiation",
+        "Strategic planning",
+        "Organizing public appearances and press events"
+    ],
+    "langues": [
+        "Spanish",
+        "Mandarin"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Independent Public Relations Consultant",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "January 2009",
+            "date_fin": "Current",
+            "durée": "Depuis janvier 2009",
+            "missions": [
+                "Provide full public relations services for nearly 20 for and non-for-profit businesses and organizations through the quad-county area.",
+                "Identify customer needs through market research and analysis.",
+                "Define project and company vision, strategies and tactics.",
+                "Research and track advertising and public relations activities.",
+                "Evaluate and manage new strategic business opportunities.",
+                "Expand product and company recognition in the national and local press to support the sales and marketing teams.",
+                "Create and manage special events to draw customers and media attention.",
+                "Establish and maintain cooperative relationships with representatives of community, consumer, employee and public interest groups.",
+                "Organize public appearances, lectures, contests and exhibits to increase product awareness.",
+                "Design web and other content, including monthly newsletters and promotional calendars.",
+                "Develop and implement 5-10 public relations business plans each year.",
+                "Work with management to identify trends and developments that might influence PR decisions and strategies.",
+                "Establish long-range objectives and develop innovative strategies to help achieve them.",
+                "Cultivate positive relationships with the community through public relations campaigns.",
+                "Generate programming capital for the agency by planning and coordinating fundraisers, writing grant proposals and securing volunteer investments.",
+                "Manage all media, press and public relations issues.",
+                "Coach less experienced public relations staff members on media relations practices."
+            ]
+        },
+        {
+            "poste": "Director of Marketing, PR and Special Events",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "",
+            "date_fin": "Current",
+            "durée": "",
+            "missions": [
+                "Manage online and print advertising budgets up to $100,000.",
+                "Identify customer needs through market research and analysis.",
+                "Oversee and assist in developing two new websites and all social media strategies.",
+                "Oversee and manage all private and public events, coordinating with catering and entertainment.",
+                "Serve as organization spokesperson for media and the community.",
+                "Organize, plan and implement press conferences for new openings, groundbreaking, capital campaign and scientific breakthroughs.",
+                "Design, draft and distribute public information materials and quarterly newsletters and e-blasts.",
+                "Implement creative, press-worthy events for the public, increasing exposure resulting in more than 40 feature hits across all media outlets per year and increased visitation each year.",
+                "Research, negotiate, implement and track advertising and public relations activities.",
+                "Represent the Museum on all tourism and hospitality committees including the Palm Beach County Attractions Association, CVB, Tourist Development Council, Florida's Governors Conference on Tourism, VisitFlorida and Palm Beach County Cultural Council, resulting in regular coverage from national and international travel writers.",
+                "Train all employees on VIP and media etiquette.",
+                "Coordinate all VIP, celebrity and donor visits.",
+                "Pitch location shoots to visiting and local film industry to garner increased exposure.",
+                "Implement marketing and public relations initiatives to drive attendance, resulting in an increased operations budget from $500k to more than $2 million within ten years."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Bachelor of Science",
+            "ecole": "Palm Beach Atlantic University",
+            "annee_obtention": "1999",
+            "niveau": "Bac+4",
+            "specialite": "Organizational Management"
+        },
+        {
+            "diplome": "Marketing, Public Relations and Journalism coursework; Graduate level courses completed in International Business Management",
+            "ecole": "West",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "Hospitality management training",
+            "ecole": "Buena Vista",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": [
+            "Palm Beach County Attractions Association, Past President and Treasurer (1999-present)",
+            "Palm Beach County CVB, Marketing and PR Sub-Committees Chair (4 years)",
+            "Palm Beach County Cultural Council, Marketing/PR Committee Representative (1999-present)",
+            "Palm Beach Film Society, Vice President (2002-present)"
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "cv": "jean_dupont_cv.pdf",
+      "score_final": 0.912,
+      "score_base": 0.89,
+      "bonus_nice_have_multiplicateur": 0.9025,
+      "coefficient_qualite_experience": 1.35,
+      "nice_have_manquants": [
+        "Expérience avec GraphQL",
+        "Certification AWS ou équivalent"
+      ],
+      "commentaire_scoring": "Candidat très solide avec 8 ans d'expérience pertinente. Excellente maîtrise de React, TypeScript et Node.js. Expérience significative avec AWS et Docker. Leadership technique démontré. Manque uniquement GraphQL et certification AWS.",
+      "appreciation_globale": "Excellent profil, hautement recommandé pour le poste. Les compétences techniques sont parfaitement alignées et l'expérience en management est un atout majeur."
+    },
+    {
+      "cv": "marie_martin_cv.pdf",
+      "score_final": 0.823,
+      "score_base": 0.85,
+      "bonus_nice_have_multiplicateur": 0.8574,
+      "coefficient_qualite_experience": 1.25,
+      "nice_have_manquants": [
+        "Expérience avec AWS",
+        "Connaissance de Docker et Kubernetes",
+        "Contribution à des projets open-source"
+      ],
+      "commentaire_scoring": "Bon profil avec 6 ans d'expérience. Solide expertise React/TypeScript/Node.js. PostgreSQL maîtrisé. Manque d'expérience cloud AWS et DevOps.",
+      "appreciation_globale": "Bon candidat avec des bases solides. Pourrait nécessiter une formation sur les aspects cloud et DevOps."
+    },
+    {
+      "cv": "pierre_durand_cv.pdf",
+      "score_final": 0.756,
+      "score_base": 0.78,
+      "bonus_nice_have_multiplicateur": 0.7738,
+      "coefficient_qualite_experience": 1.15,
+      "nice_have_manquants": [
+        "Expérience avec AWS",
+        "Connaissance de Docker et Kubernetes",
+        "Expérience avec GraphQL",
+        "Contribution à des projets open-source",
+        "Certification AWS ou équivalent"
+      ],
+      "commentaire_scoring": "Profil correct avec 5 ans d'expérience. Compétences techniques de base présentes mais manque de profondeur sur les technologies cloud et modernes.",
+      "appreciation_globale": "Candidat acceptable mais nécessiterait un accompagnement important sur les aspects avancés du poste."
+    }
+  ],
+  "metadata": {
+    "total_cvs": 32,
+    "filtered_must_have": 8,
+    "top_reranked": 10,
+    "duree_totale_s": 342.5,
+    "timestamp": "2025-10-11T14:30:00Z"
+  }
+}

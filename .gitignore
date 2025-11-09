@@ -1,0 +1,112 @@
+# Environment variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+# lib/  # COMMENTÉ: notre dossier lib/ contient le code source, pas les packages Python
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application data (local user data)
+projects/
+enterprises/
+cv_input/*
+!cv_input/.gitkeep
+cv_json/*
+!cv_json/.gitkeep
+cache/*
+!cache/.gitkeep
+logs/*
+!logs/.gitkeep
+output/*
+!output/.gitkeep
+offres/*
+!offres/.gitkeep
+
+# Documentation de debug/suivi
+*_V*.md
+AJOUT_*.md
+AMELIORATION_*.md
+BRIEF_*.md
+CORRECTIONS_*.md
+EVOLUTION_*.md
+EXPLICATION_*.md
+FIX_*.md
+FIXES_*.md
+GUIDE_*.md
+IMPORTANT_*.md
+INDEX_DOCS.md
+INDEX.md
+MULTI_*.md
+OPTIMISATION_*.md
+PROMPT_*.md
+RECAP_*.md
+RESUME_*.md
+SUIVI_*.md
+TESTS_*.md
+VERIFICATION_*.md
+V2_*.md
+CHARTE_*.md
+
+# Test files
+test_*.py
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Scripts de lancement
+*.sh
+
+# Frontend (React/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Base de données SQLite (locale)
+*.db
+*.sqlite
+*.sqlite3
+brainrh.db
+
+# Fichiers de test temporaires
+*.tmp
+*.bak
+*.orig
+*.log

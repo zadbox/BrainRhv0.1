@@ -1,0 +1,183 @@
+{
+    "identite": {
+        "nom": "Karima",
+        "prenom": "T",
+        "email": "",
+        "telephone": "",
+        "adresse": "39, rue Anatole France - CS 50227 - 92532 Levallois Perret CEDEX",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "Architecte Data et Fonctionnel",
+    "resume_professionnel": "17 années d'expérience",
+    "competences_techniques": [
+        "Modélisation",
+        "SGBD",
+        "Langages",
+        "Outils de restitution",
+        "Merise et UML",
+        "Teradata",
+        "Oracle",
+        "SQL Server",
+        "DB2",
+        "Marklogic",
+        "Hadoop",
+        "SQL",
+        "Shell",
+        "XML",
+        "Javascript",
+        "Xquery",
+        "Microstrategy",
+        "Power BI"
+    ],
+    "competences_transversales": [
+        "Curieuse",
+        "dynamique",
+        "sérieuse",
+        "bonne capacité d'adaptation",
+        "chef de projet MOE",
+        "responsable de la migration"
+    ],
+    "langues": [
+        "Anglais"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Architecte des données",
+            "entreprise": "Covéa",
+            "lieu": "",
+            "date_debut": "02/2025",
+            "date_fin": "à ce jour",
+            "durée": "",
+            "missions": [
+                "Mise en place d'un outil de gestion pour la lutte contre le blanchiment des capitaux et le financement du terrorisme (LCB-FT)",
+                "Mise en place d'une base bâti COVEA",
+                "Mise en place d'une base de demande pour les contrôles IBAN"
+            ]
+        },
+        {
+            "poste": "Architecte des données",
+            "entreprise": "Rexel",
+            "lieu": "",
+            "date_debut": "11/2023",
+            "date_fin": "12/2024",
+            "durée": "",
+            "missions": [
+                "Migration et évolution de la plateforme de données : Migration de SQL Server vers Snowflake",
+                "Intégration de nouvelles fonctionnalités et cas d'utilisation"
+            ]
+        },
+        {
+            "poste": "Architecte Fonctionnel",
+            "entreprise": "Société Générale",
+            "lieu": "",
+            "date_debut": "03/2021",
+            "date_fin": "09/2023",
+            "durée": "",
+            "missions": [
+                "Mise en place d'une plateforme unifiée pour tous les usages de stress-test risque de crédit",
+                "Rationalisation et gouvernance permettant d'assurer la traçabilité des modèles de risque de crédit"
+            ]
+        },
+        {
+            "poste": "Architecte des données",
+            "entreprise": "Malakoff Humanis",
+            "lieu": "",
+            "date_debut": "11/2018",
+            "date_fin": "10/2020",
+            "durée": "",
+            "missions": [
+                "Vision 360 du tiers",
+                "Modélisation conceptuelle et détaillée"
+            ]
+        },
+        {
+            "poste": "Business Analyst",
+            "entreprise": "Société Générale",
+            "lieu": "",
+            "date_debut": "03/2017",
+            "date_fin": "10/2018",
+            "durée": "",
+            "missions": [
+                "Titrisation sur les prêts immobiliers",
+                "Analyse des données pour les métiers"
+            ]
+        },
+        {
+            "poste": "Consultante décisionnelle",
+            "entreprise": "Les Mousquetaires",
+            "lieu": "",
+            "date_debut": "03/2014",
+            "date_fin": "10/2016",
+            "durée": "",
+            "missions": [
+                "Mise en place de dashboards",
+                "Rédaction des spécifications techniques"
+            ]
+        },
+        {
+            "poste": "Architecte des données",
+            "entreprise": "BNP Paribas",
+            "lieu": "",
+            "date_debut": "09/2010",
+            "date_fin": "08/2013",
+            "durée": "",
+            "missions": [
+                "Mise en place d'un entrepôt de donnée Marketing",
+                "Accompagnement de l'équipe pendant les phases de modélisation"
+            ]
+        },
+        {
+            "poste": "Consultante décisionnelle",
+            "entreprise": "Carrefour Groupe",
+            "lieu": "",
+            "date_debut": "09/2006",
+            "date_fin": "08/2010",
+            "durée": "",
+            "missions": [
+                "Mise en place de dashboards pour l'analyse et la performance des ventes",
+                "Création des tableaux de bords"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Diplôme d'Ingénieur spécialiste en communication numérique",
+            "ecole": "École des Mines d'Alès",
+            "annee_obtention": "2006",
+            "niveau": "Bac+5",
+            "specialite": "Communication numérique"
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "TOGAF 9.1",
+            "organisme": "",
+            "annee": "2022"
+        },
+        {
+            "nom": "Scrum Product Owner",
+            "organisme": "",
+            "annee": "2020"
+        },
+        {
+            "nom": "Microstrategy Fast Track",
+            "organisme": "",
+            "annee": "2011"
+        },
+        {
+            "nom": "IBM Infosphere Information Server",
+            "organisme": "",
+            "annee": "2010"
+        }
+    ],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": "Octobre 25"
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

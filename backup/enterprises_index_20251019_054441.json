@@ -1,0 +1,72 @@
+{
+  "enterprises": [
+    {
+      "id": "projets-existants",
+      "nom": "Banque de France",
+      "secteur": "Migration automatique",
+      "logo": "",
+      "created_at": "2025-10-06T03:05:19.887073",
+      "last_modified": "2025-10-11T08:35:06.013804",
+      "projects_count": 4
+    },
+    {
+      "id": "bnp",
+      "nom": "BNP1",
+      "secteur": "Banque",
+      "logo": "",
+      "created_at": "2025-10-06T04:04:45.180778",
+      "last_modified": "2025-10-09T13:13:18.469613",
+      "projects_count": 0
+    },
+    {
+      "id": "toto",
+      "nom": "toto",
+      "site_web": "http://localhost:5173/enterprises",
+      "secteur": "hh",
+      "notes": "",
+      "contacts": [
+        {
+          "nom_complet": "NOUREDDINE Houssam",
+          "poste": "",
+          "email": "noureddine.houssam.92@gmail.com",
+          "telephone": "",
+          "canal_prefere": "email",
+          "notes": ""
+        }
+      ],
+      "logo": "",
+      "created_at": "2025-10-18T00:50:35.650913",
+      "last_modified": "2025-10-18T01:23:12.590441",
+      "projects_count": 0
+    },
+    {
+      "id": "sg",
+      "nom": "SG",
+      "site_web": "http://test.com",
+      "secteur": "Banque et assurance ",
+      "notes": "test",
+      "contacts": [
+        {
+          "nom_complet": "test",
+          "poste": "",
+          "email": "noureddine.houssam.92@gmail.com",
+          "telephone": "",
+          "canal_prefere": "telephone",
+          "notes": "ras"
+        },
+        {
+          "nom_complet": "NOUREDDINE Houssam",
+          "poste": "responsable marketing",
+          "email": "noureddine.houssam.92@gmail.com",
+          "telephone": "",
+          "canal_prefere": "email",
+          "notes": ""
+        }
+      ],
+      "logo": "",
+      "created_at": "2025-10-18T01:25:00.324300",
+      "last_modified": "2025-10-18T14:55:39.461555",
+      "projects_count": 0
+    }
+  ]
+}

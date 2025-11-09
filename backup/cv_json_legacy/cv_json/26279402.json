@@ -1,0 +1,118 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "OUTSIDE MACHINIST",
+    "resume_professionnel": "I am responding, with great interest, to the advertisement for a Carrier Overhaul Network Scheduling position. I would be an ideal match for this position.\nI am a 15 year military veteran that served his country with hard work and dedication. I am looking forward to bringing trades to your company, in addition to my extensive professional experience, I have a ton of experience in carrier overhaul planning, scheduling, and administrative skills. My broad background makes me an excellent candidate for this position.\nI look forward to meeting with you in person to further discuss my qualification.\nThank you for your time and consideration.",
+    "competences_techniques": [
+        "Installation of propulsion machinery",
+        "Sea valves",
+        "Steering gear",
+        "Anchor handling equipment",
+        "Elevators",
+        "Pumps",
+        "Ventilation fans",
+        "Weapons systems",
+        "Blueprint reading",
+        "Precision tooling",
+        "Portable machine tools",
+        "Precision line boring",
+        "Precision alignment of machinery",
+        "Bearing fitting",
+        "Machinery assembly",
+        "Surface machining",
+        "Precision reaming",
+        "Machinery and weapons testing",
+        "Shielded Metal Arc Welding (Flat, Vertical, Horizontal, Overhead)",
+        "Flux Core Arc Welding (Flat, Vertical, Horizontal)",
+        "Test equipment",
+        "Schematics",
+        "Maintenance scheduling",
+        "Inventory management",
+        "Navy publications"
+    ],
+    "competences_transversales": [
+        "Planning",
+        "Scheduling",
+        "Administrative skills",
+        "Coordination between multiple stakeholders",
+        "Supervision",
+        "Leadership",
+        "Record keeping",
+        "Safety management",
+        "Hazard identification",
+        "Workplace evaluation and monitoring",
+        "Reporting and documentation",
+        "Team coordination",
+        "Problem solving",
+        "Time management"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Outside Machinist",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "12/2012",
+            "date_fin": "Current",
+            "durée": "12 ans et 10 mois",
+            "missions": [
+                "Skilled in the installation of propulsion machinery, sea valves, steering gear, anchor handling equipment, elevators, pumps, ventilation fans, and weapons systems.",
+                "Use of math, blueprints, precision tooling, and portable machine tools in equipment installation.",
+                "Performed precision line boring and precision alignment of machinery.",
+                "Bearing fitting, machinery assembly, surface machining and precision reaming.",
+                "Conducted machinery and weapons testing."
+            ]
+        },
+        {
+            "poste": "Aviation Ordnanceman",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "11/1996",
+            "date_fin": "01/2012",
+            "durée": "15 ans et 2 mois",
+            "missions": [
+                "Assigned to USS NIMITZ (CVN 68) from December 1997 to March 2004 as a 3M Zone Inspector during a 3 year Refueling Carrier Overhaul period; directly responsible for coordinating efforts between 300 shipyard workers and 25 Navy Officers and Chiefs for over 40 Navy ship zones; recognized for maintaining an 85% on time delivery rate.",
+                "Assigned to USS CARL VINSON (CVN 70) from April 2004 to January 2007 as the Work Center Control Representative for Weapons Department; prepared, controlled, documented, planned, and accounted for over 250 work candidates required for reentry work onboard the carrier in the shipyard; coordinated work activities between the Navy, shipyard, and subcontractors for multiple systems and equipment resulting in turnover ahead of schedule.",
+                "Assigned to NAS Patuxent River from January 2007 to May 2010 as the Leading Petty Officer of Armament Weapons Support Equipment; supervised 17 military and 12 contract civilians responsible for custody and upkeep of 309 IMRL items valued at $4.7 million; managed personnel processing of 300 maintenance actions quarterly IAW the Naval Aviation Maintenance Program to ensure availability of safe and ready-for-issue equipment for 50 tenant commands.",
+                "Assigned to USS Harry S. Truman (CVN 75) from May 2010 to January 2012 as the Ship Safety Petty Officer; assisted the Ship Safety manager in coordinating implementation of the Navy Occupational Safety and Health (NAVOSH) Program, Traffic Safety Program, Recreational, Athletics and Home Safety Program; performed administrative and record keeping functions supporting the command safety organization; identified hazards, unsafe work practices, and health conditions; assisted in evaluation of workplace hazards including periodic workplace monitoring; prepared safety and mishap reports, maintained hazard abatement program documentation, and aided in mishap investigations."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "",
+            "ecole": "Tidewater Tech School of Welding",
+            "annee_obtention": "2012",
+            "niveau": "",
+            "specialite": "Welding"
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Secret level security clearance",
+            "organisme": "United States Navy",
+            "annee": "2002-2012"
+        },
+        {
+            "nom": "Secret level security clearance",
+            "organisme": "Huntington Ingalls Industries",
+            "annee": "2012-2016"
+        }
+    ],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

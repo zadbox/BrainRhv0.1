@@ -1,0 +1,247 @@
+{
+    "identite": {
+        "nom": "Grundstedt",
+        "prenom": "Cole S.",
+        "email": "cole.grundstedt@gmail.com",
+        "telephone": "1 (702) 353-0976",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "DIRECTOR OF ENGINEERING",
+    "resume_professionnel": "Director / Vice President of Operations, Engineering, & Supply Chain Industries: Capital Goods Manufacturing, Gaming, & Technology. Consistent on time product launches during company's largest growth period. Successful implementations of lean factory methodology. 12 years manufacturing, operations, engineering, GSC, NPI/NPD, project management, ERP systems, configuration management, data analytics, and business intelligence. Skilled at mixed model, cellular production, lean factory, data-driven KPI's, for electromechanical manufacturing, with progressive increase in leadership responsibility and a proven record of culture turnaround and team performance.",
+    "competences_techniques": [
+        "AutoCAD",
+        "Siemens PLM",
+        "SolidWorks PDM",
+        "Tableau",
+        "PowerBI",
+        "Cognos",
+        "TM1",
+        "MS Access",
+        "Microsoft Project",
+        "Visio",
+        "SharePoint Designer",
+        "JIRA",
+        "Confluence",
+        "MS Dynamics AX",
+        "MS Dynamics GP",
+        "Epicor",
+        "PDM",
+        "PLM",
+        "ERP",
+        "Business Intelligence",
+        "CMM",
+        "Configuration Management",
+        "MIS",
+        "RAID5",
+        "Servers",
+        "Systems Management",
+        "DFMA",
+        "GD&T"
+    ],
+    "competences_transversales": [
+        "Leadership",
+        "Coaching",
+        "Mentoring",
+        "Continuous improvement",
+        "Strategic planning",
+        "Decision analysis",
+        "Project management",
+        "Program management",
+        "Employee development",
+        "Stakeholder presentations (BoD, ELT, Investors/Analysts)",
+        "Cross-functional collaboration",
+        "Supplier qualification and management",
+        "Change management",
+        "Performance management",
+        "KPI development"
+    ],
+    "langues": [
+        "Latin"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Director of Engineering",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "01/2004",
+            "date_fin": "01/2016",
+            "durée": "12 ans",
+            "missions": [
+                "Capital goods manufacturer, software developer for hospitality & gaming, $1b sales, 3k employees; Major customers: Las Vegas Sands, MGM Resorts, Caesars Entertainment, Wynn Resorts, Boyd Gaming.",
+                "Directed product launches, training, system controls, capital equipment, and product compliance.",
+                "Administered strategic planning and management of department P&L, OPEX $5m and CAPEX $2m.",
+                "Presented semi-annually to Board of Directors, ELT, and Investors/Analysts on NPI/NPD strategies and initiatives.",
+                "Implemented lean factory methodology and mixed-model/cellular production practices.",
+                "Published Inventor - USPTO #8,684,847, commercialized $1m revenue per year."
+            ]
+        },
+        {
+            "poste": "Director of Manufacturing Engineering (Operations Engineering)",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "2014",
+            "date_fin": "2016",
+            "durée": "2 ans",
+            "missions": [
+                "Reported to VP Operations; managed 3 direct report teams and ~15 indirect engineers, analysts and technicians.",
+                "Directed all product launches, training, system controls, capital equipment, and product compliance.",
+                "Administered strategic planning and management of department P&L, OPEX $5m and CAPEX $2m.",
+                "Doubled product launch output year-over-year while maintaining quality and on-time delivery across multiple supplier sites in East Asia and Latin America.",
+                "Instituted greater process rigor including design and process FMEA for past 3 product cycles and implemented project MIS for global reporting.",
+                "Implemented Lean Manufacturing saving $200k (5%) inventory and increasing production capacity by 15%; redesigned production/warehouse to mixed-model one-piece flow.",
+                "Reduced quality defects 95% YOY and reduced space requirement to one-third through process redesign.",
+                "Reduced customer service quality level defects from 65% to below 1% by developing real-time KPIs with continuous feedback loop.",
+                "Increased employee development & engagement 20% YOY through coaching, mentoring people leaders, and instituting accountability systems."
+            ]
+        },
+        {
+            "poste": "Senior Manager of Enterprise Resource Planning (Configuration Management)",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "2012",
+            "date_fin": "2014",
+            "durée": "2 ans",
+            "missions": [
+                "Reported to senior leadership; managed 6 direct reports and programmed/maintained all ERP system controls for company operations handling ~1 million SKUs, 25k product orders and 50k service orders per year.",
+                "Expanded configuration management to triple product line support, realizing an additional $50m revenue using 170 dimensions and 180,000 total variables.",
+                "Streamlined Order Fulfillment system increasing quarterly direct sales by 16%.",
+                "Doubled output for outgoing service orders by merging two enterprise systems and eliminating data redundancy.",
+                "Developed Business Intelligence forecasting solution that reduced inventory carrying costs by 20%, increased customer quality by 60%, and increased demand visibility 12-fold.",
+                "Led strategic planning decision analysis for global ERP core system migration with a budget of $10m."
+            ]
+        },
+        {
+            "poste": "Manager of New Product (Project Management & NPI/NPD)",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "2009",
+            "date_fin": "2012",
+            "durée": "3 ans",
+            "missions": [
+                "Reported to senior leadership; managed 5 direct reports and oversaw project managers liaising with engineering, operations, & service departments for timely launch of new products, procedural training, & data distribution.",
+                "Partnered with Global Marketing to accelerate NPI time-to-market by 70%.",
+                "Implemented Industrial Engineering CMM program reducing outages by 96%.",
+                "Developed Systems Management automation tracking program reducing service fulfillment time by 30%."
+            ]
+        },
+        {
+            "poste": "Senior New Product Engineer / Manufacturing Engineer / Project Manager",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "01/2004",
+            "date_fin": "01/2009",
+            "durée": "5 ans",
+            "missions": [
+                "Drove supplier quality defects to a 4-year low by creating a supplier scorecard and qualifying suppliers on 4 continents.",
+                "Project managed customized product for 3 corporate accounts generating $15m in sales.",
+                "Increased production capacity 33% by launching cellular production method using one-fifth the space."
+            ]
+        },
+        {
+            "poste": "Performance Assessment Intern (Data Center Network Engineer)",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "01/2002",
+            "date_fin": "01/2003",
+            "durée": "1 an",
+            "missions": [
+                "Built and maintained 50 servers, 10 RAID5 disk arrays and three 20kVA UPS stacks.",
+                "Developed preventive maintenance schedule resulting in an 85% reduction in downtime."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master of Business Administration : Finance and Marketing",
+            "ecole": "University of Nevada",
+            "annee_obtention": "2009",
+            "niveau": "Bac+5",
+            "specialite": "Finance and Marketing"
+        },
+        {
+            "diplome": "Bachelor of Science : Industrial and Systems Engineering",
+            "ecole": "University of Southern California",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Certified Project Management Professional (PMP)",
+            "organisme": "Project Management Institute (PMI)",
+            "annee": ""
+        },
+        {
+            "nom": "OMNEX (DFMA / professional training)",
+            "organisme": "OMNEX",
+            "annee": "2016"
+        },
+        {
+            "nom": "High Performance Leadership Toolkit",
+            "organisme": "",
+            "annee": "2014"
+        },
+        {
+            "nom": "Crucial Conversations",
+            "organisme": "VitalSmarts Inc.",
+            "annee": ""
+        },
+        {
+            "nom": "Management Essentials",
+            "organisme": "",
+            "annee": "2011"
+        },
+        {
+            "nom": "Microsoft SharePoint Essentials",
+            "organisme": "",
+            "annee": "2010"
+        },
+        {
+            "nom": "GD&T (Geometric Dimensioning and Tolerancing)",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Published Inventor - USPTO #8,684,847",
+            "description": "Invention published and commercialized generating approximately $1m revenue per year.",
+            "technologies": []
+        },
+        {
+            "titre": "Business Intelligence forecasting solution",
+            "description": "Developed BI forecasting solution reducing inventory carrying costs by 20%, increasing customer quality by 60%, and increasing demand visibility 12-fold.",
+            "technologies": [
+                "Cognos",
+                "TM1",
+                "Tableau",
+                "MS Access"
+            ]
+        },
+        {
+            "titre": "Customized product program for corporate accounts",
+            "description": "Project management of customized product offerings for three corporate accounts, generating $15m in sales.",
+            "technologies": [
+                "AutoCAD",
+                "SolidWorks PDM",
+                "Lean Manufacturing"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": [
+            "Project Management Institute (PMI) - PMP",
+            "Beta Gamma Sigma Business Honor Society - Member",
+            "IEEE Engineering Management Society - Member",
+            "NESA National Eagle Scout Association - Member"
+        ]
+    }
+}

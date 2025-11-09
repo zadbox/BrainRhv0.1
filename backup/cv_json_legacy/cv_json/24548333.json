@@ -1,0 +1,160 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "SENIOR SPECIALTY SALES REPRESENTATIVE",
+    "resume_professionnel": "Decisive seasoned Bio-pharmaceutical sales representative who drives territory growth through creative and innovative marketing strategies. Skilled at analyzing market trends and customer needs to develop highly-effective and targeted campaigns to drive revenue.",
+    "competences_techniques": [
+        "Microsoft Office Suite",
+        "Excel",
+        "PowerPoint",
+        "SharePoint",
+        "Box.com",
+        "Acrobat",
+        "Adobe",
+        "Photoshop",
+        "Illustrator",
+        "Publisher",
+        "Windows",
+        "Windows 8"
+    ],
+    "competences_transversales": [
+        "Account management",
+        "Customer service-oriented",
+        "Quantitative analysis",
+        "Deadline-driven",
+        "Presentations",
+        "Cross-functional team leadership",
+        "Market segmentation",
+        "Project management",
+        "Competitive analysis",
+        "Trade shows",
+        "Business Planning",
+        "Sales Forecasting",
+        "Meeting and exceeding sales goals",
+        "Relationship building with healthcare executives and KOLs",
+        "Collaboration with internal partners",
+        "Contract negotiations",
+        "Training and coaching",
+        "Performance reviews",
+        "Market events / think tank participation",
+        "Product advisory board participation"
+    ],
+    "langues": [
+        "English",
+        "Spanish"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "SENIOR SPECIALTY SALES REPRESENTATIVE",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "01/2006",
+            "date_fin": "01/2010",
+            "durée": "4 ans",
+            "missions": [
+                "Marketing and promoting CVD products to NYC CV, Endocrinology, and Nephrology specialists and hospitals.",
+                "Business Planning, Sales Forecasting and strong use of Excel.",
+                "Meeting and exceeding sales goals.",
+                "Built strong business relationships with healthcare executives and key opinion leaders.",
+                "Strong collaboration with internal partners.",
+                "Launched aggressive growth plans that helped increase customer base of Flumist from 15 to 94 customers in the geography in 3 years.",
+                "Presented PowerPoint presentation to Executive Leadership Team on customer segmentation strategy and customer returns strategy.",
+                "Resulting program increased volume sales by 1Million in 1 year.",
+                "Provided subject matter content to a sales module on successful selling in a hospital environment resulting in significant increase in Synagis revenue from hospital sales.",
+                "Created a project to increase sales team's collaboration using company's SharePoint Service to create a workspace for field use; worked with Effectiveness Team to roll out a similar platform using Box.com; program incorporated by Astra Zeneca.",
+                "Selected Accomplishments: Awards of Excellence 2007, 2008, 2009; Regional Market Events Think Tank Committee appointment 2009; Directors Award 2008; Zetia Product Advisory Committee Appointment 2008."
+            ]
+        },
+        {
+            "poste": "",
+            "entreprise": "Company Name",
+            "lieu": "NYC & NJ",
+            "date_debut": "01/2003",
+            "date_fin": "01/2005",
+            "durée": "2 ans",
+            "missions": [
+                "NYC Teaching Hospitals, NYC & NJ Pulmonologists.",
+                "8 hospital Formulary Placements and 3 hospital Protocol Implementations to achieve 115% to goal achievement and 140% to goal for new product launch.",
+                "Achieved and exceeded sales goals year over year throughout tenure.",
+                "Zithromax Product Advisory board appointments."
+            ]
+        },
+        {
+            "poste": "",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "01/2001",
+            "date_fin": "01/2005",
+            "durée": "4 ans",
+            "missions": [
+                "Promotion of key branded products to Internal Medicine, Pulmonologists, Cardiologists, Nephrologists, Allergists, Dermatologists, Psychiatrists, Geriatric Specialists, Neurologists, Otolaryngologists, and NYC Hospital Teaching Institutions.",
+                "Guest Regional and National Trainer Appointments."
+            ]
+        },
+        {
+            "poste": "PROFESSIONAL HEALTHCARE REPRESENTATIVE",
+            "entreprise": "Company Name",
+            "lieu": "",
+            "date_debut": "01/2001",
+            "date_fin": "01/2003",
+            "durée": "2 ans",
+            "missions": [
+                "Circle of Excellence Sales Award Trip Winner.",
+                "Rookie of the Year Award.",
+                "Regional Performance Fund Award for stepping into vacant Hospital Territory in district and driving sales.",
+                "Achieved and exceeded sales goals throughout tenure.",
+                "Multiple appointments to marketing product advisory boards due to achievements with field sales."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Bachelor of Science",
+            "ecole": "City , State",
+            "annee_obtention": "2015",
+            "niveau": "Bac+3",
+            "specialite": "Biology / Business Certificate - Marketing / International Marketing"
+        },
+        {
+            "diplome": "Biology and Chemistry",
+            "ecole": "City , State",
+            "annee_obtention": "1998",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "",
+            "description": "",
+            "technologies": []
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [
+            "Hockey",
+            "Triathlete",
+            "Music - Piano and Guitar",
+            "Woodworking and Carpentry"
+        ],
+        "engagements": []
+    }
+}

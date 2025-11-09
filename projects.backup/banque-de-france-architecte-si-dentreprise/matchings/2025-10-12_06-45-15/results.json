@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].docx",
+      "score_final": 0.0,
+      "score_base": 0.0,
+      "bonus_nice_have_multiplicateur": 1.0,
+      "coefficient_qualite_experience": 1.2,
+      "nice_have_manquants": [],
+      "commentaire_scoring": "Score base de 0.734 indiquant une bonne adéquation data/architecture. Nice-have manquant identifié : [python]. Multiplicateur appliqué : 0.95^1 = 0.95 (impact négatif de 5%). Score final indiqué : 0.698 (0.734 × 0.95).",
+      "appreciation_globale": "Profil solide orienté architecture de la donnée avec expériences récentes en entreprise (Rexel, Covéa) couvrant migration vers Snowflake, modélisation physique/ fonctionnelle et gouvernance. Les missions montrent crédibilité opérationnelle, animation de stakeholders (weekly design) et usage d'outils d'EA (MEGA, HOPEX), ce qui est pertinent pour un rôle Enterprise Data/IA. Points forts : expertise en modélisation et gouvernance, expérience de migration cloud DW, capacité d'accompagnement des PO/Tech Leads. Axes de vigilance : peu d'éléments explicites sur le pilotage de feuille de route IA, absence de compétences Python et durée limitée des missions récentes. Recommandation RH : Recommandé pour entretien technique orienté architecture et gouvernance, valider montée en compétence IA et compétences scripting/ML operability."
+    }
+  ],
+  "metadata": {
+    "total_cvs": 3,
+    "filtered_must_have": 1,
+    "top_reranked": 1,
+    "duree_totale_s": 50.41,
+    "timestamp": "2025-10-12T04:46:06Z"
+  }
+}

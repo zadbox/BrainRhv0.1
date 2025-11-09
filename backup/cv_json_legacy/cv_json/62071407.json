@@ -1,0 +1,291 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "MECHANICAL ENGINEERING INTERN",
+    "resume_professionnel": "Mechanical Engineer Professional offering 25 years of progressive experience within a manufacturing setting. Experienced project manager that negotiates prices for project, created and implemented preventive/corrective maintenance strategies and completed projects before deadline and under budget. Maintenance Manager who prioritizes multiple tasks based upon risk and production needs and works well under pressure. Broad industry experience includes Military, LRV Trains, and industrial manufacturing Highlights Proficient in SolidWorks Facility and plant modifications Root cause analysis Time management skills Project management Cross-disciplinary collaboration Strategic prioritization Familiar with predictive maintenance techniques",
+    "competences_techniques": [
+        "Auto-Cad",
+        "SolidWorks",
+        "Failure analysis",
+        "Microsoft Office",
+        "Programming",
+        "Predictive maintenance techniques",
+        "Facility and plant modifications",
+        "Root cause analysis",
+        "Project management",
+        "Auto-Cad (Ul-142 standards)",
+        "Intralox thermodrive conveyor",
+        "HVAC systems",
+        "Fire suppression systems",
+        "Diesel and natural gas generator design",
+        "Data Acquisition systems",
+        "Honeywell chart recorders",
+        "Watlow process controllers",
+        "Oxygen sensors calibration",
+        "Thermocouples",
+        "Watlow process controllers",
+        "PLC",
+        "IPC/PLC electronic switchboards",
+        "Bombardier propulsion systems",
+        "Knorr braking systems",
+        "PTU interfacing",
+        "Electrical systems",
+        "Electronics",
+        "Calibration",
+        "Laboratory equipment maintenance",
+        "Rotational molding machine operation",
+        "Northern Light generators",
+        "Detroit propulsion engines",
+        "Reverse Osmosis distillation",
+        "Electro Catalytic sewer treatment",
+        "Citrix drawings",
+        "Data Acquisition",
+        "Materials purchasing",
+        "Mechanical troubleshooting",
+        "Maintenance schedules",
+        "Process control",
+        "Process equipment",
+        "Conversion (diesel to natural gas)",
+        "Carpentry",
+        "Plastics processing",
+        "Ul-142 standards",
+        "BC",
+        "Oil recovery unit systems",
+        "Water treatment systems"
+    ],
+    "competences_transversales": [
+        "Time management",
+        "Cross-disciplinary collaboration",
+        "Strategic prioritization",
+        "Negotiation (prices for projects)",
+        "Risk-based prioritization",
+        "Works well under pressure",
+        "Project coordination",
+        "Planning and scheduling",
+        "Team mentoring and training",
+        "Contractor coordination",
+        "Report writing",
+        "Quality delivery within time frames",
+        "Troubleshooting coordination"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Mechanical Engineering Intern",
+            "entreprise": "Company Name",
+            "lieu": "State",
+            "date_debut": "05/2013",
+            "date_fin": "08/2014",
+            "durée": "1 an et 3 mois",
+            "missions": [
+                "Updated Piping and instrumentation drawings in Auto-Cad",
+                "Performed failure analysis on process equipment and implemented new maintenance schedules accordingly",
+                "Project Manager for projects including: Designed and implemented HVAC zone installation for main office and foyer",
+                "Installed new Intralox thermodrive conveyor",
+                "Implemented projects to reduce water consumption",
+                "Designed and Implemented new fire suppression system for oil recovery unit",
+                "Designed and Implemented updating sizer production"
+            ]
+        },
+        {
+            "poste": "Mechanical Engineering Intern",
+            "entreprise": "Company Name",
+            "lieu": "State",
+            "date_debut": "05/2013",
+            "date_fin": "08/2013",
+            "durée": "3 mois",
+            "missions": [
+                "Designed diesel fuel tanks for 400 and 750 kW generators on Auto-Cad using Ul-142 standards",
+                "Assisted in new design of the generator conversion from diesel fuel into natural gas",
+                "Project Manager for re-enforcing mobile generator trailers",
+                "Composed operating procedures for diesel generators"
+            ]
+        },
+        {
+            "poste": "Electrical/Mechanical Technician",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "07/2008",
+            "date_fin": "01/2011",
+            "durée": "2 ans et 6 mois",
+            "missions": [
+                "Responsible for the maintenance and calibration of process control and laboratory equipment",
+                "Evaluated and installed engineering upgrades for research, design, and prototype upgrades",
+                "Implemented new Data Acquisition system including installing and programming 32 new Honeywell chart recorders",
+                "Fixed and calibrated oxygen sensor for updraft of Thermal Oxidizing stack that was said to be un-repairable",
+                "Calibrated thermocouple and Watlow process controllers",
+                "Planned, scheduled and coordinated detailed phases of large-scale projects",
+                "Coordinated contractors, architects and other project team members to deliver high quality projects within specified time frames"
+            ]
+        },
+        {
+            "poste": "Modifications Supervisor",
+            "entreprise": "Company Name",
+            "lieu": "State",
+            "date_debut": "05/2005",
+            "date_fin": "02/2006",
+            "durée": "9 mois",
+            "missions": [
+                "Installed electrical/mechanical modifications on multi-million dollar LRV's (light rail vehicle)",
+                "Created critical spare parts lists for modifications to LRV's",
+                "Used Citrix drawings for troubleshooting onboard systems",
+                "Purchased and organized materials for LRV's",
+                "Used PTU for interfacing and troubleshooting Bombardier propulsion, Knorr braking and HVAC systems",
+                "Wrote all reports on modification and progress timetables",
+                "Responsible for scheduling trains for modification upgrades and testing"
+            ]
+        },
+        {
+            "poste": "Marine Electrical Technician",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "04/2004",
+            "date_fin": "01/2005",
+            "durée": "9 mois",
+            "missions": [
+                "Installed and wired Electronics/Electrical components on 85 and 65 foot yachts",
+                "Installed 300kw and 250 kW Northern Light generators, Detroit propulsion engines and all domestic and auxiliary systems",
+                "Built engine rooms with mechanics from the ground up including carpentry, electrical, mechanical, and fiberglass work"
+            ]
+        },
+        {
+            "poste": "Plastics Operator",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "01/2002",
+            "date_fin": "04/2004",
+            "durée": "2 ans et 3 mois",
+            "missions": [
+                "Operated and maintained rotational molding machine",
+                "Trained personnel on all 5 stations",
+                "Helped make operation procedures for machines",
+                "Used troubleshooting skills to solve 4 arm 4 station rotational molding machine problems including over temperature, plating and wrong rotational speed"
+            ]
+        },
+        {
+            "poste": "Project Manager/Electrician",
+            "entreprise": "Company Name",
+            "lieu": "",
+            "date_debut": "08/1999",
+            "date_fin": "09/2002",
+            "durée": "3 ans et 1 mois",
+            "missions": [
+                "Responsible for all coordination and building of treatment plants",
+                "Finished Royal Roads Treatment plant prior to deadline and under budget",
+                "Initiated and wrote all corrective/preventive maintenance schedules for treatment sites",
+                "Planned, scheduled and coordinated detailed phases of large-scale projects",
+                "Coordinated contractors and other project team members to deliver high quality projects within specified time frames",
+                "Wired and installed new wastewater system of BC ferries"
+            ]
+        },
+        {
+            "poste": "Electrical/Electronic Technician",
+            "entreprise": "",
+            "lieu": "",
+            "date_debut": "01/1990",
+            "date_fin": "08/1999",
+            "durée": "9 ans et 7 mois",
+            "missions": [
+                "Repaired all electrical/electronic systems onboard navy ships including controllers, instrumentation and PLC's for power plant of 3.5 Giga watts",
+                "Maintained FT4, FT12, and 750 Kw gas turbines",
+                "Mentored/trained junior personal",
+                "Planned corrective and preventive maintenance for onboard electrical systems",
+                "Maintained Reverse Osmosis distillation and Electro Catalytic sewer treatment plants",
+                "In charge of preventive and corrective maintenance on IPC/PLC electronic switchboards, HVAC, Fire suppression, liquid level management systems and all domestic equipment"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Bachelor of Science : Mechanical Engineering",
+            "ecole": "Louisiana Tech University City , State , USA",
+            "annee_obtention": "2015",
+            "niveau": "Bac+3",
+            "specialite": "Mechanical Engineering"
+        }
+    ],
+    "certifications": [],
+    "projets": [
+        {
+            "titre": "HVAC zone installation for main office and foyer",
+            "description": "Conception et mise en œuvre d'une installation HVAC zonée pour le bureau principal et le hall.",
+            "technologies": [
+                "HVAC",
+                "Auto-Cad"
+            ]
+        },
+        {
+            "titre": "Intralox thermodrive conveyor installation",
+            "description": "Installation d'un convoyeur Intralox thermodrive pour la production.",
+            "technologies": [
+                "Intralox thermodrive conveyor"
+            ]
+        },
+        {
+            "titre": "Fire suppression system for oil recovery unit",
+            "description": "Conception et implémentation d'un nouveau système de suppression d'incendie pour une unité de récupération d'huile.",
+            "technologies": [
+                "Fire suppression systems"
+            ]
+        },
+        {
+            "titre": "Water consumption reduction projects",
+            "description": "Projets d'implémentation visant à réduire la consommation d'eau.",
+            "technologies": []
+        },
+        {
+            "titre": "Updating sizer production",
+            "description": "Conception et mise à jour d'un siser de production.",
+            "technologies": []
+        },
+        {
+            "titre": "Diesel fuel tanks design for 400 and 750 kW generators",
+            "description": "Conception de réservoirs de carburant diesel selon les normes Ul-142 pour générateurs 400 et 750 kW.",
+            "technologies": [
+                "Auto-Cad",
+                "Ul-142 standards"
+            ]
+        },
+        {
+            "titre": "Generator conversion from diesel to natural gas",
+            "description": "Assistance à la conception de la conversion des générateurs du diesel au gaz naturel.",
+            "technologies": [
+                "Generator conversion",
+                "Natural gas systems"
+            ]
+        },
+        {
+            "titre": "Reinforcing mobile generator trailers",
+            "description": "Gestion de projet pour le renforcement des remorques de générateurs mobiles.",
+            "technologies": []
+        },
+        {
+            "titre": "Data Acquisition system implementation",
+            "description": "Mise en place d'un nouveau système d'acquisition de données, installation et programmation de 32 enregistreurs Honeywell.",
+            "technologies": [
+                "Data Acquisition",
+                "Honeywell chart recorders"
+            ]
+        },
+        {
+            "titre": "Royal Roads Treatment plant delivery",
+            "description": "Coordination et gestion du projet de construction de la station d'épuration Royal Roads, livré avant la date butoir et sous budget.",
+            "technologies": []
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

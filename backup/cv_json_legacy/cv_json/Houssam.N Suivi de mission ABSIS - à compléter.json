@@ -1,0 +1,89 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "Architecte Fonctionnel/Architecture Data",
+    "resume_professionnel": "Mission d'architecture data pour le client BNP : Data architecture BAU et maintien et évolution du cadre et du framework. Réalisation d'évaluations ITVC Data, production et rédaction de procédures (niveau L3), pilotage CCB sur les Business Process, reporting et suivi de livrables (7 projets en cours). Environnement méthodologique TOGAF adapté CIB et cadre méthodologique Data propre à la CIB.",
+    "competences_techniques": [
+        "Abacus",
+        "SP",
+        "PBI",
+        "TOGAF (adapté au contexte de la CIB)",
+        "Data architecture",
+        "ITVC Data assessments",
+        "Procédures L3",
+        "Framework data architecture",
+        "Business process"
+    ],
+    "competences_transversales": [
+        "Pilotage CCB",
+        "Rédaction de procédures",
+        "Reporting",
+        "Respect des délais/charges",
+        "Qualité des livrables",
+        "Comportement et intégration",
+        "Suivi de mission",
+        "Montée en compétence"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Architecte Fonctionnel/Architecture Data",
+            "entreprise": "BNP",
+            "lieu": "",
+            "date_debut": "14/04/2025",
+            "date_fin": "30/04/2026",
+            "durée": "1 an et 16 jours",
+            "missions": [
+                "Data architecture BAU et maintien et évolution du cadre et du framework",
+                "ITVC Data assessments",
+                "Production et rédaction de procédures (Procédures L3) : produites et en cours de production",
+                "Pilotage CCB sur la BP (Business Process)",
+                "Pilotage et suivi de 7 projets en cours ITVC",
+                "Reporting et respect des objectifs fixés"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "",
+            "ecole": "",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Data architecture BAU et maintien et évolution du cadre et du framework",
+            "description": "Projet de maintien et évolution du cadre et du framework data pour BNP incluant évaluations ITVC, rédaction de procédures L3, pilotage de changements (CCB) et suivi de 7 projets en cours.",
+            "technologies": [
+                "Abacus",
+                "SP",
+                "PBI",
+                "TOGAF (adapté au contexte de la CIB)"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

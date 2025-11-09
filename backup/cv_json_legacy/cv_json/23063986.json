@@ -1,0 +1,223 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "FITNESS TRAINEE/RECREATION MANAGEMENT INTERN",
+    "resume_professionnel": "Experienced sales employee skilled in event planning, Microsoft Excel, customer Service, Microsoft Word, and Microsoft Office. Strong sales professional with a Bachelor's Degree focused in Recreation, Sport, and Tourism from University of Illinois at Urbana-Champaign with Dean's List and James Scholar recognition.",
+    "competences_techniques": [
+        "Excel (Intermediate)",
+        "Microsoft Word (Intermediate)",
+        "PowerPoint (Intermediate)",
+        "Microsoft Office",
+        "Data management",
+        "Age Options database",
+        "Survey coding",
+        "Graphs and charts",
+        "Social media management",
+        "Facility Management",
+        "Human Resource Management",
+        "Marketing strategies",
+        "Cash register operation",
+        "Ticketing",
+        "Statistics",
+        "Research reporting",
+        "Database"
+    ],
+    "competences_transversales": [
+        "Team leadership",
+        "Self-motivated",
+        "Extremely organized",
+        "Staff development",
+        "Project management",
+        "Team liaison",
+        "Customer service",
+        "Leadership",
+        "Scheduling",
+        "Supervision",
+        "Team building",
+        "Communication",
+        "Maintain inventory",
+        "Notes/record keeping",
+        "Problem solving"
+    ],
+    "langues": [
+        "Spanish"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Fitness Trainee/Recreation Management Intern",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "January 2018",
+            "date_fin": "Current",
+            "durée": "5 mois",
+            "missions": [
+                "Research and aid in planning exercises options for FitGames.",
+                "Identify and create new business contacts.",
+                "Update social media account with weekly posts.",
+                "Implement new strategies approved by owner for business growth."
+            ]
+        },
+        {
+            "poste": "Research Assistant",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "February 2017",
+            "date_fin": "Current",
+            "durée": "1 an et 3 mois",
+            "missions": [
+                "Code data from surveys onto Age Options database.",
+                "Analyze the data to find any correlation among the survey responses.",
+                "Create graphs and charts to display findings.",
+                "Write research report on findings."
+            ]
+        },
+        {
+            "poste": "Student Lead Supervisor",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "May 2017",
+            "date_fin": "Current",
+            "durée": "1 an",
+            "missions": [
+                "Create monthly schedules for 30 student employees.",
+                "Create and assign daily tasks for student employees.",
+                "Keep track of personnel during shifts.",
+                "Record notes for weekly meeting."
+            ]
+        },
+        {
+            "poste": "Intern",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "September 2017",
+            "date_fin": "December 2017",
+            "durée": "4 mois",
+            "missions": [
+                "Research in cost-effective marketing strategies.",
+                "Manage multiple social media accounts daily to increase brand awareness.",
+                "Ran front desk and process membership payments."
+            ]
+        },
+        {
+            "poste": "Student Employee",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "February 2016",
+            "date_fin": "May 2017",
+            "durée": "1 an et 3 mois",
+            "missions": [
+                "Operated cash register to process over 50 transactions by credit daily.",
+                "Stocked and back stocked merchandise to maintain inventory orderly.",
+                "Greeted customers and answer any questions in person or over the phone in order to provide excellent customer service."
+            ]
+        },
+        {
+            "poste": "Research Assistant",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "October 2016",
+            "date_fin": "May 2017",
+            "durée": "8 mois",
+            "missions": [
+                "Created a code book in order to ease the data entering process.",
+                "Cleaned the data in order to create a hypothesis from the results found.",
+                "Facilitated a group of four in conducting an external-internal (SWOT) analysis of the program.",
+                "Present findings at annual Research Symposium."
+            ]
+        },
+        {
+            "poste": "Seasonal Sales Employee",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "December 2014",
+            "date_fin": "January 2016",
+            "durée": "1 an et 1 mois",
+            "missions": [
+                "Provided quality customer service by responding to 15 customer needs and assist any questions or concerns daily.",
+                "Conducted over 100 transactions by cash and credit daily.",
+                "Issued government standard lotto transactions.",
+                "Run cash file reports and make daily deposits of the store's profit in order to open and close store operations and registers."
+            ]
+        },
+        {
+            "poste": "Tutor",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "September 2014",
+            "date_fin": "December 2014",
+            "durée": "4 mois",
+            "missions": [
+                "Advised 30 elementary students to address math and readings concerns.",
+                "Supervised 30-35 children between ages of 8-9 on group readings and math oriented activities.",
+                "Motivated children to continue their education by providing positive comments on their progress."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Bachelor of Science - Recreation, Sport, and Tourism",
+            "ecole": "University of Illinois at Champaign",
+            "annee_obtention": "2018",
+            "niveau": "Bac+3",
+            "specialite": "Recreation, Sport, and Tourism"
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Certificate of Excellence",
+            "organisme": "University of Illinois at Urbana-Champaign",
+            "annee": "2018"
+        }
+    ],
+    "projets": [
+        {
+            "titre": "FitGames planning and implementation",
+            "description": "Research and aid in planning exercise options for FitGames; implement strategies for business growth and manage weekly social media updates.",
+            "technologies": [
+                "Social media",
+                "Excel"
+            ]
+        },
+        {
+            "titre": "Research Survey Analysis and Report",
+            "description": "Coding survey data into Age Options database, cleaning data, analyzing correlations, creating graphs and charts, and writing/presenting a research report at the annual Research Symposium.",
+            "technologies": [
+                "Age Options database",
+                "Excel",
+                "Graphs and charts",
+                "Statistics"
+            ]
+        },
+        {
+            "titre": "Family Game Night Program (Urbana Early Childhood School)",
+            "description": "Coordinated a group of 5 to develop a family game night program: created Excel sheets to organize availabilities and resources, directed 20 families through 5 activity stations and provided a meal.",
+            "technologies": [
+                "Excel"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [
+            "Illinois Governor's Conference on Travel & Tourism (attendee)",
+            "Team building activities with Convention and Visitor's Bureau (CVB) of Champaign",
+            "Family game night program coordination"
+        ],
+        "engagements": [
+            "Volunteered at Newman Shares Food Pantry collecting nonperishable food items for low-income students and families",
+            "Rauner Family YMCA: recruited volunteers and managed ticketing for Halloween Fairs",
+            "Volunteered 80+ hours over 4 years for the School Age Program accounting for 20-25 children ages 3-5 during day activities",
+            "Magnetar Youth Investment Academy - Recipient of Non-renewable Stock Portfolio Competition (May 2015)"
+        ]
+    }
+}

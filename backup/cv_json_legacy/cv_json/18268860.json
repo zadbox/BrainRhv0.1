@@ -1,0 +1,160 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "QUALITY CONTROL INSPECTOR",
+    "resume_professionnel": "Southeast Region Veterans Preference: 10 Point Preference based on disability from military service Availability: Full Time, Permanent Profile: Highly qualified aerospace inspector with over 18 years of rotary and fixed wing aircraft maintenance, inspection, and modification experience on military and commercial aircraft During my civilian aerospace experience, I have prepared and retained records, documentation, and reports required by customer contract and/or instruction. Tasked to review and verify technical data to customer requirements and correct data when nonconforming. In my military career, I am required to work independently repairing and/or manufacturing components for military aircraft. I interpret blueprints and engineering drawings and then initiate processes or work instructions to manufacture specific components. After initial setup, I audit and qualify technical data using aerospace quality assurance principles before production is performed.",
+    "competences_techniques": [
+        "blueprints",
+        "Catia V",
+        "inspection",
+        "first article inspection",
+        "process inspection",
+        "sampling inspection",
+        "intensive product inspection",
+        "quality assurance",
+        "quality/inspection systems",
+        "technical manuals",
+        "engineering drawings",
+        "product specifications",
+        "aerospace inspection",
+        "aircraft maintenance",
+        "aviation structural repair",
+        "hydraulic repair",
+        "fabrication",
+        "pneumatic actuators",
+        "servos",
+        "landing gear",
+        "flight controls",
+        "electrical runs",
+        "ring outs",
+        "risk management",
+        "documentation and records retention",
+        "reading and interpreting technical data",
+        "manufacturing processes"
+    ],
+    "competences_transversales": [
+        "attention au détail",
+        "capacité à travailler de manière autonome",
+        "analyse des données qualité",
+        "évaluation de l'efficacité des systèmes",
+        "priorisation de la charge de travail",
+        "formation et supervision du personnel",
+        "audit et qualification de données techniques",
+        "prise d'initiative",
+        "communication technique",
+        "travail en équipe"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Quality Control Inspector",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "10/2011",
+            "date_fin": "Current",
+            "durée": "14 ans",
+            "missions": [
+                "Complète la formation en classe et sur le tas pour acquérir, exercer et maintenir les connaissances nécessaires à l'exécution de toutes les tâches d'inspection allant des First Article inspections aux process inspections.",
+                "Examine les procédures écrites de qualité ou d'inspection pour en vérifier l'adéquation et évalue la mise en œuvre et l'efficacité des systèmes qualité/inspection, y compris les plans de travail.",
+                "Examine les activités et capacités de production en tenant compte des exigences contractuelles de qualité.",
+                "Analyse les données qualité pour détecter les tendances insatisfaisantes ou les faiblesses du système qualité/inspection.",
+                "Lit, interprète et applique des données techniques telles que plans, dessins d'ingénierie, spécifications produits ou manuels techniques pour assurer la satisfaction globale du client.",
+                "Vérifie par essai ou inspection, en utilisant des techniques d'inspection par échantillonnage ou d'inspection intensive des produits, que les produits sont conformes aux exigences avant acceptation."
+            ]
+        },
+        {
+            "poste": "Aviation Structural Mechanic",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "08/2009",
+            "date_fin": "05/2011",
+            "durée": "1 an et 9 mois",
+            "missions": [
+                "Effectue l'inspection d'acceptation de tous les aéronefs entrants pour évaluer les dommages totaux avant de commencer la réinitialisation complète.",
+                "Commande les composants nécessaires pour compléter la réinitialisation de l'aéronef.",
+                "Priorise la charge de travail et réalise des inspections mécaniques préliminaires des commandes de vol critiques.",
+                "Fabrique, traite et installe des composants critiques d'aéronef endommagés par des opérations de vol hostiles.",
+                "Assiste aux tirages électriques et aux tests de continuité (ring outs) pour assurer le respect des délais de rotation."
+            ]
+        },
+        {
+            "poste": "Aviation Structural Mechanic",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "11/2007",
+            "date_fin": "08/2009",
+            "durée": "1 an et 9 mois",
+            "missions": [
+                "Qualifié pour effectuer diverses inspections périodiques incluant Phase, inspections hydrauliques, trains d'atterrissage et commandes de vol.",
+                "Met en œuvre des techniques de gestion des risques lors de la réalisation de maintenances et d'inspections de qualité sur l'aéronef F/A-18.",
+                "Forme et supervise le personnel de tous niveaux d'expérience et de compétence pour assurer une équipe de travail cohésive.",
+                "Examine en continu et interprète plans et dessins techniques pour rassembler les exigences clients nécessaires à la fabrication.",
+                "Utilise manuels techniques et directives pour établir des instructions de travail appropriées lors de la réalisation de la maintenance de phase des aéronefs."
+            ]
+        },
+        {
+            "poste": "Aviation Structural Mechanic / Grade E-5",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "10/1999",
+            "date_fin": "10/2007",
+            "durée": "8 ans",
+            "missions": [
+                "Huit années de service actif dans la Navy (Honorable Discharge).",
+                "Installation/remplacement d'actionneurs pneumatiques et servos, train d'atterrissage et commandes de vol sur le F/A-18 Hornet.",
+                "Déploiement de six mois à bord de l'USS Nimitz CVN-68 pendant l'opération Iraqi Freedom.",
+                "Collateral Duty Inspector réalisant inspections à 14 jours, 28 jours, quotidiennes et de turnaround pour assurer la navigabilité des aéronefs avant vol."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "B.S. Professional Aeronautics (70% complete)",
+            "ecole": "Riddle Aeronautical University",
+            "annee_obtention": "",
+            "niveau": "Bac+3",
+            "specialite": "Professional Aeronautics"
+        },
+        {
+            "diplome": "U.S. Navy Aviation F/A-18 Hydraulic/Structural Repair School",
+            "ecole": "U.S. Navy",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "U.S. Navy Aircraft Paint Touch Up and Markings",
+            "ecole": "U.S. Navy",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "Catia V (formation/compétence)",
+            "ecole": "",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": [
+            "US Navy - huit années de service actif (Honorable Discharge)",
+            "Déploiement à bord de l'USS Nimitz CVN-68 pendant l'opération Iraqi Freedom (six mois)"
+        ]
+    }
+}

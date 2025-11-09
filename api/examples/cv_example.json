@@ -1,0 +1,95 @@
+{
+  "cv": "jean_dupont_cv.pdf",
+  "identite": {
+    "nom": "Dupont",
+    "prenom": "Jean",
+    "email": "jean.dupont@example.com",
+    "telephone": "+33 6 12 34 56 78",
+    "adresse": "Paris, France",
+    "linkedin": "https://linkedin.com/in/jeandupont",
+    "autres_reseaux": ["https://github.com/jeandupont"]
+  },
+  "titre": "Développeur Full Stack Senior",
+  "resume_professionnel": "Développeur Full Stack avec 8 ans d'expérience en React, Node.js et Python. Expert en architecture cloud AWS et microservices.",
+  "competences_techniques": [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Node.js",
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "MongoDB",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "CI/CD"
+  ],
+  "competences_transversales": [
+    "Leadership technique",
+    "Mentoring",
+    "Communication",
+    "Agilité (Scrum)",
+    "Résolution de problèmes"
+  ],
+  "langues": [
+    "Français (natif)",
+    "Anglais (courant)",
+    "Espagnol (intermédiaire)"
+  ],
+  "experiences_professionnelles": [
+    {
+      "poste": "Lead Developer Full Stack",
+      "entreprise": "TechCorp",
+      "lieu": "Paris",
+      "date_debut": "2020-01",
+      "date_fin": "2024-10",
+      "duree": "4 ans 9 mois",
+      "missions": [
+        "Architecture et développement d'une plateforme SaaS en React/Node.js",
+        "Migration d'une architecture monolithique vers microservices",
+        "Mise en place CI/CD avec GitHub Actions et AWS",
+        "Management d'une équipe de 5 développeurs",
+        "Réduction des temps de déploiement de 80% via automatisation"
+      ]
+    },
+    {
+      "poste": "Développeur Full Stack",
+      "entreprise": "StartupXYZ",
+      "lieu": "Lyon",
+      "date_debut": "2016-06",
+      "date_fin": "2019-12",
+      "duree": "3 ans 6 mois",
+      "missions": [
+        "Développement d'applications web avec React et Django",
+        "Intégration d'APIs REST et GraphQL",
+        "Optimisation des performances front-end (Lighthouse 95+)",
+        "Mise en place de tests automatisés (Jest, Cypress)"
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "Master Informatique",
+      "ecole": "Université Paris-Saclay",
+      "annee_obtention": "2016",
+      "niveau": "Bac+5",
+      "specialite": "Informatique"
+    },
+    {
+      "diplome": "Licence Informatique",
+      "ecole": "Université Lyon 1",
+      "annee_obtention": "2014",
+      "niveau": "Bac+3",
+      "specialite": "Informatique"
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect - Associate",
+    "React Professional Certification"
+  ],
+  "projets": [
+    "Contribution open-source à React Query (500+ stars)",
+    "Création d'une librairie npm de composants UI (2k téléchargements/mois)"
+  ]
+}

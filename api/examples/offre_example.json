@@ -1,0 +1,54 @@
+{
+  "sections": {
+    "titre": "Développeur Full Stack Senior - React/Node.js",
+    "resume_professionnel": "Nous recherchons un développeur Full Stack senior pour rejoindre notre équipe produit. Vous serez responsable du développement de nouvelles fonctionnalités sur notre plateforme SaaS et de l'amélioration de l'architecture existante.",
+    "competences_techniques": [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "AWS",
+      "Docker",
+      "Git"
+    ],
+    "competences_transversales": [
+      "Travail en équipe",
+      "Autonomie",
+      "Communication",
+      "Agilité"
+    ],
+    "langues": [
+      "Français",
+      "Anglais professionnel"
+    ],
+    "experiences_professionnelles": [
+      {
+        "description": "Minimum 5 ans d'expérience en développement Full Stack",
+        "technologies": ["React", "Node.js"]
+      }
+    ],
+    "formations": [
+      {
+        "niveau": "Bac+5",
+        "specialite": "Informatique ou équivalent"
+      }
+    ],
+    "certifications": [],
+    "projets": []
+  },
+  "must_have": [
+    "Maîtrise avancée de React et TypeScript",
+    "Expérience confirmée avec Node.js et Express/Fastify",
+    "Connaissance des bases de données relationnelles (PostgreSQL)",
+    "Minimum 5 ans d'expérience en développement web",
+    "Maîtrise de Git et des workflows collaboratifs"
+  ],
+  "nice_have": [
+    "Expérience avec AWS (EC2, S3, Lambda)",
+    "Connaissance de Docker et Kubernetes",
+    "Expérience avec GraphQL",
+    "Contribution à des projets open-source",
+    "Certification AWS ou équivalent",
+    "Expérience en management d'équipe"
+  ]
+}

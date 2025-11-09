@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].docx",
+      "score_final": 0.0,
+      "score_base": 0.0,
+      "bonus_nice_have_multiplicateur": 1.0,
+      "coefficient_qualite_experience": 1.3,
+      "nice_have_manquants": [],
+      "commentaire_scoring": "Score base de 0.684 indiquant une bonne adéquation technique avec le poste. 1 nice-have manquant : [\"python\"], d'où un multiplicateur de 0.95 (0.95^1) appliqué. Score final déclaré : 0.65 (0.684 × 0.95 ≈ 0.65).",
+      "appreciation_globale": "Profil orienté architecture data avec expériences pertinentes en grande entreprise (Rexel, Covéa) et projets de migration de plateforme (SQL Server → Snowflake) ; missions centrées sur modélisation, gouvernance et support aux PO/Tech Leads. La progression est cohérente : responsabilités d'architecte, interventions transverses (data office) et restitution aux parties prenantes, ce qui montre une bonne maturité opérationnelle. Points forts : expertise en modélisation conceptuelle/physique, expérience concrète de migration cloud data et bonne pratique de gouvernance/standards. Axes de vigilance : absence de compétences Python listée comme nice-have et durées de mission relativement courtes (périodes < 2 ans) qui peuvent limiter la visibilité sur leadership long terme. Recommandation RH : Recommandé pour un entretien technique focalisé sur la migration Snowflake, la modélisation et un test sur scripting/automatisation (Python) pour valider la couverture complète du poste."
+    }
+  ],
+  "metadata": {
+    "total_cvs": 3,
+    "filtered_must_have": 1,
+    "top_reranked": 1,
+    "duree_totale_s": 53.0,
+    "timestamp": "2025-10-12T03:25:55Z"
+  }
+}

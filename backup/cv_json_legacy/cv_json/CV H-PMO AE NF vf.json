@@ -1,0 +1,235 @@
+{
+    "identite": {
+        "nom": "NOUREDDINE",
+        "prenom": "Houssam",
+        "email": "houssam-nr@outlook.fr",
+        "telephone": "0780959284/ 0664414274",
+        "adresse": "75020 Paris",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "PMO / Architecte SI d'entreprise et fonctionnel",
+    "resume_professionnel": "09 années d'expérience. PMO et Architecte SI d'entreprise et fonctionnel avec expertise en pilotage de projets de migration technique, urbanisation SI, architecture data et gouvernance SI. Expériences majeures : Leader PMO et Architecte SI d'entreprise à la Banque de France (2016-2024) et Business Analyst au Ministère du travail (01/2016-07/2016). Disponibilité : Immédiate.",
+    "competences_techniques": [
+        "UML",
+        "PYTON",
+        "JAVA",
+        "SCALA",
+        "SQL",
+        "VBA",
+        "SAS VIYA",
+        "POWERBI",
+        "AWS",
+        "Apache STORM",
+        "Apache KAFKA",
+        "IBM MQ",
+        "SPARK",
+        "SPARK SQL",
+        "ARIS Connect",
+        "Pack Office",
+        "MS-Project",
+        "SharePoint",
+        "Confluence",
+        "pgAdmin-PostgreSQL",
+        "AXURE-RP",
+        "MS-Visio",
+        "SAFe",
+        "TOGAF",
+        "PostgreSQL",
+        "Elasticsearch",
+        "MongoDB",
+        "HDFS",
+        "Windows",
+        "Unix",
+        "DERBY"
+    ],
+    "competences_transversales": [
+        "Gestion de projet",
+        "Planification et organisation",
+        "Suivi budgétaire",
+        "Gestion des risques",
+        "Communication efficace",
+        "Leadership et management d'équipe",
+        "Reporting et documentation",
+        "Adaptabilité",
+        "Méthodologies urbanisation SI & architecture d'entreprise",
+        "Architecture d'entreprise",
+        "Architecture DATA",
+        "SOA",
+        "Microservices",
+        "Domain Driven Design (DDD)",
+        "Gouvernance SI (processus projet, template livrable, comitologie/organisation)",
+        "Communication sur l'offre des cellules d'architecture et d'urbanisme SI",
+        "Cartographies SI",
+        "Coordination équipes MOA/MOE",
+        "Réalisation étude urbanisme",
+        "BPM/BPR",
+        "AMOA",
+        "Modélisation objets métiers/processus/fonctionnelle",
+        "Modélisation des paternes",
+        "Banque : gestion des comptes, paiement unitaire, paiements de masse, LCB FT, lutte contre la fraude, comptabilité, facturation, SI client, gestion des risques, opérations de marché, opérations de règlement-livraison"
+    ],
+    "langues": [
+        "Anglais",
+        "Français"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Leader PMO",
+            "entreprise": "Banque de France",
+            "lieu": "",
+            "date_debut": "2016",
+            "date_fin": "2024",
+            "durée": "8 ans",
+            "missions": [
+                "Participation à des projets en mode Agile, contribution aux projets de migration technique complexes (certification SAFe PO/PM).",
+                "Suivi budgétaire et prévisionnel des projets de migration, optimisation des ressources et respect des contraintes financières.",
+                "Leadership et management d'équipe : supervision d'une équipe de 4 PMO.",
+                "Optimisation des migrations techniques en alignement avec la roadmap des évolutions des infrastructures et composants techniques.",
+                "Participation aux comités techniques et de qualification des nouveaux composants techniques.",
+                "Organisation et animation des réunions de lancement (kick-off) des projets de migration.",
+                "Coordination rapprochée avec les MOE, MOA, directions et fournisseurs.",
+                "Gestion proactive des risques : identification des goulots d'étranglement et risques opérationnels et de sécurité.",
+                "Réalisation d'audits automatisés pour détecter les écarts entre demandes budgétaires et évolutions validées ou planifiées.",
+                "Élaboration et présentation de la roadmap annuelle des projets de migrations techniques aux MOE et MOA.",
+                "Modélisation d'architectures réutilisables et création de patterns d'architecture.",
+                "Rédaction de spécifications fonctionnelles, rapports d'audits et reporting mensuel d'avancement.",
+                "Création et administration de sous-sites de suivi SharePoint pour la documentation.",
+                "Environnement : SharePoint, PowerBI, Pack Office, VBA, Unix Shell."
+            ]
+        },
+        {
+            "poste": "Architecte SI d'entreprise et fonctionnel",
+            "entreprise": "Banque de France",
+            "lieu": "",
+            "date_debut": "2016",
+            "date_fin": "2024",
+            "durée": "8 ans",
+            "missions": [
+                "Périmètre : 130 applications pour les domaines Services bancaires, Marchés et surveillance des infrastructures et systèmes de paiements.",
+                "Élaboration du SDSI (schéma directeur SI) avec une approche DATA CENTRIC pour la Direction générale de la stabilité financière et des opérations à horizon 2030.",
+                "Contribution à l'élaboration du SDSI pour l'ensemble de la DSI et mise en place de la stratégie DATA.",
+                "Contribution à l'établissement du cadre de référence pour les architectures SI.",
+                "Définition des architectures fonctionnelles et applicatives et intégration des projets dans la stratégie métier et SI.",
+                "Présentation des dossiers d'architecture au comité de direction.",
+                "Pilotage des phases d'opportunité et de cadrage des projets d'architectures.",
+                "Projets DATA : création d'un laboratoire pour reporting et analyse du middle et back office marché ; développement d'une application pour la collecte, intégration, stockage et exploitation des données des CCP pour l'ACPR et la BDF ; refonte du dispositif de lutte contre la fraude avec filtre basé sur IA et analyse statistique pour scoring des transactions frauduleuses ; reporting pour SRB ; mise en place d'un DATAHUB marché avec Optimizer, Monitoring et administration ; migration DERBY -> SAS VIYA.",
+                "Projets SIO : mise en place du paiement instantané (cadrage de 2 solutions SAAS 2022 et On-Prem 2024) ; renforcement du dispositif de lutte contre la fraude avec conception d'un système commun pour les banques de la FBF ; refonte du dispositif LCB avec mise en place de tableaux de bord et workflow pour déclarations à TRACFIN ; refonte du système de criblage des PPE.",
+                "Environnement : SharePoint, PowerBI, ARIS Connect."
+            ]
+        },
+        {
+            "poste": "Business analyst",
+            "entreprise": "Ministère du travail",
+            "lieu": "",
+            "date_debut": "01/2016",
+            "date_fin": "07/2016",
+            "durée": "7 mois",
+            "missions": [
+                "Animation d'ateliers clients, modélisation des processus métier, conception ergonomique des sites et rédaction des dossiers de spécifications.",
+                "Pilotage des phases de recette : définition des plans de tests, animation de tests usine, remontées d'anomalies et corrections, qualification des retours clients.",
+                "Participation aux phases d'avant-vente : définition des solutions fonctionnelles proposées dans le cadre des appels d'offres.",
+                "Environnement : AXURE-RP, MS-Project, MS-Visio."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master DATA Architecture OC",
+            "ecole": "CentraleSupélec",
+            "annee_obtention": "2022",
+            "niveau": "Bac+5",
+            "specialite": "Data Architecture"
+        },
+        {
+            "diplome": "Master Administration des Entreprises",
+            "ecole": "Sorbonne Université (IAE Paris)",
+            "annee_obtention": "2017",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "Diplôme d'ingénieur",
+            "ecole": "Arts et Métiers ParisTech",
+            "annee_obtention": "2016",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Certification PO-PM SAFE",
+            "organisme": "SAFe",
+            "annee": "2023"
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Laboratoire de reporting et d'analyse marché",
+            "description": "Création d'un laboratoire pour outiller l'activité de reporting et d'analyse du middle et back office marché de la BDF.",
+            "technologies": [
+                "PowerBI",
+                "SAS VIYA"
+            ]
+        },
+        {
+            "titre": "Application CCP pour ACPR/BDF",
+            "description": "Développement d'une application pour la collecte, intégration, stockage et exploitation des données des Central Counterparties (CCP).",
+            "technologies": [
+                "PostgreSQL",
+                "MongoDB",
+                "Spark"
+            ]
+        },
+        {
+            "titre": "Refonte dispositif lutte contre la fraude",
+            "description": "Refonte du dispositif de lutte contre la fraude via l'intégration d'un filtre basé sur l'IA combiné à de l'analyse statistique pour le scoring des transactions frauduleuses.",
+            "technologies": [
+                "IA",
+                "Spark",
+                "Apache Kafka"
+            ]
+        },
+        {
+            "titre": "DATAHUB marché",
+            "description": "Mise en place d'un DATAHUB marché avec composantes Optimizer, Monitoring et administration.",
+            "technologies": [
+                "Elasticsearch",
+                "PostgreSQL",
+                "HDFS"
+            ]
+        },
+        {
+            "titre": "Migration DERBY -> SAS VIYA",
+            "description": "Migration d'un dispositif de stockage/traitement de DERBY vers SAS VIYA.",
+            "technologies": [
+                "DERBY",
+                "SAS VIYA"
+            ]
+        },
+        {
+            "titre": "Paiement instantané",
+            "description": "Cadrage et mise en place du paiement instantané : étude de 2 solutions (SAAS 2022 et On-Prem 2024).",
+            "technologies": [
+                "Solutions SAAS",
+                "On-Prem"
+            ]
+        },
+        {
+            "titre": "Refonte dispositif LCB et workflow TRACFIN",
+            "description": "Mise en place de tableaux de bord de suivi de l'activité LCB et mise en place d'un workflow pour les déclarations des soupçons à TRACFIN.",
+            "technologies": [
+                "PowerBI",
+                "SharePoint"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": "Immédiate"
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

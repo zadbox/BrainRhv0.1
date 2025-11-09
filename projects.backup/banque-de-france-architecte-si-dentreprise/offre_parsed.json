@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "titre": "Architecte d'entreprise Data/IA - H/F",
+    "description": "",
+    "resume_professionnel": "",
+    "competences_techniques": [
+      "Data (gestion de la donnée, patrimoine de données)",
+      "IA / Intelligence Artificielle (définition de cas d'usage, schéma directeur IA)",
+      "Services de valorisation de la data",
+      "Outils analytiques",
+      "Socle technique pour gestion de la donnée",
+      "Infrastructure (aspects infrastructure)",
+      "Cloud interne et externe",
+      "Sécurité numérique",
+      "Automatisation des processus",
+      "Intégration de l'innovation",
+      "Outils de modélisation de l'architecture d'entreprise"
+    ],
+    "competences_transversales": [
+      "Crédibilité opérationnelle",
+      "Forte culture informatique",
+      "Maîtrise des enjeux stratégiques des organisations",
+      "Aptitude à convaincre",
+      "Connaissance variée des environnements techniques et métiers",
+      "Capacité à accompagner les métiers dans leurs projets",
+      "Référent sur les orientations et les idées à mettre en œuvre",
+      "Capacité à piloter et accompagner de grands projets d'architecture d'entreprise",
+      "Stimuler l'innovation",
+      "Conjuguer expertise métier et connaissances des technologies de pointe",
+      "Garantir le bon usage et le partage de la data"
+    ],
+    "outils": [
+      "Airflow (orchestration)"
+    ],
+    "langages": [
+      "Python"
+    ],
+    "langues": [
+      "Anglais (maîtrise à l'écrit et à l'oral exigée)"
+    ],
+    "experiences_professionnelles": [
+      {
+        "poste": "Architecte d'entreprise Data/IA - H/F",
+        "duree": "Expérience significative ; plusieurs années sur les aspects data/IA ; expérience au sein d'une DSI de plusieurs centaines de collaborateurs ou d'une société de conseil avec clients grands comptes ; expérience en architecture d'entreprise (construction de schémas directeurs au sein d'un grand compte, grande administration ou établissement financier)"
+      }
+    ],
+    "formations": [],
+    "certifications": [
+      "TOGAF",
+      "ISACA",
+      "SAFe",
+      "ITIL",
+      "Autres (non spécifiées)",
+      "Certified Data Management Professional (CDMP)",
+      "Google Professional Data Engineer (ou équivalent AWS/GCP/Azure)"
+    ],
+    "projets": [
+      "Définition de la stratégie informatique",
+      "Définition et mise en œuvre du schéma directeur autour de l'IA",
+      "Évolutions des capacités de gestion de la donnée",
+      "Développement et usage des services de valorisation de la data",
+      "Accompagnement des projets métiers pour usage des capacités techniques de gestion de la donnée",
+      "Modernisation et automatisation des processus",
+      "Pilotage des travaux de définition de la stratégie informatique"
+    ],
+    "mobilite": {
+      "permis_conduire": false,
+      "disponibilite_geographique": "Lieu principal : 75002 Paris 2e ; sites DGSI mentionnés : Paris, Vincennes, Marne-la-Vallée, La Courneuve, Poitiers ; télétravail éligible après période d'intégration"
+    },
+    "responsabilites": [],
+    "informations_complementaires": {
+      "quelle_est_la_taille_de_léquipe_data/ia_et_le_ratt": {
+        "question": "Quelle est la taille de l'équipe Data/IA et le rattachement opérationnel exact ?",
+        "reponse": "50"
+      }
+    }
+  },
+  "must_have": [
+    "togaf"
+  ],
+  "nice_have": [
+    "Maîtrise outils modélisation architecture d'entreprise",
+    "python"
+  ]
+}

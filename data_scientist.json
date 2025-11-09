@@ -1,0 +1,40 @@
+{
+    "sections": {
+        "titre": "Data Scientist Junior",
+        "competences_techniques": [
+            "Python (Pandas, NumPy, Scikit-learn)",
+            "SQL",
+            "Machine Learning (régression, classification)",
+            "Visualisation de données (Matplotlib, Seaborn)",
+            "Utilisation de Jupyter Notebook"
+        ],
+        "competences_transversales": [
+            "Esprit analytique",
+            "Capacité à vulgariser des concepts techniques",
+            "Travail en équipe",
+            "Autonomie"
+        ],
+        "langues": [
+            "Français",
+            "Anglais"
+        ],
+        "experiences_professionnelles": [
+            {
+                "poste": "Data Scientist Junior",
+                "duree": "1 an minimum"
+            }
+        ],
+        "formations": [
+            {
+                "niveau": "Bac+5",
+                "specialite": "Data Science"
+            }
+        ],
+        "certifications": [],
+        "projets": [],
+        "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": ""
+        }
+    }
+}

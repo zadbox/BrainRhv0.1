@@ -1,0 +1,133 @@
+{
+    "identite": {
+        "nom": "HOUSSAM",
+        "prenom": "NOUREDDINE",
+        "email": "",
+        "telephone": "",
+        "adresse": "107 RUE PAUL VAILLANT 94140 ALFORTVILLE",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "",
+    "resume_professionnel": "",
+    "competences_techniques": [
+        "Électricité",
+        "Peinture",
+        "Menuiseries intérieures",
+        "Menuiseries extérieures",
+        "Plomberie - CVC",
+        "Sols souples",
+        "Cloisons - Doublage - Plâtrerie",
+        "Terrassement",
+        "Domotique",
+        "Linky (compteur électrique)",
+        "Interrupteurs",
+        "Prises électriques",
+        "Robinetterie"
+    ],
+    "competences_transversales": [],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "",
+            "entreprise": "IDEE",
+            "lieu": "L'ENVOL, ZAC DES HORIZONS - Croisement de la rue du pont Amar et de l'avenue de l'Orme à Martin 91080 EVRY-COURCOURONNES",
+            "date_debut": "16/04/2025",
+            "date_fin": "",
+            "durée": "",
+            "missions": [
+                "Manque linky",
+                "Problème interrupteur entrée",
+                "Bouton poussoir lumière ne fonctionne pas",
+                "Prise four ne fonctionne pas (réserve levée par MO)",
+                "Manque équipement domotique",
+                "Ne fonctionne pas, poussoir au lieu de va et vient",
+                "Prise ne fonctionne pas",
+                "Interrupteur ne fonctionne pas dans les 2 chambres",
+                "Vérifier interrupteur extérieur et prise ne fonctionnent pas"
+            ]
+        },
+        {
+            "poste": "",
+            "entreprise": "BATI PRO 77",
+            "lieu": "L'ENVOL, ZAC DES HORIZONS - Croisement de la rue du pont Amar et de l'avenue de l'Orme à Martin 91080 EVRY-COURCOURONNES",
+            "date_debut": "16/04/2025",
+            "date_fin": "",
+            "durée": "",
+            "missions": [
+                "Nettoyage sous crédence cuisine",
+                "Reprise finition seuils porte WC et SDB",
+                "Reprise peinture générale sur le logement",
+                "Traces sur sol"
+            ]
+        },
+        {
+            "poste": "",
+            "entreprise": "CLN BATIMENT",
+            "lieu": "L'ENVOL, ZAC DES HORIZONS - Croisement de la rue du pont Amar et de l'avenue de l'Orme à Martin 91080 EVRY-COURCOURONNES",
+            "date_debut": "16/04/2025",
+            "date_fin": "",
+            "durée": "",
+            "missions": [
+                "Reprise finition sur plinthe",
+                "Impact sur cloison",
+                "Jonction visible sur cloison",
+                "Traces sur porte"
+            ]
+        },
+        {
+            "poste": "",
+            "entreprise": "NOVATHERMIQUE",
+            "lieu": "L'ENVOL, ZAC DES HORIZONS - Croisement de la rue du pont Amar et de l'avenue de l'Orme à Martin 91080 EVRY-COURCOURONNES",
+            "date_debut": "16/04/2025",
+            "date_fin": "",
+            "durée": "",
+            "missions": [
+                "Manque équipement WC et flexible baignoire et robinetterie",
+                "Reprise joint pourtour de baignoire"
+            ]
+        },
+        {
+            "poste": "",
+            "entreprise": "HILZINGER DOLMEN",
+            "lieu": "L'ENVOL, ZAC DES HORIZONS - Croisement de la rue du pont Amar et de l'avenue de l'Orme à Martin 91080 EVRY-COURCOURONNES",
+            "date_debut": "16/04/2025",
+            "date_fin": "",
+            "durée": "",
+            "missions": [
+                "Vérifier si bloque fenêtre prévu et cache dans les 2 chambres",
+                "Vérifier joint pourtour de fenêtre fixe"
+            ]
+        },
+        {
+            "poste": "",
+            "entreprise": "SOMAG SARL",
+            "lieu": "L'ENVOL, ZAC DES HORIZONS - Croisement de la rue du pont Amar et de l'avenue de l'Orme à Martin 91080 EVRY-COURCOURONNES",
+            "date_debut": "16/04/2025",
+            "date_fin": "",
+            "durée": "",
+            "missions": [
+                "3 dalles à défauts (terrassement)"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "",
+            "ecole": "",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

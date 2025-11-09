@@ -1,0 +1,272 @@
+#!/usr/bin/env python3
+"""
+Script de migration - JSON → SQLite
+Lit enterprises/_index.json et projects/_index.json
+Insère dans la DB avec chemins relatifs json_path
+
+Usage:
+    python scripts/migrate_index.py                # Dry-run (affiche actions sans écrire)
+    python scripts/migrate_index.py --apply        # Migration réelle
+"""
+
+import sys
+import json
+import argparse
+from pathlib import Path
+from datetime import datetime
+
+# Ajouter le projet au PYTHONPATH
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(PROJECT_ROOT))
+
+from brainrh.database import init_db, get_session
+from brainrh.models import EnterpriseDB, ProjectDB
+from brainrh.paths import get_relative_path, ENTERPRISES_DIR, PROJECTS_DIR
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Migration JSON → SQLite")
+    parser.add_argument("--apply", action="store_true", help="Appliquer la migration (défaut: dry-run)")
+    return parser.parse_args()
+
+
+def migrate_enterprises(dry_run=True):
+    """Migre les entreprises depuis enterprises/_index.json"""
+    index_file = ENTERPRISES_DIR / "_index.json"
+
+    if not index_file.exists():
+        print(f"⚠️  Pas d'index entreprises: {index_file}")
+        return 0
+
+    print(f"\n📂 Lecture: {index_file}")
+
+    with open(index_file, 'r', encoding='utf-8') as f:
+        index_data = json.load(f)
+
+    enterprises = index_data.get("enterprises", [])
+    print(f"   Trouvé: {len(enterprises)} entreprises")
+
+    migrated = 0
+
+    for ent in enterprises:
+        ent_id = ent["id"]
+        ent_dir = ENTERPRISES_DIR / ent_id
+        ent_file = ent_dir / "enterprise.json"
+
+        if not ent_file.exists():
+            print(f"   ⚠️  JSON manquant: {ent_file}")
+            continue
+
+        # Charger données complètes
+        with open(ent_file, 'r', encoding='utf-8') as f:
+            full_data = json.load(f)
+
+        # Chemin relatif pour DB
+        json_path = get_relative_path(ent_file)
+
+        created_at = datetime.fromisoformat(ent.get("created_at", datetime.now().isoformat()))
+        last_modified = datetime.fromisoformat(ent.get("last_modified", datetime.now().isoformat()))
+
+        if dry_run:
+            print(f"   [DRY-RUN] Insérer enterprise: {ent_id} ({ent['nom']}) → {json_path}")
+        else:
+            with get_session() as session:
+                db_ent = EnterpriseDB(
+                    id=ent_id,
+                    nom=ent["nom"],
+                    secteur=ent.get("secteur"),
+                    created_at=created_at,
+                    last_modified=last_modified,
+                    json_path=json_path
+                )
+                session.add(db_ent)
+                session.commit()
+            print(f"   ✅ Inséré: {ent_id}")
+
+        migrated += 1
+
+    return migrated
+
+
+def migrate_projects(dry_run=True):
+    """Migre les projets depuis projects/_index.json ET enterprises/*/projects/"""
+    total_migrated = 0
+    processed_projects = set()  # Éviter doublons
+
+    # 1. Projets depuis projects/_index.json
+    projects_index = PROJECTS_DIR / "_index.json"
+
+    if projects_index.exists():
+        print(f"\n📂 Lecture: {projects_index}")
+
+        with open(projects_index, 'r', encoding='utf-8') as f:
+            index_data = json.load(f)
+
+        projects = index_data.get("projects", [])
+        print(f"   Trouvé: {len(projects)} projets dans index")
+
+        for proj in projects:
+            proj_id = proj["id"]
+            enterprise_id = proj.get("enterprise_id")
+
+            # Déterminer le bon chemin selon enterprise_id
+            if enterprise_id:
+                # Projet dans enterprises/{enterprise_id}/projects/{project_id}/
+                proj_file = ENTERPRISES_DIR / enterprise_id / "projects" / proj_id / "projet.json"
+            else:
+                # Projet legacy dans projects/{project_id}/
+                proj_file = PROJECTS_DIR / proj_id / "projet.json"
+
+            if not proj_file.exists():
+                print(f"   ⚠️  JSON manquant: {proj_file}")
+                continue
+
+            with open(proj_file, 'r', encoding='utf-8') as f:
+                full_data = json.load(f)
+
+            json_path = get_relative_path(proj_file)
+
+            created_at = datetime.fromisoformat(full_data.get("created_at", datetime.now().isoformat()))
+            last_modified = datetime.fromisoformat(full_data.get("last_modified", datetime.now().isoformat()))
+
+            type_label = "enterprise" if enterprise_id else "legacy"
+
+            if dry_run:
+                print(f"   [DRY-RUN] Insérer project ({type_label}): {proj_id} ({full_data['nom']})")
+                print(f"             JSON: {json_path}")
+            else:
+                with get_session() as session:
+                    db_proj = ProjectDB(
+                        id=proj_id,
+                        nom=full_data["nom"],
+                        enterprise_id=enterprise_id,
+                        description=full_data.get("description"),
+                        status=full_data.get("status", "actif"),
+                        created_at=created_at,
+                        last_modified=last_modified,
+                        json_path=json_path
+                    )
+                    session.add(db_proj)
+                    session.commit()
+                print(f"   ✅ Inséré: {proj_id}")
+
+            processed_projects.add(proj_id)
+            total_migrated += 1
+
+    # 2. Projets dans enterprises/{ent_id}/projects/ (scan physique)
+    if ENTERPRISES_DIR.exists():
+        print(f"\n📂 Scan: {ENTERPRISES_DIR}/*/projects/")
+
+        for ent_dir in ENTERPRISES_DIR.iterdir():
+            if not ent_dir.is_dir():
+                continue
+
+            ent_id = ent_dir.name
+            if ent_id.startswith("_"):
+                continue
+
+            projects_dir = ent_dir / "projects"
+
+            if not projects_dir.exists():
+                continue
+
+            for proj_dir in projects_dir.iterdir():
+                if not proj_dir.is_dir():
+                    continue
+
+                proj_id = proj_dir.name
+
+                # Éviter doublons (déjà traité via index)
+                if proj_id in processed_projects:
+                    continue
+
+                proj_file = proj_dir / "projet.json"
+
+                if not proj_file.exists():
+                    print(f"   ⚠️  JSON manquant: {proj_file}")
+                    continue
+
+                with open(proj_file, 'r', encoding='utf-8') as f:
+                    full_data = json.load(f)
+
+                json_path = get_relative_path(proj_file)
+
+                created_at = datetime.fromisoformat(full_data.get("created_at", datetime.now().isoformat()))
+                last_modified = datetime.fromisoformat(full_data.get("last_modified", datetime.now().isoformat()))
+
+                if dry_run:
+                    print(f"   [DRY-RUN] Insérer project (scan): {proj_id} ({full_data['nom']})")
+                    print(f"             JSON: {json_path}")
+                else:
+                    with get_session() as session:
+                        db_proj = ProjectDB(
+                            id=proj_id,
+                            nom=full_data["nom"],
+                            enterprise_id=ent_id,
+                            description=full_data.get("description"),
+                            status=full_data.get("status", "actif"),
+                            created_at=created_at,
+                            last_modified=last_modified,
+                            json_path=json_path
+                        )
+                        session.add(db_proj)
+                        session.commit()
+                    print(f"   ✅ Inséré: {proj_id}")
+
+                processed_projects.add(proj_id)
+                total_migrated += 1
+
+    return total_migrated
+
+
+def main():
+    args = parse_args()
+    dry_run = not args.apply
+
+    print("=" * 60)
+    print("🚀 MIGRATION JSON → SQLite")
+    print("=" * 60)
+
+    if dry_run:
+        print("\n🔍 MODE: DRY-RUN (aucune écriture en DB)")
+        print("   Pour appliquer: python scripts/migrate_index.py --apply")
+    else:
+        print("\n⚠️  MODE: APPLY (écriture en DB)")
+        print("   Backup conseillé: cp -r enterprises/ enterprises.backup/")
+        print("   Backup conseillé: cp -r projects/ projects.backup/")
+
+        response = input("\n   Continuer? (yes/no): ")
+        if response.lower() != "yes":
+            print("   Annulé.")
+            return
+
+    # Initialiser la DB (créer tables)
+    if not dry_run:
+        print("\n📊 Initialisation base de données...")
+        init_db()
+        print("   ✅ Tables créées")
+
+    # Migrer entreprises
+    ent_count = migrate_enterprises(dry_run)
+
+    # Migrer projets
+    proj_count = migrate_projects(dry_run)
+
+    # Résumé
+    print("\n" + "=" * 60)
+    if dry_run:
+        print(f"📊 DRY-RUN TERMINÉ")
+        print(f"   {ent_count} entreprises à migrer")
+        print(f"   {proj_count} projets à migrer")
+        print(f"\n   Pour appliquer: python scripts/migrate_index.py --apply")
+    else:
+        print(f"✅ MIGRATION TERMINÉE")
+        print(f"   {ent_count} entreprises migrées")
+        print(f"   {proj_count} projets migrés")
+        print(f"\n   BD créée: brainrh.db")
+        print(f"   Rollback: rm brainrh.db (JSON intacts)")
+    print("=" * 60)
+
+
+if __name__ == "__main__":
+    main()

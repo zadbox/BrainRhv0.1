@@ -1,0 +1,109 @@
+{
+    "identite": {
+        "nom": "FAURE",
+        "prenom": "ILONA",
+        "email": "Ilonafaure10@gmail.com",
+        "telephone": "+33 695787318",
+        "adresse": "92320 Chatillon, France",
+        "linkedin": "www.linkedin.com/in/ilona-faure-1003",
+        "autres_reseaux": []
+    },
+    "titre_cv": "",
+    "resume_professionnel": "Je suis autonome et dotée d'un solide sens de l'organisation me permettant de travailler de manière efficace. Je sais faire preuve de détermination pour atteindre mes objectifs, mais aussi en collaborant avec une équipe afin de partager nos compétences pour de meilleurs résultats.",
+    "competences_techniques": [
+        "Pack Office",
+        "Canva"
+    ],
+    "competences_transversales": [],
+    "langues": [
+        {
+            "langue": "Français",
+            "niveau": "Langue maternelle"
+        },
+        {
+            "langue": "Anglais",
+            "niveau": "B2 et TOEIC en cours"
+        },
+        {
+            "langue": "Espagnol",
+            "niveau": "B1"
+        }
+    ],
+    "experiences_professionnelles": [
+        {
+            "titre": "STAGE Marketing",
+            "entreprise": "GROUPE EMOSIA (Maison Berger Paris et My Jolie Candle)",
+            "duree": "6 MOIS : 02/01 au 30/06/2024",
+            "description": "▪ Marketing d'influence : « Projet ouverture d'une boutique MAISON BERGER PARIS à Miami » Étude des statistiques des influenceurs, cohérence entre la cible et l'influenceur et choix de l'influenceur.  ▪ Étude de marché : Benchmark et analyse des budgets pour le rachat d'une marque luxe accessible et/ou d'une marque « Personal care » ▪ Collaborations : « Projet d'ouverture des concepts store NOT ONLY CANDLE » Mise en place de collaborations régulières avec d'autres marques pour des évènements.  ▪ Développement d'une campagne marketing pour les 10 ans de « My Jolie Candle » ▪ Participation à la création de notre nouvelle gamme de bougie."
+        },
+        {
+            "titre": "STAGE Marketing et Brand Mangement",
+            "entreprise": "AMPLIFON",
+            "duree": "6 MOIS : 01/01 au 30/06/2022",
+            "description": "▪ Brand Content : Création de Vitrophanie pour les points de vente, création de livrets à destination des enfants malentendants et développement des réseaux sociaux. ▪ Activation Média & Supports Publicitaires : Reporting hebdomadaire, création de support, rédaction de communiqué de presse. ▪ Veille concurrentielle : Suivi des sujets concernant l'audition dans les médias et rédaction de la newsletter concurrence. ▪ Clôture comptable et réunion intermédiaire des objectifs"
+        },
+        {
+            "titre": "VENTE",
+            "entreprise": "THE KOOPLES",
+            "duree": "06 au 08/2023",
+            "description": "▪ Développement du panier moyen et indice de vente ▪ Atteindre l'objectif de vente basé sur le N-1"
+        },
+        {
+            "titre": "VENTE",
+            "entreprise": "IZAC",
+            "duree": "07/2022",
+            "description": "▪ Développement du panier moyen et indice de vente ▪ Atteindre l'objectif de vente basé sur le N-1"
+        },
+        {
+            "titre": "PHONING ET LOGISTIQUE",
+            "entreprise": "SALES FACTORY Agence de marketing stratégique et opérationnel",
+            "duree": "07 au 08/2020",
+            "description": "▪ Pour la marque NESTLE : coordination des équipes de merchandiseurs pour le suivi des rayons d'hypermarchés.  ▪ Pour la marque DE BUYER : mis à jour de la base de données des magasins d'ustensiles de cuisine."
+        }
+    ],
+    "formations": [
+        {
+            "titre": "IBBA 4  Marketing et Digital business (English track)",
+            "etablissement": "UC3M Madrid University Carlos III of Economics and Business",
+            "duree": "Sept 2023 – Jan 2024"
+        },
+        {
+            "titre": "IBBA 3  Marketing (English track)",
+            "etablissement": "WU Vienna University of Economics and Business",
+            "duree": "2022 – 2023"
+        },
+        {
+            "titre": "IBBA 2  Spécialité Marketing",
+            "etablissement": "KEDGE Business School",
+            "duree": "2021 – 2022"
+        },
+        {
+            "titre": "IBBA 1",
+            "etablissement": "KEDGE Business School",
+            "duree": "2020 – 2021"
+        },
+        {
+            "titre": "1ère année de Droit",
+            "etablissement": "Faculté Jean Monnet",
+            "duree": "2019 – 2020"
+        },
+        {
+            "titre": "BACCALAUREAT ES (Sciences Économiques et Sociales)",
+            "etablissement": "Lycée Jacques Monod",
+            "duree": "2019"
+        }
+    ],
+    "certifications": [],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": true,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": [
+            "Restos du Cœur",
+            "Secours Catholique"
+        ]
+    }
+}

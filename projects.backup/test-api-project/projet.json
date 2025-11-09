@@ -1,0 +1,11 @@
+{
+  "id": "test-api-project",
+  "nom": "Test API Project",
+  "description": "Test depuis API",
+  "created_at": "2025-10-11T20:49:21.032792",
+  "last_modified": "2025-10-12T07:15:16.639801",
+  "status": "actif",
+  "offre_saved": true,
+  "matchings_count": 0,
+  "enterprise_id": "projets-existants"
+}

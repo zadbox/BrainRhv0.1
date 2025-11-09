@@ -1,0 +1,238 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "TEST ENGINEERING",
+    "resume_professionnel": "I am seeking the challenging position with a technology company that will allow me to apply and enhance my skills of being Test Engineer to their fullest potential. Possessing over 10 years of experience in the electronics manufacturing and test engineering environment can bring high level of responsibility and technical role in your company. In addition, I am eager to contribute my creativity and hard work towards the success of your company and to the growth of the fast developing field.",
+    "competences_techniques": [
+        "Digital Circuits",
+        "Analog Circuits",
+        "RF Circuits",
+        "Agilent E5061B-3L5 LF-RF Network Analyzer",
+        "Agilent 83480A Digital Communication Analyzer",
+        "Oscilloscope Tektronix TDS 3052",
+        "Fluke 26III True RMS MM meter",
+        "Signal Generators",
+        "Digital/Analog meters",
+        "Microscope soldering and rework",
+        "Circuit board soldering",
+        "Schematic reading (AC/DC circuits)",
+        "View Expert CAD Design software",
+        "TestExpert CAD",
+        "TEXMAC Flying Probe 9000 series",
+        "Python (scripting for test automation)",
+        "Solaris 10",
+        "Linux Mandrake",
+        "Red Hat",
+        "SQL Server",
+        "UNIX / Shell scripting",
+        "TCP/IP",
+        "OSI Layers",
+        "Network Subnetting",
+        "Routing and addressing",
+        "Cat5e cabling",
+        "Cat6 cabling",
+        "Fiber Optic cabling",
+        "Windows XP",
+        "Windows 7",
+        "Mac OS X Leopard",
+        "PC Hardware Installation",
+        "PC Troubleshooting",
+        "PC Software Installation",
+        "Routers",
+        "Switches",
+        "Cable Modems",
+        "MES (Manufacturing Execution System)",
+        "Loftware design software (barcode label design)",
+        "ECO, ECN, Deviations, SPIs, ETN rework",
+        "BOM management",
+        "Intel X-86 server platform",
+        "DFT (Design for Test)",
+        "NPI (New Product Introduction) processes",
+        "Lean Six Sigma methodologies",
+        "Six Sigma (Bronze)",
+        "Lean manufacturing tools (5S, Kaizen, QRQC, Kanban, Takt Time)",
+        "FPY reports",
+        "Test debug WIP reports",
+        "RMA / FA systems and failure analysis",
+        "Android Debug commands",
+        "WAN optimization appliances (Riverbed Steelhead, Sturgeons, Interceptors)",
+        "Visual Aids creation",
+        "Security Access Control systems",
+        "CCTV Surveillance systems",
+        "Alarm Systems",
+        "GPS tracking device installation",
+        "Electrical conformance testing",
+        "SMT machines",
+        "SUNFIRE servers",
+        "SUN Microsystems platforms",
+        "Test equipment (general)"
+    ],
+    "competences_transversales": [
+        "Troubleshooting",
+        "Failure analysis",
+        "Technical support",
+        "Training and coaching",
+        "Mentoring junior technicians",
+        "Customer communication / technical customer interface",
+        "Preparation and development of test process procedures",
+        "Process improvement",
+        "Quality assurance and control",
+        "RMA management",
+        "Documentation and work instructions",
+        "Workflow analysis",
+        "Team collaboration",
+        "Problem solving",
+        "Applied Lean methodologies"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Test Engineering",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "Feb 2006",
+            "date_fin": "Current",
+            "durée": "19 ans et 8 mois",
+            "missions": [
+                "Perform component debugging on complex Android mobile technology products with Android Debug commands.",
+                "Bring up and maintain ongoing reliability lab for Android device compliance testing including tumble test, drop test, button cycling test, thermal testing and humidity environment testing.",
+                "Troubleshoot and perform final root cause failure analysis on component level for Riverbed Steelhead, Sturgeons, and Interceptors WAN optimization hardware appliances.",
+                "Perform functional tests and system level validation; report directly to the customer's quality engineering department with final failure analysis data results on RMA/FA systems.",
+                "Manage RMA returns and process orders; perform incoming quality check on RMA systems.",
+                "Upgrade firmware or software when required.",
+                "Use test equipment tools (digital/analog meters, signal generators, oscilloscope Tektronix TDS 3052, Fluke 26III True RMS MM meter) to find root cause on electrical circuits.",
+                "Use TestExpert CAD for signal view.",
+                "Directly work with customer's engineers to resolve all test related issues and act as primary technical customer interface.",
+                "Prepare and develop test process procedures and disseminate test-engineering standards for developed test systems.",
+                "Measure and control test debug WIP.",
+                "Design, develop, maintain test procedures and tester software for electronic circuit board production.",
+                "Support junior technicians with failure analysis, tester debugging, and reduction of intermittent failures.",
+                "Review test equipment designs, data and RMA issues with customers regularly.",
+                "Support backend production floor with BOM breakdown for Intel X-86 server platform; create Visual Aids and work instructions for assemblies from frontend to backend.",
+                "Implement ECO, ECN, Deviations, SPIs and ETN rework on the production floor.",
+                "Design barcode labels with Loftware design software for assemblies and subassemblies.",
+                "Create MES routes for assemblies and controlled process verification in the MES system.",
+                "Participate in Lean manufacturing (5S, Kaizen Blitz/Events, QRQC, Workflow Analysis, layouts & workcell design, Kanban, simulated continuous flow, debottlenecking, Takt Time) and produce FPY and Test Debug WIP reports.",
+                "Applied Lean Six Sigma methodologies to improve production process.",
+                "Work with Test and Manufacturing engineering departments for DFT and develop test programs.",
+                "Extensive experience in NPI environment and NPI process improvements; worked on customer NPI projects including McAfee, Riverbed, HP, Silverspring networks, NEC, Cisco, Pocketfinder, Sunpower & Sable networks.",
+                "Travel domestically and overseas to coach diagnostic technicians for new and existing customer product lines."
+            ]
+        },
+        {
+            "poste": "Integration System Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "Jul 2005",
+            "date_fin": "Feb 2006",
+            "durée": "7 mois",
+            "missions": [
+                "Create proposals and design Security Access Control, CCTV Surveillance System and Alarm Systems for government, commercial, and residential customers.",
+                "Provide technical support to field technicians and customers.",
+                "Install GPS tracking devices on fleet vehicles."
+            ]
+        },
+        {
+            "poste": "Lab Technician",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "Apr 2003",
+            "date_fin": "Jul 2005",
+            "durée": "2 ans et 3 mois",
+            "missions": [
+                "Work directly with the company's Vice President of Engineering on development of alarm verification VIT system.",
+                "Support development of new production and R&D engineering departments overseas with BOM breakdown, Visual Aids, schematics improvements and US FCC compliance requirements.",
+                "Perform test and troubleshoot CCTV security products on a daily basis.",
+                "Perform electrical conformance testing with Agilent 83480A Digital Communication Analyzer.",
+                "Introduce new product lines to the customer and marketing department.",
+                "Provide technical support on all company products via phone and email."
+            ]
+        },
+        {
+            "poste": "Test Technician III",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "Jan 2002",
+            "date_fin": "Mar 2003",
+            "durée": "1 an et 2 mois",
+            "missions": [
+                "Test and troubleshoot flat touch screens and report daily test reports to engineering department.",
+                "Train new employees to perform tasks on assembly lines."
+            ]
+        },
+        {
+            "poste": "Production Test Technician II",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "Oct 2000",
+            "date_fin": "Nov 2001",
+            "durée": "1 an et 1 mois",
+            "missions": [
+                "Certified WWOPS Final Analysis Manufactured Training.",
+                "Test and debug all SUNFIRE mid and high series servers.",
+                "Generate daily work reports on failed CPU boards and other components.",
+                "Work in assembly line, kitting and pack out.",
+                "Assist manufacturing engineers to install and test new features on servers.",
+                "Interpret and reference SUN Microsystems technical documentation on Netscape intranet."
+            ]
+        },
+        {
+            "poste": "Test Technician I",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "Mar 1999",
+            "date_fin": "Sep 2000",
+            "durée": "1 an et 6 mois",
+            "missions": [
+                "Work directly with engineers on new customer products for telecommunication servers.",
+                "Perform test and repair of bad main boards; work on SMT machines in production."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "BSEE",
+            "ecole": "Northwestern Polyphonic University, City, State",
+            "annee_obtention": "2016",
+            "niveau": "Bac+3",
+            "specialite": "Electrical Engineering"
+        },
+        {
+            "diplome": "Associate Degree",
+            "ecole": "D.A.V. College Jalandhar City",
+            "annee_obtention": "2001",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "AAS Degree, Electronics Technology",
+            "ecole": "Heald College School of Technology, City, State",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Bronze Six Sigma",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

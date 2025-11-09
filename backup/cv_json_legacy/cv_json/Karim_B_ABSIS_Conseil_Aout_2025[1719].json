@@ -1,0 +1,104 @@
+{
+    "identite": {
+        "nom": "Karim.B",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "39, rue Anatole France - CS 50227 - 92532 Levallois Perret CEDEX",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "Architecte de données/ Architecte Solution",
+    "resume_professionnel": "",
+    "competences_techniques": [
+        "J2EE",
+        "JSF (Primefaces)",
+        "SQL",
+        "Git",
+        "JUnit",
+        "Circle CI",
+        "Docker",
+        "Terraform",
+        "Hadoop",
+        "Cassandra",
+        "Spark",
+        "Hive",
+        "Datastax DSE",
+        "Solr",
+        "AWS",
+        "AirFlow",
+        "MS Project",
+        "Jira/Confluence"
+    ],
+    "competences_transversales": [
+        "Banque de détail",
+        "Programmes de CashBack",
+        "Finance de marché (prêt/emprunt)"
+    ],
+    "langues": [
+        "Anglais"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Directeur Technique",
+            "entreprise": "Describy.com",
+            "lieu": "",
+            "date_debut": "01/2025",
+            "date_fin": "06/2025",
+            "durée": "6 mois",
+            "missions": []
+        },
+        {
+            "poste": "Architecte Produits et Solutions",
+            "entreprise": "Banque de France",
+            "lieu": "",
+            "date_debut": "03/2024",
+            "date_fin": "12/2024",
+            "durée": "9 mois",
+            "missions": []
+        },
+        {
+            "poste": "Architecte de données",
+            "entreprise": "Société Générale",
+            "lieu": "",
+            "date_debut": "03/2019",
+            "date_fin": "02/2024",
+            "durée": "5 ans",
+            "missions": []
+        },
+        {
+            "poste": "Co-Fondateur et Directeur Technique",
+            "entreprise": "Paylead",
+            "lieu": "",
+            "date_debut": "2016",
+            "date_fin": "2018",
+            "durée": "2 ans",
+            "missions": []
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Ingénieur en Informatique",
+            "ecole": "Polytech Tours",
+            "annee_obtention": "2004",
+            "niveau": "Bac+5",
+            "specialite": "Informatique"
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "AWS Certified Cloud Practitioner",
+            "organisme": "",
+            "annee": "2022"
+        }
+    ],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": "Asap"
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

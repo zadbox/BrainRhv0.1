@@ -1,0 +1,345 @@
+{
+  "scored_cvs": [
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].json",
+      "score_base": 0.5799623727798462,
+      "score_final": 0.6669567286968231,
+      "malus_multiplicateur": 1.0,
+      "bonus_multiplicateur": 1.15,
+      "nice_have_manquants": [],
+      "nombre_manquants": 0,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Karima",
+            "prenom": "T",
+            "email": "",
+            "telephone": "",
+            "adresse": "39, rue Anatole France - CS 50227 - 92532 Levallois Perret CEDEX",
+            "linkedin": "",
+            "autres_reseaux": []
+          },
+          "titre": "Architecte Data et Fonctionnel",
+          "resume_professionnel": "17 années d'expérience",
+          "competences_techniques": [
+            "Modélisation",
+            "SGBD",
+            "Langages",
+            "Outils de restitution",
+            "Merise et UML",
+            "Teradata",
+            "Oracle",
+            "SQL Server",
+            "DB2",
+            "Marklogic",
+            "Hadoop",
+            "SQL",
+            "Shell",
+            "XML",
+            "Javascript",
+            "Xquery",
+            "Microstrategy",
+            "Power BI"
+          ],
+          "competences_transversales": [
+            "Curieuse",
+            "dynamique",
+            "sérieuse",
+            "bonne capacité d'adaptation",
+            "chef de projet MOE",
+            "responsable de la migration"
+          ],
+          "langues": [
+            "Anglais"
+          ],
+          "experiences_professionnelles": [
+            {
+              "poste": "Architecte des données",
+              "entreprise": "Covéa",
+              "lieu": "",
+              "date_debut": "02/2025",
+              "date_fin": "à ce jour",
+              "durée": "",
+              "missions": [
+                "Mise en place d'un outil de gestion pour la lutte contre le blanchiment des capitaux et le financement du terrorisme (LCB-FT)",
+                "Mise en place d'une base bâti COVEA",
+                "Mise en place d'une base de demande pour les contrôles IBAN"
+              ]
+            },
+            {
+              "poste": "Architecte des données",
+              "entreprise": "Rexel",
+              "lieu": "",
+              "date_debut": "11/2023",
+              "date_fin": "12/2024",
+              "durée": "",
+              "missions": [
+                "Migration et évolution de la plateforme de données : Migration de SQL Server vers Snowflake",
+                "Intégration de nouvelles fonctionnalités et cas d'utilisation"
+              ]
+            },
+            {
+              "poste": "Architecte Fonctionnel",
+              "entreprise": "Société Générale",
+              "lieu": "",
+              "date_debut": "03/2021",
+              "date_fin": "09/2023",
+              "durée": "",
+              "missions": [
+                "Mise en place d'une plateforme unifiée pour tous les usages de stress-test risque de crédit",
+                "Rationalisation et gouvernance permettant d'assurer la traçabilité des modèles de risque de crédit"
+              ]
+            },
+            {
+              "poste": "Architecte des données",
+              "entreprise": "Malakoff Humanis",
+              "lieu": "",
+              "date_debut": "11/2018",
+              "date_fin": "10/2020",
+              "durée": "",
+              "missions": [
+                "Vision 360 du tiers",
+                "Modélisation conceptuelle et détaillée"
+              ]
+            },
+            {
+              "poste": "Business Analyst",
+              "entreprise": "Société Générale",
+              "lieu": "",
+              "date_debut": "03/2017",
+              "date_fin": "10/2018",
+              "durée": "",
+              "missions": [
+                "Titrisation sur les prêts immobiliers",
+                "Analyse des données pour les métiers"
+              ]
+            },
+            {
+              "poste": "Consultante décisionnelle",
+              "entreprise": "Les Mousquetaires",
+              "lieu": "",
+              "date_debut": "03/2014",
+              "date_fin": "10/2016",
+              "durée": "",
+              "missions": [
+                "Mise en place de dashboards",
+                "Rédaction des spécifications techniques"
+              ]
+            },
+            {
+              "poste": "Architecte des données",
+              "entreprise": "BNP Paribas",
+              "lieu": "",
+              "date_debut": "09/2010",
+              "date_fin": "08/2013",
+              "durée": "",
+              "missions": [
+                "Mise en place d'un entrepôt de donnée Marketing",
+                "Accompagnement de l'équipe pendant les phases de modélisation"
+              ]
+            },
+            {
+              "poste": "Consultante décisionnelle",
+              "entreprise": "Carrefour Groupe",
+              "lieu": "",
+              "date_debut": "09/2006",
+              "date_fin": "08/2010",
+              "durée": "",
+              "missions": [
+                "Mise en place de dashboards pour l'analyse et la performance des ventes",
+                "Création des tableaux de bords"
+              ]
+            }
+          ],
+          "formations": [
+            {
+              "diplome": "Diplôme d'Ingénieur spécialiste en communication numérique",
+              "ecole": "École des Mines d'Alès",
+              "annee_obtention": "2006",
+              "niveau": "Bac+5",
+              "specialite": "Communication numérique"
+            }
+          ],
+          "certifications": [
+            {
+              "nom": "TOGAF 9.1",
+              "organisme": "",
+              "annee": "2022"
+            },
+            {
+              "nom": "Scrum Product Owner",
+              "organisme": "",
+              "annee": "2020"
+            },
+            {
+              "nom": "Microstrategy Fast Track",
+              "organisme": "",
+              "annee": "2011"
+            },
+            {
+              "nom": "IBM Infosphere Information Server",
+              "organisme": "",
+              "annee": "2010"
+            }
+          ],
+          "projets": [],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": "Octobre 25"
+          },
+          "autres": {
+            "loisirs": [],
+            "engagements": []
+          }
+        },
+        "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].json"
+      }
+    },
+    {
+      "cv": "Houssam_N_Absis_Conseill 1012.json",
+      "score_base": 0.5221587419509888,
+      "score_final": 0.6004825532436371,
+      "malus_multiplicateur": 1.0,
+      "bonus_multiplicateur": 1.15,
+      "nice_have_manquants": [],
+      "nombre_manquants": 0,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Houssam",
+            "prenom": "",
+            "email": "",
+            "telephone": "",
+            "adresse": "39, rue Anatole France - CS 50227 - 92532 Levallois Perret CEDEX",
+            "linkedin": "",
+            "autres_reseaux": []
+          },
+          "titre": "Architecte SI d'entreprise et fonctionnel",
+          "resume_professionnel": "09 années d'expérience",
+          "competences_techniques": [
+            "PYTON",
+            "JAVA",
+            "SCALA",
+            "SQL",
+            "VBA",
+            "SAS VIYA",
+            "POWERBI",
+            "AWS",
+            "Apache STORM",
+            "Apache KAFKA",
+            "IBM MQ",
+            "SPARK",
+            "SPARK SQL",
+            "ARIS Connect",
+            "Pack office + MS-Project",
+            "Sharepoint",
+            "Confluence",
+            "pgAdmin-PostgreSQL",
+            "PostgreSQL",
+            "Elasticsearch",
+            "MongoDB",
+            "HDFS",
+            "Windows",
+            "Unix"
+          ],
+          "competences_transversales": [
+            "Gestion de projet",
+            "Planification et organisation",
+            "Suivi budgétaire",
+            "Gestion des risques",
+            "Communication efficace",
+            "Leadership et management d'équipe"
+          ],
+          "langues": [
+            "Anglais"
+          ],
+          "experiences_professionnelles": [
+            {
+              "poste": "Architecte SI d'entreprise",
+              "entreprise": "Groupe La Poste",
+              "lieu": "",
+              "date_debut": "10/2024",
+              "date_fin": "",
+              "durée": "",
+              "missions": []
+            },
+            {
+              "poste": "Architecte SI d'entreprise",
+              "entreprise": "Banque de France",
+              "lieu": "",
+              "date_debut": "2016",
+              "date_fin": "05/2024",
+              "durée": "",
+              "missions": []
+            },
+            {
+              "poste": "Leader PMO",
+              "entreprise": "Banque de France",
+              "lieu": "",
+              "date_debut": "2016",
+              "date_fin": "2016",
+              "durée": "",
+              "missions": []
+            },
+            {
+              "poste": "Business Analyst",
+              "entreprise": "Ministère du travail",
+              "lieu": "",
+              "date_debut": "01/2016",
+              "date_fin": "07/2016",
+              "durée": "",
+              "missions": []
+            }
+          ],
+          "formations": [
+            {
+              "diplome": "Master DATA Architecture OC",
+              "ecole": "CentraleSupélec",
+              "annee_obtention": "2022",
+              "niveau": "Bac+5",
+              "specialite": "Architecture"
+            }
+          ],
+          "certifications": [
+            {
+              "nom": "TOGAF",
+              "organisme": "",
+              "annee": "2023"
+            }
+          ],
+          "projets": [],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": "Immédiate"
+          },
+          "autres": {
+            "loisirs": [],
+            "engagements": []
+          }
+        },
+        "cv": "Houssam_N_Absis_Conseill 1012.json"
+      }
+    }
+  ],
+  "reranked_cvs": [
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].json",
+      "commentaire": "Expérience data/plateforme et migration Snowflake, adaptée au rôle Data/IA"
+    },
+    {
+      "cv": "Houssam_N_Absis_Conseill 1012.json",
+      "commentaire": "Expérience d'architecte d'entreprise solide mais peu d'éléments Data/IA explicites"
+    }
+  ],
+  "indispensables": [
+    "TAOGAF"
+  ],
+  "nice_have": [
+    "Expérience architecture d'entreprise exigée",
+    "Maîtrise outils modélisation architecture exigée"
+  ],
+  "total_cvs": 125,
+  "filtered_count": 2,
+  "scored_count": 2,
+  "reranked_count": 2
+}

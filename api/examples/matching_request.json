@@ -1,0 +1,59 @@
+{
+  "offre": {
+    "sections": {
+      "titre": "Développeur Full Stack Senior - React/Node.js",
+      "resume_professionnel": "Nous recherchons un développeur Full Stack senior pour rejoindre notre équipe produit.",
+      "competences_techniques": [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "Docker"
+      ],
+      "competences_transversales": [
+        "Travail en équipe",
+        "Autonomie",
+        "Communication"
+      ],
+      "langues": [
+        "Français",
+        "Anglais professionnel"
+      ],
+      "experiences_professionnelles": [
+        {
+          "description": "Minimum 5 ans d'expérience en développement Full Stack"
+        }
+      ],
+      "formations": [
+        {
+          "niveau": "Bac+5",
+          "specialite": "Informatique"
+        }
+      ],
+      "certifications": [],
+      "projets": []
+    },
+    "must_have": [
+      "Maîtrise avancée de React et TypeScript",
+      "Expérience confirmée avec Node.js",
+      "Connaissance des bases de données relationnelles (PostgreSQL)",
+      "Minimum 5 ans d'expérience en développement web"
+    ],
+    "nice_have": [
+      "Expérience avec AWS",
+      "Connaissance de Docker et Kubernetes",
+      "Expérience avec GraphQL",
+      "Contribution à des projets open-source"
+    ]
+  },
+  "cvs": [
+    "jean_dupont_cv.pdf",
+    "marie_martin_cv.pdf",
+    "pierre_durand_cv.pdf"
+  ],
+  "top_n_rerank": 10,
+  "model": "gpt-5-mini",
+  "concurrency": 500,
+  "qps": 10.0
+}

@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].docx",
+      "score_final": 0.0,
+      "score_base": 0.0,
+      "bonus_nice_have_multiplicateur": 1.0,
+      "coefficient_qualite_experience": 1.3,
+      "nice_have_manquants": [],
+      "commentaire_scoring": "Score base de 0.734 indiquant une forte adéquation aux sujets data (modélisation, gouvernance, migration). Multiplicateur de 0.95 (×0.95^1) appliqué en raison d'un nice-have manquant : python, conduisant au score final communiqué de 0.698.",
+      "appreciation_globale": "Profil très pertinent pour un poste d'Architecte d'entreprise Data/IA : expériences récentes en tant qu'Architecte des données chez Covéa et Rexel, avec responsabilités de modélisation, gouvernance et migration vers Snowflake. Parcours dans de grandes organisations, missions à forts enjeux et collaboration avec Data Office démontrant crédibilité opérationnelle et capacité à piloter des projets transverses. Forces : expertise solide en modélisation conceptuelle/physique, outils MEGA/HOPEX et conduite de migration plateforme; expérience avérée en support PO/Tech Lead et gouvernance. Axes de vigilance : absence de mention de compétences Python et peu d'éléments explicites sur des cas d'usage IA, cloud natif et aspects infrastructure/sécurité; prévoir vérification en entretien sur ces points. Recommandation RH : Recommandé pour entretien technique approfondi (vérifier compétences IA/cloud et appétence scripting Python)."
+    }
+  ],
+  "metadata": {
+    "total_cvs": 3,
+    "filtered_must_have": 1,
+    "top_reranked": 1,
+    "duree_totale_s": 62.32,
+    "timestamp": "2025-10-12T05:09:04Z"
+  }
+}

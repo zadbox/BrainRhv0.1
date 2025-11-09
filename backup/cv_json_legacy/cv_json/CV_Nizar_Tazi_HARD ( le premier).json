@@ -1,0 +1,97 @@
+{
+    "identite": {
+        "nom": "Tazi",
+        "prenom": "Nizar",
+        "email": "Nizar.tazi@hotmail.fr",
+        "telephone": "+32 4 77 65 35 71",
+        "adresse": "Brussels 1030, Belgium",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "Data Scientist",
+    "resume_professionnel": "Junior Data Scientist with 1.5 years of hands-on experience in Python, SQL, and machine learning. I'm passionate about unraveling data mysteries to uncover insights and optimize processes. I excel in communicating these discoveries in a compelling and understandable manner. My sense of organization, meticulousness and my capacity to analyse will quickly allow me to take on and fulfill new assignments.",
+    "competences_techniques": [
+        "Machine Learning",
+        "Deep Learning",
+        "Database structure",
+        "Data Scraping",
+        "Data Preparation",
+        "Data Visualization"
+    ],
+    "competences_transversales": [
+        "Agile Methodologies"
+    ],
+    "langues": [
+        "English",
+        "French",
+        "Arabic"
+    ],
+    "experiences_professionnelles": [
+        {
+            "poste": "Data scientist",
+            "entreprise": "ARHS Developments",
+            "lieu": "Zaventem, Belgium",
+            "date_debut": "June 2023",
+            "date_fin": "2024",
+            "durée": "Durée non spécifiée",
+            "missions": [
+                "Collaborated with cross-functional teams to build data-driven solutions to business problems in the financial and legal sector.",
+                "Analyzed extensive datasets to develop predictive models and extract actionable insights, revealing valuable trends and patterns within the data.",
+                "Conducted Dataiku training sessions for member states, focusing on data preprocessing, modeling, and deployment techniques.",
+                "Developed automation scripts and scenario analyses using Python and SQL to optimize workflow performance.",
+                "Implemented MLops techniques including model monitoring and version control using tools like MLflow.",
+                "Applied data manipulation techniques to preprocess and transform raw data for analysis and modeling purposes."
+            ]
+        },
+        {
+            "poste": "Data scientist Intern",
+            "entreprise": "Sanofi",
+            "lieu": "Gentilly, Ile-de-France, France",
+            "date_debut": "April 2022",
+            "date_fin": "November 2022",
+            "durée": "6 mois",
+            "missions": [
+                "Production of market performance reports and ad-hoc analysis using CRM and market data.",
+                "Industrialization and update of data related to Oncology and Dupixent product insights.",
+                "Assistance in harmonizing workflows and algorithms meet best practices.",
+                "Use of Machine Learning algorithms to develop predictive models for business needs."
+            ]
+        },
+        {
+            "poste": "Freelance Data scientist",
+            "entreprise": "www.khamssat.com",
+            "lieu": "San Francisco",
+            "date_debut": "April 2020",
+            "date_fin": "June 2020",
+            "durée": "2 mois",
+            "missions": [
+                "AN-APPS: Creation of a tool to extract information from a shopping website using Data Scraping libraries. Graphical implementation with PyQt 5.",
+                "PreDoc: Development of a web interface with authentication using Django, including a disease prediction by symptoms, provided by the user, based on real data trained with a Machine learning algorithm."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master 2",
+            "ecole": "Paris-Cité University",
+            "annee_obtention": "2022",
+            "niveau": "Bac+5",
+            "specialite": "Machine Learning for Data Science"
+        }
+    ],
+    "certifications": [],
+    "projets": [],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [
+            "Self taught Guitarist",
+            "Singer",
+            "Road Trips",
+            "Artificial Intelligence & New Technologies"
+        ],
+        "engagements": []
+    }
+}

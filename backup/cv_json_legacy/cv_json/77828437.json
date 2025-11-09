@@ -1,0 +1,225 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "MECHANICAL DESIGN ENGINEERING INTERN",
+    "resume_professionnel": "To secure a full time Combustion Engineer position applying strong fundamentals for application, research, and development in the areas of Combustion and Fluids and Thermal Sciences and other allied Mechanical Engineering related functions",
+    "competences_techniques": [
+        "AutoCAD Mechanical",
+        "AutoCAD",
+        "Pro/Engineer (Pro/E)",
+        "PTC Creo",
+        "MATLAB",
+        "Revit",
+        "Autodesk Inventor",
+        "GD&T",
+        "Solidworks",
+        "Microstation",
+        "ANSYS",
+        "Microsoft Word",
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Project",
+        "Microsoft Office",
+        "CNC",
+        "Lathe",
+        "Drill",
+        "Mill",
+        "DSC",
+        "TGA",
+        "DSC-TGA",
+        "CFD tools",
+        "P&ID",
+        "Schematics",
+        "ASME Engineering Design Standards",
+        "ANSI Document Control & Management System",
+        "Piping design",
+        "Pressure vessel design",
+        "Heat transfer calculations",
+        "Air flow calculations",
+        "SILVENT air nozzle selection",
+        "KANTHAL air heater selection",
+        "Pneumatic cylinder design",
+        "Direction Control Valve",
+        "Grid generation",
+        "Numerical methods (Lax-Friedrich, Runge-Kutta 4, Lax-Wendroff, TVD)",
+        "Successive Over-Relaxation",
+        "Alternating Direction method",
+        "FBG Sensors",
+        "Laser Diagnostics",
+        "Metallurgy",
+        "Machine Design",
+        "Mechanical System Design",
+        "Material Science & Corrosion"
+    ],
+    "competences_transversales": [
+        "Documentation",
+        "Rédaction de rapports",
+        "Recherche",
+        "Organisation",
+        "Travail en équipe",
+        "Présentation",
+        "Coordination de projet",
+        "Analyse et résolution de problèmes",
+        "Conception et amélioration de processus",
+        "Gestion de documents"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Mechanical Design Engineering Intern",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "05/2014",
+            "date_fin": "08/2014",
+            "durée": "4 mois",
+            "missions": [
+                "Familiarized with & utilized ASME Engineering Design, Drafting & Documentation Standards",
+                "Provided support to the engineering team in developing conceptual layout drawings",
+                "Performed various engineering studies to obtain the simplest and most efficient engineering solution for Pressure Vessel design and piping design and specification",
+                "Developed drawings, schematics and P&ID's using AutoCAD Mechanical and Microstation according to ANSI Document Control & Management System for electronic as well as hard copy documents",
+                "Coordinated the organizing, scanning, retrieval and distribution of engineering documents for Project Managers"
+            ]
+        },
+        {
+            "poste": "Manufacturing Engineering Intern",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "08/2012",
+            "date_fin": "05/2013",
+            "durée": "10 mois",
+            "missions": [
+                "Designed and successfully operated a Compact Inserts Drying Machine",
+                "Researched past techniques used for drying of inserts to identify flaws and consolidated ideas in a team of three to eliminate these flaws",
+                "Designed a pneumatic cylinder to lift the cabinet door using a Direction Control Valve",
+                "Modelled an aesthetically good looking cabinet head using Pro/Engineer (Pro/E)",
+                "Calculated required heat transfer rates and air flow rates for selection of SILVENT air nozzle and KANTHAL air heater",
+                "Increased production rate by 16.67%, reduced cycle time by 1 minute and floor area by 61.87%",
+                "Reduced overall power consumption increasing profit by Rs. 426,336 per annum"
+            ]
+        },
+        {
+            "poste": "Mechanical Engineering Intern",
+            "entreprise": "Company Name",
+            "lieu": "State",
+            "date_debut": "06/2011",
+            "date_fin": "07/2011",
+            "durée": "2 mois",
+            "missions": [
+                "Learned about Fixed and Rotary Wing Aircraft Engines and their thermodynamics",
+                "Exposed to turbo machines (e.g., Gas Turbines) and application of fluid mechanics and heat transfer concepts",
+                "Training included avionics and accessories and MRO (Manufacture, Maintenance, Repair and Overhaul) activities",
+                "Hands-on experience with Lathe, Drill, Mill and CNC Machine"
+            ]
+        },
+        {
+            "poste": "Research/Engineering (sponsored by NYSERDA)",
+            "entreprise": "Company Name",
+            "lieu": "",
+            "date_debut": "08/2014",
+            "date_fin": "12/2014",
+            "durée": "5 mois",
+            "missions": [
+                "Sponsored by New York State Energy Research and Development Authority (NYSERDA) as a part of advanced innovative energy solutions",
+                "Reviewed existing literature on different pyrolysis models used to characterize biomass",
+                "Performed heating experiments using a DSC-TGA to study the pyrolysis of BioBlock",
+                "Using TGA, calculated kinetic parameters like activation energy and rate constant from mass vs temperature and derivative of mass loss vs temperature curves",
+                "Determined heat of pyrolysis and specific heat using heat flow vs temperature and derivative curves from DSC",
+                "Created a decomposition model based on the experimental results"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Master of Science : Mechanical Engineering",
+            "ecole": "SUNY, University at Buffalo",
+            "annee_obtention": "December 2014",
+            "niveau": "Bac+5",
+            "specialite": "Mechanical Engineering"
+        },
+        {
+            "diplome": "Bachelor of Engineering : Mechanical Engineering",
+            "ecole": "University of Pune",
+            "annee_obtention": "May 2013",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [],
+    "projets": [
+        {
+            "titre": "Solving Non-Linear Euler Equation for Gas Dynamics using CFD tools",
+            "description": "Solution for the Euler equation for Gas Dynamics obtained using First Order Lax Friedrich Scheme, Runge-Kutta Fourth Order - TVD Scheme and Lax Wendroff Method; compared fundamental properties of the schemes, presented solutions and concluded on relative accuracy.",
+            "technologies": [
+                "CFD tools",
+                "Lax-Friedrich Scheme",
+                "Runge-Kutta 4 (TVD)",
+                "Lax-Wendroff Method",
+                "Numerical methods"
+            ]
+        },
+        {
+            "titre": "Numerical solution to the Prandtl-Glauert equation for inviscid, non-heat conducting perfect gas free flow",
+            "description": "Solved the Wave Equation using Successive Over-Relaxation and Alternating Direction methods; discussed grid generation and compared analytical and numerical results.",
+            "technologies": [
+                "Successive Over-Relaxation",
+                "Alternating Direction method",
+                "Grid generation",
+                "Numerical analysis"
+            ]
+        },
+        {
+            "titre": "FBG Sensors in Oil/Gas Permanent Downhole Measurement Applications",
+            "description": "Analyzed use of FBG Sensors for permanent downhole measurement applications, studied sensing mechanism and summarized findings in a report and PowerPoint presentation.",
+            "technologies": [
+                "FBG Sensors",
+                "Optical sensing",
+                "Report and presentation"
+            ]
+        },
+        {
+            "titre": "Closed-Ended Oscillating Heat Pipe (seminar)",
+            "description": "Presented a seminar as part of coursework discussing basic concepts, principle of operation, advantages, limitations and unique applications of closed-ended oscillating heat pipe.",
+            "technologies": [
+                "Oscillating heat pipe theory"
+            ]
+        },
+        {
+            "titre": "Pyrolysis of BioBlock and decomposition model",
+            "description": "Performed DSC-TGA heating experiments on BioBlock, extracted kinetic parameters from TGA data, determined heat of pyrolysis and specific heat from DSC, and developed a decomposition model based on experimental results.",
+            "technologies": [
+                "DSC-TGA",
+                "TGA",
+                "DSC",
+                "Kinetic analysis"
+            ]
+        },
+        {
+            "titre": "Compact Inserts Drying Machine",
+            "description": "Designed and operated a compact inserts drying machine; researched prior techniques, collaborated in a team of three to address flaws, and implemented design improvements increasing production and reducing footprint and power consumption.",
+            "technologies": [
+                "Mechanical design",
+                "Pro/Engineer (Pro/E)",
+                "Pneumatics"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": [
+            "Student Member: Society of Automotive Engineers (May 2010 - May 2013)",
+            "Presented paper 'Alternate Fuels in IC Engine' at PVG College of Engineering, Pune (2011)",
+            "Presented paper 'Removal of Toxic Metals from Wastewater by Activated Carbon from Agro-Industrial By-Product' at MMM College of Engineering, Pune (2011)"
+        ]
+    }
+}

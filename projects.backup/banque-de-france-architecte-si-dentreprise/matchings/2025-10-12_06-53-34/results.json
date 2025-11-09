@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].docx",
+      "score_final": 0.0,
+      "score_base": 0.0,
+      "bonus_nice_have_multiplicateur": 1.0,
+      "coefficient_qualite_experience": 1.3,
+      "nice_have_manquants": [],
+      "commentaire_scoring": "Score base de 0.734 indiquant une bonne adéquation data/architecture. Multiplicateur de 0.95 (×0.95^1) appliqué en raison d'un nice-have manquant : python. Score final indiqué : 0.698.",
+      "appreciation_globale": "Profil très pertinent pour un poste d'Architecte d'entreprise Data/IA : expériences récentes en architecture data (Covéa, Rexel) avec migration vers Snowflake, modélisation conceptuelle/physique et gouvernance, usage d'outils d'urbanisme (MEGA, HOPEX). Parcours en grandes organisations avec responsabilités transverses (support PO/tech lead, présentation aux parties prenantes) montrant crédibilité opérationnelle et capacité à piloter des évolutions de plateforme. Points forts : maîtrise de la modélisation, gouvernance data et expérience de migration cloud (Snowflake) ; compétences en outillage d'architecture d'entreprise. Axes de vigilance : peu d'éléments explicites sur la conduite de schéma directeur IA, cas d'usage IA, sécurité/infra/automation approfondie et absence de Python. Recommandation RH : Recommandé pour entretien technique approfondi axé IA/infra pour vérifier expérience sur cas d'usage IA, sécurité et automation."
+    }
+  ],
+  "metadata": {
+    "total_cvs": 3,
+    "filtered_must_have": 1,
+    "top_reranked": 1,
+    "duree_totale_s": 66.71,
+    "timestamp": "2025-10-12T04:54:41Z"
+  }
+}

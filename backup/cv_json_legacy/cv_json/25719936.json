@@ -1,0 +1,253 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "ELECTRICAL ENGINEER",
+    "resume_professionnel": "Seasoned Electrical Engineer successful at coordinating diverse projects, improving departmental processes and increasing revenue. Electrical Engineer proficient in power and control engineering. Designs power grids as well as control systems for oil and gas industry. Seasoned Electrical Engineer offering 5 years experience developing HMI controlled equipment for testing and production. Strong project management background.",
+    "competences_techniques": [
+        "AutoCAD",
+        "Eagle",
+        "MATlab",
+        "MATLAB",
+        "Solidworks Standard",
+        "Solidworks",
+        "Solidworks Enterprise PDM",
+        "Solidworks Electrical",
+        "Microsoft Office 2016",
+        "Word",
+        "Visio",
+        "PowerPoint",
+        "Excel",
+        "OneNote",
+        "Outlook",
+        "Microsoft Dynamics GP",
+        "Team Gantt",
+        "Allen Bradley RSLogix",
+        "RS Logix",
+        "Microsoft Visual C",
+        "C",
+        "C++",
+        "HMI",
+        "DCS",
+        "SCADA",
+        "PLC",
+        "SLC500 PLC",
+        "VFD",
+        "MCC",
+        "Baldor motors",
+        "Eaton gearboxes",
+        "MCC panels",
+        "multi-meter",
+        "FEA",
+        "failure analysis",
+        "3D design and simulation software",
+        "P&ID",
+        "Cable/harness design",
+        "BOM",
+        "MRP",
+        "LEAN",
+        "Tooling design",
+        "Autofrettage tooling",
+        "NEC guidelines",
+        "SAE standards",
+        "NEMA standards",
+        "IEEE standards",
+        "ANSI standards",
+        "UL standards",
+        "OSHA/HSE compliance",
+        "Power distribution design",
+        "Control systems design",
+        "Instrumentation and controls",
+        "Cable schedule spreadsheets",
+        "Microsoft Dynamics (BOMs and routings)",
+        "Technical schematics",
+        "Electrical/electromechanical systems"
+    ],
+    "competences_transversales": [
+        "Project management",
+        "Complex problem solving",
+        "Critical thinking",
+        "Operational analysis",
+        "Technical writing",
+        "Data collection",
+        "Decision making",
+        "Documentation",
+        "Time management",
+        "Team management",
+        "Vendor/contractor management",
+        "Process improvement",
+        "Manufacturing optimization",
+        "Safety compliance (HSE/OSHA)"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Electrical Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "04/2014",
+            "date_fin": "02/2016",
+            "durée": "1 an et 10 mois",
+            "missions": [
+                "Practical application of Electrical Engineering",
+                "Critical thinking that involves the use of logic and reasoning to identify the strengths and weaknesses of alternative solutions to problems",
+                "Prepared and studied technical schematics and P&ID drawings and specifications of electrical/electromechanical systems to ensure that installations and operations conform to standards and customer requirements",
+                "Diverse knowledge of frac pump components and assembly",
+                "Instrumentation and controls applications",
+                "Proficient in the design codes and standards of the SAE, NEC, NEMA, IEEE and ANSI",
+                "Designed custom enclosures, consoles and cable/harnesses per UL and NEMA Standards",
+                "Designed power DCS systems for frac fleet in compliance with SAE, IEEE, NEMA and ANSI standards and codes",
+                "Created cable schedule spreadsheets, requirements documents and operations manuals for product/project transparency",
+                "Created BOM's and routings in Microsoft Dynamics GP for development of manufacturing build orders",
+                "Implemented NEC guidelines on electrical designs and schematics and created assembly instructions and testing procedures in compliance to HSE and OSHA Standards",
+                "Managed assembly and field tech personnel during project phases and established reliable and competitive vendor/contractor relationships for project commissioning achieving a margin of 30% savings in company spending",
+                "Managed Chemical 6 (C6) Unit Project from inception to completion for C&J Energy Services frac fleet and reduced downtime by 40%",
+                "Managed Hydration Unit Project from inception to completion for C&J Energy Services frac fleet and reduced downtime by 20%",
+                "Managed Dual Fluid Pumper (DFP) Unit Project from inception to completion for NITRO Drilling Services frac fleet and increased revenue potential by 100%",
+                "Managed the R&D Frac Pump Testing facility project for the High Pressure and Low Pressure Loop cells from inception to completion for Weir SPM and increased testing efficiency from 40% to 100%"
+            ]
+        },
+        {
+            "poste": "Manufacturing Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "06/2011",
+            "date_fin": "04/2014",
+            "durée": "2 ans et 10 mois",
+            "missions": [
+                "Implemented pump test design changes that eliminated downtown by 80% and increase test output efficiency by 86%",
+                "Implemented pump testing set up and break-down procedures that effectively resulted in a 20% decrease in LTI's (Lost Time Incident)",
+                "Designed MCC for control of 7500 hp WEG motor and vfd that resulted in a 50% output increase of tested pumps",
+                "Designed power distribution and control for medium and high voltage motors and vfd's for hydraulic lube circuits: supply and cooling loops",
+                "Designed power distribution and control for medium and high voltage motors and vfd's for water circuits: supply and cooling loops",
+                "Designed new tooling for Autofrettage, Pump Assembly and Pump Test that was more ergonomically efficient for operators and mechanics that resulted in a decrease of process bottleneck of 10%",
+                "Managed frac pump testing facility with essential upgrades to allow company to effectively test 250 pumps per month with no equipment downtime or failure increasing output efficiency to 86%",
+                "Designed tooling fixtures and had ergonomically efficient equipment installed to LEAN Pump Assembly, Pump Paint and Autofrettage areas averaging a 10% increase in work output for all areas combined",
+                "Managed the Williston Service Center Frac Pump Testing facility project for the High Pressure Loop cell from inception to completion reducing testing cost by $10k per test per month maintenance"
+            ]
+        },
+        {
+            "poste": "Maintenance Mechanic MPE-9",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "08/2005",
+            "date_fin": "09/2013",
+            "durée": "8 ans et 1 mois",
+            "missions": [
+                "Troubleshot and repaired mail processing equipment that consisted of vfd's, SLC500 PLC's, Baldor motors, Eaton gearboxes and MCC panels by aid of multi-meter and/or RS Logix software",
+                "Performed periodic maintenance tasks on all mail processing equipment",
+                "Operated SCADA systems that controlled mail processing equipment"
+            ]
+        },
+        {
+            "poste": "Aviation Electrician Petty Officer 3rd Class",
+            "entreprise": "Company Name",
+            "lieu": "City , State",
+            "date_debut": "06/1996",
+            "date_fin": "08/1999",
+            "durée": "3 ans et 2 mois",
+            "missions": [
+                "Aircraft handler duties consisting of taxing, securing and preparing aircraft for launch from aircraft carrier (USS Nimitz CVN-68)",
+                "Troubleshot and repaired electrical circuit boards, gyros, joysticks, control panel instrumentation for all onboard aircraft consisting of F-18 Hornet, F-16 Tomcat, EA6B Prowler and H60 Helicopter to ensure operational readiness for ship and crew",
+                "Operated and maintained aircraft electrical systems",
+                "Received Navy Pistol Marksmanship Ribbon, Armed Forces Expeditionary Medal, Navy Sea Service Deployment Ribbon, Navy Good Conduct Medal/Ribbon",
+                "Completed Broadened Opportunity for Officer Selection and Training (BOOST) Program"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Electrical Engineering",
+            "ecole": "University of Texas at Arlington",
+            "annee_obtention": "2010",
+            "niveau": "Bac+3",
+            "specialite": "Electrical Engineering"
+        },
+        {
+            "diplome": "Certificate of Completion : Officer Candidate School (BOOST) - Officer Training/College Prep",
+            "ecole": "Officer Candidate School (BOOST)",
+            "annee_obtention": "1999",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Certificate of Completion : Officer Candidate School (BOOST)",
+            "organisme": "Officer Candidate School (BOOST)",
+            "annee": "1999"
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Chemical 6 (C6) Unit Project",
+            "description": "Gestion du projet de l'unité Chemical 6 (C6) pour la flotte de frac C&J Energy Services de l'inception à la réalisation, réduction du downtime de 40%.",
+            "technologies": [
+                "Power distribution",
+                "Instrumentation and controls",
+                "NEC",
+                "SAE",
+                "NEMA",
+                "ANSI"
+            ]
+        },
+        {
+            "titre": "Hydration Unit Project",
+            "description": "Gestion du projet Hydration Unit pour la flotte de frac C&J Energy Services de l'inception à la réalisation, réduction du downtime de 20%.",
+            "technologies": [
+                "DCS",
+                "HMI",
+                "Power distribution",
+                "Instrumentation and controls"
+            ]
+        },
+        {
+            "titre": "Dual Fluid Pumper (DFP) Unit Project",
+            "description": "Gestion du projet Dual Fluid Pumper (DFP) pour NITRO Drilling Services, augmentation du potentiel de revenus de 100%.",
+            "technologies": [
+                "Control systems",
+                "VFD",
+                "MCC",
+                "Power distribution"
+            ]
+        },
+        {
+            "titre": "R&D Frac Pump Testing Facility Project (High & Low Pressure Loop cells)",
+            "description": "Gestion du projet d'installation et d'amélioration du banc d'essai Frac Pump (High Pressure et Low Pressure Loop cells) pour Weir SPM, augmentation de l'efficacité des tests de 40% à 100%.",
+            "technologies": [
+                "HMI",
+                "SCADA",
+                "DCS",
+                "Test rig design",
+                "Tooling fixtures"
+            ]
+        },
+        {
+            "titre": "Williston Service Center Frac Pump Testing Facility Project",
+            "description": "Gestion du projet de la cellule High Pressure Loop du Williston Service Center, réduction du coût de test de 10k$ par test par mois de maintenance.",
+            "technologies": [
+                "Pump test systems",
+                "Power controls",
+                "Tooling design",
+                "LEAN"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": [
+            "U.S. Navy service",
+            "BOOST Program (Officer Candidate School)"
+        ]
+    }
+}

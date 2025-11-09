@@ -1,0 +1,58 @@
+Features / Évolutions suggérées
+
+1. Tests parcours utilisateur automatisés (API)
+   - Scénarios HTTP via pytest + httpx : création entreprise → projet → upload CV → parsing → matching.
+   - Vérifier réponses et effets sur la DB/fichiers.
+   - Intégrer dans CI pour détecter régressions backend.
+
+2. Tests end-to-end UI (Playwright / Cypress)
+   - Scripts simulant les actions utilisateur sur l’interface React.
+   - Vérifications post-action (ex. la note affichée après modification).
+   - Possibilité de lancer avant chaque release pour prévenir les régressions UX.
+
+3. Smoke tests réguliers
+   - Script CLI/cron qui rejoue un parcours minimal (ex. upload + parsing) et alerte en cas d’erreur.
+   - Idéal pour surveiller la stabilité sur un dataset de test.
+
+4. Monitoring & rollback automatisés
+   - Pipeline ou cron nocturne qui exécute les scénarios critiques et notifie en cas d’échec.
+   - Permet de déclencher un rollback rapide si une regression est introduite.
+
+5. Gestion avancée des CVs
+   - Centraliser les métadonnées (taille, hash, emplacement) dans `cv_meta`.
+   - Héberger les originaux (PDF/DOCX) dans un stockage dédié (S3/minio) avec générateur de liens signés.
+   - Interface: afficher l’icône PDF/Word, bouton “ouvrir/télécharger” direct.
+
+6. Authentification / habilitations
+   - Mettre en place une authentification (JWT/OAuth) côté API/front.
+   - Gestion des droits par entreprise/projet (type RLS) : un recruteur ne voit que ses propres clients.
+   - Journaliser les actions sensibles (modif notes, suppression CV).
+
+7. Connecteur LinkedIn
+   - Import automatique de CV depuis LinkedIn Recruiter (via upload ou API).
+   - Parser le profil pour créer un nouveau CV structuré + pièce jointe PDF.
+
+8. Commentaires & suivi recruteur
+   - Ajout d’une section “Commentaires” sur chaque CV/projet (timeline).
+   - Possibilité de taguer un collègue / assigner un statut (“préqualifié”, “entretien prévu”…).
+
+9. Reranking & explications
+   - Enrichir le commentaire reranking avec :
+     - “Trouées” détectées (lacunes, incohérences).
+     - Sections du CV à relier aux points forts/faibles (évidences cliquables).
+   - Option: générer un résumé structuré (points clés, risques, questions à poser).
+
+10. Reassignation d’un projet à une autre entreprise
+    - Déplacer le dossier projet vers la nouvelle entreprise et mettre à jour `ProjectDB.json_path`.
+    - Réindexer les CV (`cv_meta`) vers les nouveaux chemins.
+    - Tests d’intégration backend + E2E. Voir `spec_evolutions/001-reassign-project-enterprise.md`.
+
+11. Offre – validation multi-modèles
+    - Rejouer toute la chaîne offre (parsing JSON structuré, extraction must-have/nice-have, enrichissement IA) avec `gpt-4o-mini`.
+    - Comparer les sorties avec celles de `gpt-5-mini` pour s’assurer que gpt-4o-mini reste compatible avec les prompts existants.
+    - Documenter les écarts éventuels et ajustements de prompts dans le suivi de validation.
+
+12. Instrumentation “bouton → API → table”
+    - Préparer un guide + boilerplate OTel (front WebTracer, FastAPI, SQLAlchemy) pour tracer automatiquement les interactions UI ↔ routes ↔ tables.
+    - Fournir un script d’export (JSON/CSV) exploitable par nos LLM codeurs pour reconstruire le flot utilisateur sans dépendre de Grafana/Loki.
+    - Inclure propagation `traceparent`, capture des tables via SQL et corrélation logs (trace_id) en standard.

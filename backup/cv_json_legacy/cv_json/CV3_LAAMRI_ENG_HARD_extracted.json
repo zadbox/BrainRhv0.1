@@ -1,0 +1,103 @@
+{
+    "identite": {
+        "nom": "LAAMRI",
+        "prenom": "Anis-Samy",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre_cv": "Student-Engineer in Data Analysis and Engineering",
+    "resume_professionnel": "Student-engineer at Ecole des Mines de Nancy, in a gap year before my final year of studies. Currently Intern at Givenchy Central Warehouse until March 2024, I'm seeking an opportunity in Data Analysis/processing in a professional context. Driven by curiosity, has a strong attention to detail and the ability to work collaboratively in team settings.",
+    "competences_techniques": [
+        "Python",
+        "C",
+        "R",
+        "CamL",
+        "VBA",
+        "Latex",
+        "SQL",
+        "Pandas",
+        "Tensorflow",
+        "Keras",
+        "Scikit-Learn",
+        "PowerBI",
+        "SAP"
+    ],
+    "competences_transversales": [
+        "Data science research methods",
+        "data modelling",
+        "Regression analysis",
+        "Pattern and trend identification"
+    ],
+    "langues": [
+        {
+            "French": "Native"
+        },
+        {
+            "English": "Fluent, C1 Cambridge"
+        },
+        {
+            "Spanish": "Intermediate"
+        },
+        {
+            "Japanese": "Notions"
+        },
+        {
+            "Arabic": "Notions"
+        }
+    ],
+    "experiences_professionnelles": [
+        {
+            "titre": "Warehouse Engineer",
+            "entreprise": "Givenchy",
+            "lieu": "Montbazon, France",
+            "periode": "September 2023 - February 2024",
+            "description": "Intern in charge of all outbound parcels leaving the warehouse and the various environnementals projects surrounding it. Establishment of various KPI built on PowerBI from data extraction from the WMS used in the warehouse. Economic and environnemental studies (vacuum rate, wedging...) of packaging to reduce the impact on the climate."
+        },
+        {
+            "titre": "Logistics Operator",
+            "entreprise": "Louis Vuitton",
+            "lieu": "Cergy, France",
+            "periode": "January 2022 - February 2022",
+            "description": "Operator in charge of reception of new products at the central warehouse of Louis Vuitton in France. Handled the stocking of new products and the delivery for order preparation. Worked as an order preparator for E-Shopping and Retail stores, in charge of the personalized orders."
+        }
+    ],
+    "formations": [
+        {
+            "titre": "Master of Engineering Degree in Applied Mathematics",
+            "etablissement": "Ecole des Mines de Nancy",
+            "periode": "September 2021 - September 2025",
+            "description": "Relevant Coursework : Optimization, Data Analysis, Databases, Modelization and Times Series, Deep Learning, Machine Learning"
+        }
+    ],
+    "certifications": [],
+    "projets": [
+        {
+            "titre": "Study on a particular field of algebra, representations theory with a focus on the Pauli group, used in quantum computing",
+            "etablissement": "Institut Elie Cartan de Lorraine",
+            "periode": "September 2022 - June 2023",
+            "description": ""
+        },
+        {
+            "titre": "Research Project",
+            "lieu": "Nancy, France",
+            "periode": "",
+            "description": ""
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [
+            "Basketball",
+            "Reading",
+            "Scientific Lectures",
+            "Cinema"
+        ],
+        "engagements": []
+    }
+}

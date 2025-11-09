@@ -1,0 +1,264 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "SENIOR MANUFACTURING ENGINEERING",
+    "resume_professionnel": "Qualifications: Web Handling, Printing, Extrusion, MS Office, Die Design, IPRIME, Coatings, Microstructures, CNC, Polymer Processing, Servo Controls, Calibrations, 6 Sigma, ASQ stats, Advance Regressions, AutoCad Inventor, DSC and Melt Indexing, Instron testing methods, Corona Treating, Pumps sizing plus many suppliers training sessions. Bedford Ind. Technical training seminars. Relevant Experience: National Society of Collegiate Scholars, Phi Theta Kappa (International Honor Society), National Honor Society, President or Deans list every semester. Magna Cum Lauda Management Skill managing lab staff and QA process and documentation, SPC and process capability studies and the required systems/equipment/process to improve quality and reduce costs. Incoming material qualification and defect root cause analyses. Review other engineer's data with advance statistical methods to support their projects. Provide training and work as the contact point to all departments on joint projects. Communication skill working closely with contractors, suppliers, floor supervisors, and the necessary staff from all departments.",
+    "competences_techniques": [
+        "Web Handling",
+        "Printing",
+        "Extrusion",
+        "Polymer Processing",
+        "Plastic Injection/Extrusion",
+        "Die Design",
+        "Coatings",
+        "Microstructures",
+        "CNC",
+        "Servo Controls",
+        "Calibrations",
+        "DSC",
+        "Melt Indexing",
+        "Instron testing methods",
+        "Corona Treating",
+        "Pumps sizing",
+        "AutoCAD Inventor",
+        "AutoCad Inventor",
+        "MathCAD",
+        "MS Office",
+        "MS Access",
+        "Minitab",
+        "Peachtree",
+        "IPRIME",
+        "SPC (Statistical Process Control)",
+        "Process Capability Studies",
+        "Design of Experiments (DOE)",
+        "6 Sigma",
+        "ASQ statistics",
+        "Advanced Regressions",
+        "Machine Design",
+        "Calibration",
+        "EIT (FE) Exam",
+        "Robotics",
+        "Programming",
+        "Database development",
+        "Systems integration",
+        "QC data collection and management",
+        "Printing support",
+        "Die design",
+        "Van Dorn ET 45 ton (injection molding setup)"
+    ],
+    "competences_transversales": [
+        "Gestion d'équipe / management",
+        "Management de la qualité (QA/QC)",
+        "Process improvement",
+        "SPC implementation",
+        "Root cause analysis",
+        "Formation / training",
+        "Communication inter-départements",
+        "Rédaction de rapports et présentations",
+        "Gestion des fournisseurs / contractors",
+        "Documentation et revue de dessins",
+        "Coordination opérationnelle",
+        "Enseignement / assistance pédagogique",
+        "Gestion financière de points de vente"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Senior Manufacturing Engineering",
+            "entreprise": "Company Name",
+            "lieu": "",
+            "date_debut": "Oct 2016",
+            "date_fin": "Current",
+            "durée": "9 ans",
+            "missions": [
+                "Started as a Mechanical engineer in the design department, moved to a Manufacturing and Quality Engineer, then process improvement engineer and now quality engineer supervisor.",
+                "Duties included the design of new equipment from concepts to drafting to implementation.",
+                "Handling maintenance requests for repairs and/or improvements, new equipment purchases and qualification, systems integration, machine shop support on tight tolerances machining techniques, printing support, lean implementation.",
+                "Managing lab staff and QA process and documentation, SPC and process capability studies and the required systems/equipment/process to improve quality and reduce costs.",
+                "Incoming material qualification and defect root cause analyses.",
+                "Review other engineer's data with advance statistical methods to support their projects.",
+                "Insure and review drawings for completeness and tolerances.",
+                "Provide reports and presentations (writing and verbal) to management.",
+                "Provide training and work as the contact point to all departments on joint projects.",
+                "Wrote the current SPC program and QC data collection and management program.",
+                "Write reports for suppliers and customers on a number of specific product specification, qualifications, and defects.",
+                "Currently acting as the chemist designing new materials, FDA, EU, REACH and others regulatory items.",
+                "R&D work involving development of theory building testing equipment and new materials, determining operating parameters (including the use of DOE) and designing and implementing production equipment.",
+                "A large part of time is spent working closely with contractors, suppliers, floor supervisors, and the necessary staff from all departments."
+            ]
+        },
+        {
+            "poste": "",
+            "entreprise": "Company Name",
+            "lieu": "",
+            "date_debut": "Jan 2003",
+            "date_fin": "Jan 2005",
+            "durée": "2 ans",
+            "missions": [
+                "Implemented a database package for the nuclear power plant historical design calculations.",
+                "The new system met the Nuclear Regulatory Commission standards.",
+                "Performed programming for volume calculations and determined the volume of contaminated rooms via blue prints on the HELB project to predict catastrophic nuclear event.",
+                "Performed an assessment that resulted in the rewriting of the administrative work instructions.",
+                "Developed a number of multi-disciplinary calculations and databases for various projects."
+            ]
+        },
+        {
+            "poste": "Senior Design",
+            "entreprise": "Central Minnesota Tool",
+            "lieu": "",
+            "date_debut": "2004",
+            "date_fin": "2005",
+            "durée": "1 an",
+            "missions": [
+                "Project on a new precision design for plastic molding injection where the dimensions and shape were fixed.",
+                "Design of Experiments (DOE) approach was used to solve the problem.",
+                "Significant time was spent with the operators setting up and running a Van Dorn ET 45 ton model."
+            ]
+        },
+        {
+            "poste": "",
+            "entreprise": "Electrolux",
+            "lieu": "",
+            "date_debut": "",
+            "date_fin": "",
+            "durée": "",
+            "missions": [
+                "Worked on process capability studies (base frame weldment and forming).",
+                "Worked in the robotics lab.",
+                "Provided training for shift supervisors in SPC through St Cloud State."
+            ]
+        },
+        {
+            "poste": "Paraprofessional",
+            "entreprise": "Independent School District 287",
+            "lieu": "",
+            "date_debut": "2001",
+            "date_fin": "2002",
+            "durée": "1 an",
+            "missions": [
+                "Designed, developed, and implemented databases for tracking student's behaviors.",
+                "Managed the coordination of the students, staff, and transportation on a daily basis.",
+                "Assisted teaching in college level courses in computers, automotive, and horticulture."
+            ]
+        },
+        {
+            "poste": "Manager and Bartender",
+            "entreprise": "Sharx Night Club and Sports Bar",
+            "lieu": "",
+            "date_debut": "1997",
+            "date_fin": "1999",
+            "durée": "2 ans",
+            "missions": [
+                "Responsible for employees during high volume business hours.",
+                "Ensured proper staffing levels and quality of service also bartended.",
+                "Responsible for daily financial transactions; including reconciliation of tills, managing cash on hand, and general ledger using Peachtree software."
+            ]
+        },
+        {
+            "poste": "Manager and Site Supervisor",
+            "entreprise": "",
+            "lieu": "",
+            "date_debut": "Jan 1991",
+            "date_fin": "Jan 1997",
+            "durée": "6 ans",
+            "missions": [
+                "Designed, built, and managed the construction of Renaissance Fairs, theaters, and large seasonal displays for malls.",
+                "Responsible for determining physical loads specifications and certifying construction for commercial structures at state and local levels.",
+                "Managed teams of individuals in the construction of large, multi-material structures."
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "Bachelor of Science",
+            "ecole": "St. Cloud State University",
+            "annee_obtention": "2005",
+            "niveau": "Bac+3",
+            "specialite": "Science"
+        },
+        {
+            "diplome": "Associates, Science Pre-Engineering",
+            "ecole": "North Hennepin Community College",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        },
+        {
+            "diplome": "Associates, Arts",
+            "ecole": "North Hennepin Community College",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Crisis Prevention and Intervention",
+            "organisme": "ISD 287",
+            "annee": ""
+        },
+        {
+            "nom": "CPR & First Aid",
+            "organisme": "American Red Cross",
+            "annee": ""
+        },
+        {
+            "nom": "EIT (FE) Exam",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Nuclear power plant design calculations database",
+            "description": "Implementation of a database package for historical design calculations meeting Nuclear Regulatory Commission standards; programming volume calculations for contaminated room volumes on the HELB project; development of multi-disciplinary calculations and databases.",
+            "technologies": [
+                "Database",
+                "Programming",
+                "HELB project calculations"
+            ]
+        },
+        {
+            "titre": "SPC and QC data collection and management program",
+            "description": "Wrote the current SPC program and QC data collection and management program; performed SPC and process capability studies to improve quality and reduce costs; provided training and wrote reports for suppliers and customers on specifications, qualifications, and defects.",
+            "technologies": [
+                "SPC",
+                "Minitab",
+                "MS Office/Access",
+                "QC data collection"
+            ]
+        },
+        {
+            "titre": "Senior Design - Plastic injection molding project",
+            "description": "Precision design for plastic injection molding with fixed dimensions and shape; applied Design of Experiments (DOE) and worked hands-on setting up and running injection molding equipment.",
+            "technologies": [
+                "Design of Experiments (DOE)",
+                "Injection molding",
+                "Van Dorn ET 45 ton"
+            ]
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": [
+            "National Society of Collegiate Scholars",
+            "Phi Theta Kappa (International Honor Society)",
+            "National Honor Society",
+            "President or Deans list every semester",
+            "PRIDE Award recipient",
+            "Nuclear Management Company PRIDE awards (awarded three times)",
+            "Commendation of Safety and Maintenance, North American Carousel (commendations from Virginia and Wisconsin)"
+        ]
+    }
+}

@@ -1,0 +1,420 @@
+{
+    "identite": {
+        "nom": "",
+        "prenom": "",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "ENGINEERING MANAGER",
+    "resume_professionnel": "",
+    "competences_techniques": [
+        "AutoCAD 2012",
+        "AutoCAD",
+        "Autodesk",
+        "Digital Resources DB32 Punch/Plasma",
+        "Trumpf Suite Punch/Bend/Laser",
+        "Amada Punch/Plasma/Laser",
+        "Whitney punch/plasma",
+        "Trumpf press brake",
+        "Amada turret press",
+        "Amada FMS",
+        "Behrens turret press",
+        "Motoman MRC",
+        "Motoman 2-head robotic welding cell",
+        "MG systems plasma table",
+        "CNC programming",
+        "CNC (general)",
+        "Laser (Trumpf laser)",
+        "Plasma table",
+        "Punching cell",
+        "Turret press",
+        "Press brake",
+        "Right angle shear",
+        "Sorting system",
+        "Powder coating system",
+        "Air compressors",
+        "MIG welding",
+        "TIG welding",
+        "Robotic welding",
+        "Welding fixtures",
+        "Die setting",
+        "Punch tooling",
+        "Throat presses",
+        "Perforating",
+        "Stamping presses",
+        "Stainless steel fabrication",
+        "Sheet metal tooling",
+        "Encompix",
+        "Digital Resources",
+        "Syman",
+        "Q&A",
+        "Made2Manage",
+        "MS Excel",
+        "MS Word",
+        "MS Outlook",
+        "A-B PLC (Allen-Bradley)",
+        "NCR systems"
+    ],
+    "competences_transversales": [
+        "Management",
+        "Supervision",
+        "Team leadership",
+        "Training of personnel",
+        "Lean Manufacturing",
+        "Continuous Improvement",
+        "5S",
+        "Kaizen",
+        "Kanban",
+        "Problem solving",
+        "Research and development",
+        "Project management",
+        "Cost estimating",
+        "Cost engineering",
+        "Scheduling",
+        "Shop floor routing",
+        "Total customer service",
+        "Technical support",
+        "Customer visits and proposals",
+        "Vendor management",
+        "Maintenance leadership",
+        "Quality control",
+        "Inspections",
+        "Time study",
+        "Cost analysis",
+        "Design for manufacturing",
+        "Procurement / Purchasing",
+        "Shop supervision",
+        "Training development",
+        "Sales support"
+    ],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "Engineering Manager",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "February 2008",
+            "date_fin": "Current",
+            "durée": "17 ans et 8 mois",
+            "missions": [
+                "Supervisor: Tom Mosca, VP Manufacturing",
+                "Manager of tool room, tool service, and punch manufacturing departments",
+                "Manager of engineering, drafting, CNC programming, and lean/continuous improvement",
+                "Engineering support for supervisors and shop floor with emphasis on problem solving",
+                "Research, planning and execution of capital projects",
+                "Design and engineering calculations for custom architectural products and fabrications",
+                "Cost estimating of fabricating work and architectural projects",
+                "Design and develop perforating punch tooling",
+                "CNC programming of Whitney punch/plasma",
+                "CNC programming of Trumpf press brake",
+                "Research and implement new manufacturing processes",
+                "Train employees in the operation of new equipment and new manufacturing processes",
+                "Lead research and development efforts for high precision products",
+                "Assist outside sales with customer visits and technical proposals",
+                "Provide technical support to inside customer service and interact with customers",
+                "Work with customers and outside tooling vendors to design automotive stamping dies",
+                "Support for maintenance and operation of perforating, stamping, and throat presses"
+            ]
+        },
+        {
+            "poste": "Manufacturing Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "October 2004",
+            "date_fin": "February 2008",
+            "durée": "3 ans et 4 mois",
+            "missions": [
+                "Supervisor: Dave Rollison, Owner",
+                "Cost estimating from customer supplied parts or drawings",
+                "Creation of shop floor routing for parts and assemblies",
+                "CNC programming of Amada turret presses",
+                "Scheduling and supervision of entire shop",
+                "Train shop personnel in the operation of CNC equipment",
+                "Total customer service from design and estimating to production and delivery",
+                "Maintain and repair shop equipment and hand tools",
+                "Quality control and part inspections",
+                "Maintain, repair, and upgrade turret press tooling",
+                "Cost engineering and problem solving to meet customer needs"
+            ]
+        },
+        {
+            "poste": "Manufacturing Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "September 2002",
+            "date_fin": "October 2004",
+            "durée": "2 ans et 1 mois",
+            "missions": [
+                "Supervisor: Gary Albright, Owner",
+                "Creation of flat patterns from customer supplied drawings",
+                "CNC programming of Amada turret presses",
+                "CNC programming of Amada FMS line with right angle shear and sorting system",
+                "Maintain and repair CNC equipment, powder coating system, and air compressors",
+                "Train shop personnel in the operation of CNC equipment",
+                "Prepare standard work instructions for all aspects of shop operation",
+                "Design and subcontract special tooling for press brakes",
+                "Total project management from raw materials to packaging",
+                "Subcontract machining, plating, irridite, and silk screening",
+                "Maintain steel and aluminum inventory",
+                "Estimating of new jobs and customer service",
+                "Shop supervision and inspection of parts through the manufacturing process",
+                "Time study and cost comparison to quotes",
+                "Assist customer with design for manufacturing"
+            ]
+        },
+        {
+            "poste": "Manufacturing Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "October 1997",
+            "date_fin": "September 2002",
+            "durée": "4 ans et 11 mois",
+            "missions": [
+                "Supervisor: Chuck Searfoss, General Manager",
+                "Creation of flat patterns from customer supplied drawings",
+                "CNC programming of Amada and Behrens turret presses",
+                "CNC programming of Trumpf automated punching cell",
+                "CNC programming of Trumpf laser",
+                "Programming of Motoman 2-head robotic welding cell",
+                "Creation of shop floor routings for parts and assemblies",
+                "Design and build welding fixtures for robotic welding cell",
+                "Design and build fixtures for OBI punch presses",
+                "Manage all tooling for punch presses and press brakes",
+                "Design and order all special tooling for punches and brakes",
+                "Research, select, and justify new capital equipment",
+                "Train shop personnel in the operation of new equipment",
+                "Lead maintenance department in the repair of equipment and tools",
+                "Time study and cost analysis of equipment in operation",
+                "Work with customers to identify and solve manufacturing problems"
+            ]
+        },
+        {
+            "poste": "Manufacturing Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "February 1996",
+            "date_fin": "September 1997",
+            "durée": "1 an et 7 mois",
+            "missions": [
+                "Supervisor: Jim Nance, General Manager",
+                "Creation of flat patterns from customer supplied drawings",
+                "CNC programming of Amada turret presses",
+                "CNC programming of Amada FMS and automated punching cells",
+                "CNC programming of Amada lasers",
+                "Creation of shop floor routings for parts and assemblies",
+                "Design and order special tooling for punches and brakes",
+                "Research and recommend new capital equipment",
+                "Assist in the maintenance and repair of equipment and tools",
+                "Time study and run time analysis of equipment in operation",
+                "Work with customers to identify and solve manufacturing problems"
+            ]
+        },
+        {
+            "poste": "Mechanical Engineer",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "December 1993",
+            "date_fin": "January 1996",
+            "durée": "2 ans et 1 mois",
+            "missions": [
+                "Supervisor: Bill Higgins, General Manager",
+                "Design systems and create approval drawings from customer supplied specifications",
+                "Structural steel design and pressure calculations for industrial dust collection",
+                "Create detailed shop floor drawings from approved designs",
+                "CNC programming of Amada punch/plasma turret press",
+                "CNC programming of MG systems plasma table",
+                "Redesign, modify, and customize product line of utility truck bodies",
+                "Total product support for line of industrial louvers and dampers",
+                "Wind and hurricane load calculations on louvers and penthouses",
+                "Assist in the design and manufacture of welding fixtures"
+            ]
+        },
+        {
+            "poste": "Designer/Drafter",
+            "entreprise": "Company Name",
+            "lieu": "City, State",
+            "date_debut": "March 1993",
+            "date_fin": "December 1993",
+            "durée": "9 mois",
+            "missions": [
+                "Supervisor: Dave Whalen",
+                "Create detailed part drawings of ice cream hardening machines and conveyors",
+                "Create layout and installation drawings of industrial pallet storage systems",
+                "Create electrical schematics and control panel drawings for ice cream hardening machines"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "B.S. Mechanical Engineering",
+            "ecole": "West Virginia Institute of Technology",
+            "annee_obtention": "1992",
+            "niveau": "Bac+3",
+            "specialite": "Mechanical Engineering"
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "Die Setting Training",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "Lean Manufacturing Training",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "5S/Kaizen Event/Kanban Training",
+            "organisme": "",
+            "annee": ""
+        },
+        {
+            "nom": "A-B PLC Training",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "Pacific 400 ton stamping press",
+            "description": "Inspection, purchasing, installation, and startup of Pacific 400 ton stamping press.",
+            "technologies": [
+                "stamping press"
+            ]
+        },
+        {
+            "titre": "Best Buy façade system",
+            "description": "Design façade system, canopy, and entry wall element, installed on 60 stores.",
+            "technologies": []
+        },
+        {
+            "titre": "DENR building sunshades (Raleigh NC)",
+            "description": "Design and manufacture sunshades covering entire south face of building.",
+            "technologies": []
+        },
+        {
+            "titre": "Hershey Medical Center planter weldments",
+            "description": "Design for manufacturing of raised planter weldments.",
+            "technologies": []
+        },
+        {
+            "titre": "Southern Environmental diffuser plates",
+            "description": "Punching diffuser plates from Hardox 450.",
+            "technologies": [
+                "punching",
+                "Hardox 450"
+            ]
+        },
+        {
+            "titre": "Johnson Controls exterior column covers",
+            "description": "Design 24' tall exterior column covers for main campus buildings.",
+            "technologies": []
+        },
+        {
+            "titre": "Kenworth manufacturing cell",
+            "description": "Create manufacturing cell for muffler guards, grills, and grill trim assemblies.",
+            "technologies": []
+        },
+        {
+            "titre": "Peterbilt manufacturing cell",
+            "description": "Create manufacturing cell for grill trim weldments and assemblies.",
+            "technologies": []
+        },
+        {
+            "titre": "Lutron Electronics enclosures",
+            "description": "Design for manufacturing of panels, boxes, and enclosures.",
+            "technologies": []
+        },
+        {
+            "titre": "Ericsson Telecommunications enclosures",
+            "description": "Design for manufacturing stainless steel electronics enclosures.",
+            "technologies": [
+                "stainless steel fabrication"
+            ]
+        },
+        {
+            "titre": "Diebold electronics enclosures",
+            "description": "Design for manufacturing electronics enclosures, light duty ATM cabinets.",
+            "technologies": []
+        },
+        {
+            "titre": "NCR manufacturing cell",
+            "description": "Set of manufacturing cell for electronics enclosures and circuit board parts.",
+            "technologies": [
+                "electronics enclosures",
+                "circuit board parts"
+            ]
+        },
+        {
+            "titre": "Better Engineering washing cabinets",
+            "description": "Design for manufacturing of washing cabinets.",
+            "technologies": []
+        },
+        {
+            "titre": "Playworld Systems playground components",
+            "description": "Design for manufacturing of playground platforms and stairs.",
+            "technologies": []
+        },
+        {
+            "titre": "Coolaire Systems enclosures",
+            "description": "Design for manufacturing of industrial air conditioning enclosures.",
+            "technologies": []
+        },
+        {
+            "titre": "Peavey and Crest Audio chassis",
+            "description": "Manufacturing of stereo amplifier chassis.",
+            "technologies": []
+        },
+        {
+            "titre": "Vulcan Hart, ITW, Wolf Range panels",
+            "description": "Manufacturing of stainless steel panels.",
+            "technologies": [
+                "stainless steel fabrication"
+            ]
+        },
+        {
+            "titre": "Vulcan Hart heat exchanger",
+            "description": "Design of heat exchanger and assembly machine.",
+            "technologies": []
+        },
+        {
+            "titre": "Fleetwood Motorhomes robotic welding",
+            "description": "Robotic welding of chassis trusses and various brackets and panels.",
+            "technologies": [
+                "robotic welding"
+            ]
+        },
+        {
+            "titre": "Alaska/Keystoker/Leisure Line/Reading Stove manufacturing",
+            "description": "Manufacturing of wood and coal stoves.",
+            "technologies": []
+        },
+        {
+            "titre": "Trafcon Inc light panels",
+            "description": "Manufacturing of construction zone light panels.",
+            "technologies": []
+        },
+        {
+            "titre": "Morrison Truck Bodies crane body",
+            "description": "Designed crane body with open crane compartment.",
+            "technologies": []
+        },
+        {
+            "titre": "Airline louver/damper combo",
+            "description": "Designed watertight louver/damper combo with high performance.",
+            "technologies": []
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

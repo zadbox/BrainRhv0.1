@@ -1,0 +1,58 @@
+{
+    "identite": {
+        "nom": "noureddine",
+        "prenom": "houssam",
+        "email": "",
+        "telephone": "",
+        "adresse": "",
+        "linkedin": "",
+        "autres_reseaux": []
+    },
+    "titre": "",
+    "resume_professionnel": "",
+    "competences_techniques": [],
+    "competences_transversales": [],
+    "langues": [],
+    "experiences_professionnelles": [
+        {
+            "poste": "",
+            "entreprise": "",
+            "lieu": "",
+            "date_debut": "",
+            "date_fin": "",
+            "durée": "",
+            "missions": []
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "",
+            "ecole": "",
+            "annee_obtention": "",
+            "niveau": "",
+            "specialite": ""
+        }
+    ],
+    "certifications": [
+        {
+            "nom": "",
+            "organisme": "",
+            "annee": ""
+        }
+    ],
+    "projets": [
+        {
+            "titre": "",
+            "description": "",
+            "technologies": []
+        }
+    ],
+    "mobilite": {
+        "permis_conduire": false,
+        "disponibilite_geographique": ""
+    },
+    "autres": {
+        "loisirs": [],
+        "engagements": []
+    }
+}

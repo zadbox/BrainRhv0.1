@@ -1,0 +1,232 @@
+{
+  "cv": "CV - Archane Salima.pdf",
+  "identite": {
+    "nom": "ARCHANE",
+    "prenom": "SALIMA",
+    "email": "s_archane@yahoo.fr",
+    "telephone": "06 68 13 71 32",
+    "adresse": "Boulevard Ibnou Sina, Lotissement Mimosas, rue 1 N°15, Maârif",
+    "linkedin": "",
+    "autres_reseaux": []
+  },
+  "titre": "Assistante administrative",
+  "resume_professionnel": "Assistante administrative expérimentée ayant exercé au sein de la Fondation Ténor pour la Culture (depuis janvier 2024) et du groupe Geomedia (mai 2012 - décembre 2023), spécialisée dans la gestion administrative, le support événementiel et la coordination commerciale et logistique.",
+  "competences_techniques": [
+    "Microsoft Word",
+    "Microsoft Excel",
+    "Microsoft PowerPoint",
+    "Salesforce",
+    "Windows 98",
+    "Windows 2000",
+    "Windows XP",
+    "Windows 10",
+    "Comptabilité générale et analytique"
+  ],
+  "competences_transversales": [
+    "Gestion administrative",
+    "Gestion commerciale",
+    "Gestion des fournisseurs",
+    "Archivage et digitalisation",
+    "Organisation d'événements",
+    "Accueil et relation client",
+    "Communication",
+    "Travail en équipe",
+    "Suivi de dossiers",
+    "Gestion d'agenda et prise de rendez-vous",
+    "Relance et recouvrement",
+    "Coordination culturelle",
+    "Logistique"
+  ],
+  "langues": [
+    "Arabe",
+    "Français",
+    "Anglais"
+  ],
+  "experiences_professionnelles": [
+    {
+      "poste": "Assistante administrative",
+      "entreprise": "Fondation Ténor pour la Culture",
+      "lieu": "",
+      "date_debut": "JANVIER 2024",
+      "date_fin": "PRÉSENT",
+      "duree": "",
+      "missions": [
+        "Gestion de la hotline pour les concerts et événements de la FTC",
+        "Traitement et tri du courrier entrant et sortant",
+        "Archivage et suivi des dossiers importants (contrats, factures, documents confidentiels)",
+        "Aide au suivi des relations avec partenaires et sponsors : envoi de factures, relance de recouvrement",
+        "Gestion des fournitures de bureau",
+        "Support au département communication : archivage et digitalisation des photos/vidéos d'événements",
+        "Gestion de la relation avec les fournisseurs (devis, bons de commande, etc.)",
+        "Aide à l’accueil lors des événements de la FTC (placement des spectateurs, distribution de programmes, vente de goodies)"
+      ]
+    },
+    {
+      "poste": "Assistante administrative",
+      "entreprise": "Groupe Geomedia",
+      "lieu": "",
+      "date_debut": "MAI 2012",
+      "date_fin": "DÉCEMBRE 2023",
+      "duree": "",
+      "missions": [
+        "Élaboration des études Benchmark et Pige (Print / Digital)",
+        "Suivi des impressions de magazines (Les chemins de Fer et Ozalids)",
+        "Suivi des campagnes publicitaires",
+        "Gestion commerciale et des opérations logistiques",
+        "Gestion de l’agenda, prise de rendez-vous",
+        "Accueil téléphonique et gestion des appels"
+      ]
+    },
+    {
+      "poste": "Secrétaire (stage pré-embauche)",
+      "entreprise": "Société d'informatique PC Assistance",
+      "lieu": "",
+      "date_debut": "FÉVRIER 2010",
+      "date_fin": "AOÛT 2010",
+      "duree": "",
+      "missions": []
+    },
+    {
+      "poste": "Téléopératrice (stage pré-embauche)",
+      "entreprise": "Société GSI Maroc",
+      "lieu": "",
+      "date_debut": "FÉVRIER 2009",
+      "date_fin": "MAI 2009",
+      "duree": "",
+      "missions": []
+    },
+    {
+      "poste": "Aide commerciale (stage)",
+      "entreprise": "Mon Club (Club de sports pour enfants)",
+      "lieu": "",
+      "date_debut": "SEPTEMBRE 2009",
+      "date_fin": "DÉCEMBRE 2009",
+      "duree": "",
+      "missions": []
+    },
+    {
+      "poste": "Gestion des dossiers médicaux (stage pré-embauche)",
+      "entreprise": "AGECAP",
+      "lieu": "",
+      "date_debut": "JUIN 2008",
+      "date_fin": "SEPTEMBRE 2008",
+      "duree": "",
+      "missions": [
+        "Gestion des dossiers médicaux"
+      ]
+    },
+    {
+      "poste": "Gestion des dossiers administratifs (stage)",
+      "entreprise": "CNSS",
+      "lieu": "",
+      "date_debut": "SEPTEMBRE 2007",
+      "date_fin": "NOVEMBRE 2007",
+      "duree": "",
+      "missions": [
+        "Gestion des dossiers administratifs"
+      ]
+    },
+    {
+      "poste": "Commercialisation des produits / Accueil clients / Conseil produit (stage)",
+      "entreprise": "TEXTO",
+      "lieu": "",
+      "date_debut": "JUILLET 2006",
+      "date_fin": "AOÛT 2006",
+      "duree": "",
+      "missions": [
+        "Commercialisation des produits",
+        "Accueil clients",
+        "Conseil produit"
+      ]
+    }
+  ],
+  "formations": [
+    {
+      "diplome": "1ère année Socio-anthropologie du changement",
+      "ecole": "Faculté des Lettres et des Sciences Humaines, Ain Chock",
+      "annee_obtention": "2023",
+      "niveau": "Bac+1",
+      "specialite": "Socio-anthropologie du changement"
+    },
+    {
+      "diplome": "Formation Praticienne en Crystalo-Pranic Healing",
+      "ecole": "",
+      "annee_obtention": "2023",
+      "niveau": "",
+      "specialite": ""
+    },
+    {
+      "diplome": "Formation Praticienne en Pranic Healing",
+      "ecole": "",
+      "annee_obtention": "2021",
+      "niveau": "",
+      "specialite": ""
+    },
+    {
+      "diplome": "Formation à la fabrication des produits naturels",
+      "ecole": "",
+      "annee_obtention": "2019",
+      "niveau": "",
+      "specialite": ""
+    },
+    {
+      "diplome": "Diplôme Technicien en Gestion Informatisée",
+      "ecole": "L’ESSEP (École Supérieure Spécialisée en Études Professionnelles)",
+      "annee_obtention": "2007",
+      "niveau": "",
+      "specialite": ""
+    },
+    {
+      "diplome": "Diplôme Technicien en Gestion Informatisée",
+      "ecole": "L’ESSEP (École Supérieure Spécialisée en Études Professionnelles)",
+      "annee_obtention": "2006",
+      "niveau": "",
+      "specialite": ""
+    },
+    {
+      "diplome": "Bac Littéraire",
+      "ecole": "",
+      "annee_obtention": "",
+      "niveau": "",
+      "specialite": ""
+    }
+  ],
+  "certifications": [
+    {
+      "nom": "Formation Praticienne en Crystalo-Pranic Healing",
+      "organisme": "",
+      "annee": "2023"
+    },
+    {
+      "nom": "Formation Praticienne en Pranic Healing",
+      "organisme": "",
+      "annee": "2021"
+    },
+    {
+      "nom": "Formation à la fabrication des produits naturels",
+      "organisme": "",
+      "annee": "2019"
+    }
+  ],
+  "projets": [],
+  "mobilite": {
+    "permis_conduire": false,
+    "disponibilite_geographique": ""
+  },
+  "autres": {
+    "loisirs": [
+      "Lecture",
+      "Musique",
+      "Cinéma",
+      "Photographie",
+      "Broderie",
+      "Arhatic yoga"
+    ],
+    "engagements": [
+      "Membre de l’association Al Assala Wataoune depuis 2013",
+      "Membre de l’association Maroc Photo",
+      "Secrétaire générale adjointe de l'Association Ennassr des Beaux-Arts (2020)",
+      "Coordinatrice et responsable des relations culturelles, ANAMA"
+    ]
+  }
+}

@@ -1,0 +1,1591 @@
+{
+  "scored_cvs": [
+    {
+      "cv": "Houssam_N_Absis_Conseill 1012.json",
+      "score_base": 0.6462425589561462,
+      "score_final": 0.4875997043707967,
+      "malus_multiplicateur": 0.6561,
+      "bonus_multiplicateur": 1.15,
+      "nice_have_manquants": [
+        "ISACA",
+        "SAFE",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 4,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Houssam",
+            "prenom": "",
+            "email": "",
+            "telephone": "",
+            "adresse": "39, rue Anatole France - CS 50227 - 92532 Levallois Perret CEDEX",
+            "linkedin": "",
+            "autres_reseaux": []
+          },
+          "titre": "Architecte SI d'entreprise et fonctionnel",
+          "resume_professionnel": "09 années d'expérience",
+          "competences_techniques": [
+            "PYTON",
+            "JAVA",
+            "SCALA",
+            "SQL",
+            "VBA",
+            "SAS VIYA",
+            "POWERBI",
+            "AWS",
+            "Apache STORM",
+            "Apache KAFKA",
+            "IBM MQ",
+            "SPARK",
+            "SPARK SQL",
+            "ARIS Connect",
+            "Pack office + MS-Project",
+            "Sharepoint",
+            "Confluence",
+            "pgAdmin-PostgreSQL",
+            "PostgreSQL",
+            "Elasticsearch",
+            "MongoDB",
+            "HDFS",
+            "Windows",
+            "Unix"
+          ],
+          "competences_transversales": [
+            "Gestion de projet",
+            "Planification et organisation",
+            "Suivi budgétaire",
+            "Gestion des risques",
+            "Communication efficace",
+            "Leadership et management d'équipe"
+          ],
+          "langues": [
+            "Anglais"
+          ],
+          "experiences_professionnelles": [
+            {
+              "poste": "Architecte SI d'entreprise",
+              "entreprise": "Groupe La Poste",
+              "lieu": "",
+              "date_debut": "10/2024",
+              "date_fin": "",
+              "durée": "",
+              "missions": []
+            },
+            {
+              "poste": "Architecte SI d'entreprise",
+              "entreprise": "Banque de France",
+              "lieu": "",
+              "date_debut": "2016",
+              "date_fin": "05/2024",
+              "durée": "",
+              "missions": []
+            },
+            {
+              "poste": "Leader PMO",
+              "entreprise": "Banque de France",
+              "lieu": "",
+              "date_debut": "2016",
+              "date_fin": "2016",
+              "durée": "",
+              "missions": []
+            },
+            {
+              "poste": "Business Analyst",
+              "entreprise": "Ministère du travail",
+              "lieu": "",
+              "date_debut": "01/2016",
+              "date_fin": "07/2016",
+              "durée": "",
+              "missions": []
+            }
+          ],
+          "formations": [
+            {
+              "diplome": "Master DATA Architecture OC",
+              "ecole": "CentraleSupélec",
+              "annee_obtention": "2022",
+              "niveau": "Bac+5",
+              "specialite": "Architecture"
+            }
+          ],
+          "certifications": [
+            {
+              "nom": "TOGAF",
+              "organisme": "",
+              "annee": "2023"
+            }
+          ],
+          "projets": [],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": "Immédiate"
+          },
+          "autres": {
+            "loisirs": [],
+            "engagements": []
+          }
+        },
+        "cv": "Houssam_N_Absis_Conseill 1012.json"
+      }
+    },
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].json",
+      "score_base": 0.5908859968185425,
+      "score_final": 0.44583234788954257,
+      "malus_multiplicateur": 0.6561,
+      "bonus_multiplicateur": 1.15,
+      "nice_have_manquants": [
+        "ISACA",
+        "SAFE",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 4,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Karima",
+            "prenom": "T",
+            "email": "",
+            "telephone": "",
+            "adresse": "39, rue Anatole France - CS 50227 - 92532 Levallois Perret CEDEX",
+            "linkedin": "",
+            "autres_reseaux": []
+          },
+          "titre": "Architecte Data et Fonctionnel",
+          "resume_professionnel": "17 années d'expérience",
+          "competences_techniques": [
+            "Modélisation",
+            "SGBD",
+            "Langages",
+            "Outils de restitution",
+            "Merise et UML",
+            "Teradata",
+            "Oracle",
+            "SQL Server",
+            "DB2",
+            "Marklogic",
+            "Hadoop",
+            "SQL",
+            "Shell",
+            "XML",
+            "Javascript",
+            "Xquery",
+            "Microstrategy",
+            "Power BI"
+          ],
+          "competences_transversales": [
+            "Curieuse",
+            "dynamique",
+            "sérieuse",
+            "bonne capacité d'adaptation",
+            "chef de projet MOE",
+            "responsable de la migration"
+          ],
+          "langues": [
+            "Anglais"
+          ],
+          "experiences_professionnelles": [
+            {
+              "poste": "Architecte des données",
+              "entreprise": "Covéa",
+              "lieu": "",
+              "date_debut": "02/2025",
+              "date_fin": "à ce jour",
+              "durée": "",
+              "missions": [
+                "Mise en place d'un outil de gestion pour la lutte contre le blanchiment des capitaux et le financement du terrorisme (LCB-FT)",
+                "Mise en place d'une base bâti COVEA",
+                "Mise en place d'une base de demande pour les contrôles IBAN"
+              ]
+            },
+            {
+              "poste": "Architecte des données",
+              "entreprise": "Rexel",
+              "lieu": "",
+              "date_debut": "11/2023",
+              "date_fin": "12/2024",
+              "durée": "",
+              "missions": [
+                "Migration et évolution de la plateforme de données : Migration de SQL Server vers Snowflake",
+                "Intégration de nouvelles fonctionnalités et cas d'utilisation"
+              ]
+            },
+            {
+              "poste": "Architecte Fonctionnel",
+              "entreprise": "Société Générale",
+              "lieu": "",
+              "date_debut": "03/2021",
+              "date_fin": "09/2023",
+              "durée": "",
+              "missions": [
+                "Mise en place d'une plateforme unifiée pour tous les usages de stress-test risque de crédit",
+                "Rationalisation et gouvernance permettant d'assurer la traçabilité des modèles de risque de crédit"
+              ]
+            },
+            {
+              "poste": "Architecte des données",
+              "entreprise": "Malakoff Humanis",
+              "lieu": "",
+              "date_debut": "11/2018",
+              "date_fin": "10/2020",
+              "durée": "",
+              "missions": [
+                "Vision 360 du tiers",
+                "Modélisation conceptuelle et détaillée"
+              ]
+            },
+            {
+              "poste": "Business Analyst",
+              "entreprise": "Société Générale",
+              "lieu": "",
+              "date_debut": "03/2017",
+              "date_fin": "10/2018",
+              "durée": "",
+              "missions": [
+                "Titrisation sur les prêts immobiliers",
+                "Analyse des données pour les métiers"
+              ]
+            },
+            {
+              "poste": "Consultante décisionnelle",
+              "entreprise": "Les Mousquetaires",
+              "lieu": "",
+              "date_debut": "03/2014",
+              "date_fin": "10/2016",
+              "durée": "",
+              "missions": [
+                "Mise en place de dashboards",
+                "Rédaction des spécifications techniques"
+              ]
+            },
+            {
+              "poste": "Architecte des données",
+              "entreprise": "BNP Paribas",
+              "lieu": "",
+              "date_debut": "09/2010",
+              "date_fin": "08/2013",
+              "durée": "",
+              "missions": [
+                "Mise en place d'un entrepôt de donnée Marketing",
+                "Accompagnement de l'équipe pendant les phases de modélisation"
+              ]
+            },
+            {
+              "poste": "Consultante décisionnelle",
+              "entreprise": "Carrefour Groupe",
+              "lieu": "",
+              "date_debut": "09/2006",
+              "date_fin": "08/2010",
+              "durée": "",
+              "missions": [
+                "Mise en place de dashboards pour l'analyse et la performance des ventes",
+                "Création des tableaux de bords"
+              ]
+            }
+          ],
+          "formations": [
+            {
+              "diplome": "Diplôme d'Ingénieur spécialiste en communication numérique",
+              "ecole": "École des Mines d'Alès",
+              "annee_obtention": "2006",
+              "niveau": "Bac+5",
+              "specialite": "Communication numérique"
+            }
+          ],
+          "certifications": [
+            {
+              "nom": "TOGAF 9.1",
+              "organisme": "",
+              "annee": "2022"
+            },
+            {
+              "nom": "Scrum Product Owner",
+              "organisme": "",
+              "annee": "2020"
+            },
+            {
+              "nom": "Microstrategy Fast Track",
+              "organisme": "",
+              "annee": "2011"
+            },
+            {
+              "nom": "IBM Infosphere Information Server",
+              "organisme": "",
+              "annee": "2010"
+            }
+          ],
+          "projets": [],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": "Octobre 25"
+          },
+          "autres": {
+            "loisirs": [],
+            "engagements": []
+          }
+        },
+        "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].json"
+      }
+    },
+    {
+      "cv": "CV H-PMO AE NF v1.json",
+      "score_base": 0.5891112685203552,
+      "score_final": 0.4444932887676358,
+      "malus_multiplicateur": 0.6561,
+      "bonus_multiplicateur": 1.15,
+      "nice_have_manquants": [
+        "TOGAF",
+        "ISACA",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 4,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "NOUREDDINE",
+            "prenom": "Houssam",
+            "email": "houssam-nr@outlook.fr",
+            "telephone": "0780959284/ 0664414274",
+            "adresse": "75020 Paris",
+            "linkedin": "",
+            "autres_reseaux": []
+          },
+          "titre": "PMO / Architecte SI d'entreprise et fonctionnel",
+          "resume_professionnel": "Disponibilité : Immédiate",
+          "competences_techniques": [
+            "UML",
+            "PYTON",
+            "JAVA",
+            "SCALA",
+            "SQL",
+            "VBA",
+            "SAS VIYA",
+            "POWERBI",
+            "AWS",
+            "Apache STORM",
+            "Apache KAFKA",
+            "IBM MQ",
+            "SPARK",
+            "SPARK SQL",
+            "pgAdmin-PostgreSQL",
+            "PostgreSQL",
+            "Elasticsearch",
+            "MongoDB",
+            "HDFS",
+            "Windows",
+            "Unix"
+          ],
+          "competences_transversales": [
+            "Gestion de projet",
+            "Planification et organisation",
+            "Suivi budgétaire",
+            "Gestion des risques",
+            "Communication efficace",
+            "Leadership et management d'équipe",
+            "Reporting et documentation",
+            "Adaptabilité",
+            "Compétences interpersonnelles",
+            "Méthodologies urbanisation SI & architecture d'entreprise",
+            "Architecture d'entreprise",
+            "Architecture DATA",
+            "SOA",
+            "Microservices",
+            "Domaine Driven Design (DDD)",
+            "Gouvernance SI",
+            "Cartographies SI",
+            "Coordination équipes MOA/MOE",
+            "Réalisation étude urbanisme",
+            "BPM/BPR",
+            "AMOA",
+            "Modélisation objets métiers/processus/fonctionnelle",
+            "Modélisation des paternes"
+          ],
+          "langues": [
+            "Anglais",
+            "Français"
+          ],
+          "experiences_professionnelles": [
+            {
+              "poste": "Leader PMO",
+              "entreprise": "Banque de France",
+              "lieu": "",
+              "date_debut": "2016",
+              "date_fin": "2024",
+              "durée": "8 ans",
+              "missions": [
+                "Suivi des migrations techniques du parc applicatif de la BDF",
+                "Participation à des projets en mode Agile",
+                "Suivi budgétaire et prévisionnel",
+                "Leadership et management d'équipe",
+                "Optimisation des migrations techniques",
+                "Participation aux comités techniques",
+                "Organisation des réunions de lancement",
+                "Coordination avec les équipes",
+                "Gestion proactive des risques",
+                "Réalisation d'audits automatisés",
+                "Élaboration de la roadmap annuelle",
+                "Modélisation d'architectures réutilisables",
+                "Documentation et reporting"
+              ]
+            },
+            {
+              "poste": "Architecte SI d'entreprise",
+              "entreprise": "Banque de France",
+              "lieu": "",
+              "date_debut": "2016",
+              "date_fin": "2016",
+              "durée": "moins d'un an",
+              "missions": [
+                "Élaboration du SDSI avec une approche DATA CENTRIC",
+                "Contribution à l'élaboration du SDSI pour l'ensemble de la DSI",
+                "Contribution à la mise en place de la stratégie DATA",
+                "Définition des architectures fonctionnelles et applicatives"
+              ]
+            },
+            {
+              "poste": "Business analyst",
+              "entreprise": "Ministère du travail",
+              "lieu": "",
+              "date_debut": "01/2016",
+              "date_fin": "07/2016",
+              "durée": "6 mois",
+              "missions": [
+                "Animation d'ateliers clients en modélisation des processus métier",
+                "Pilotage des phases de recette",
+                "Participation aux phases d'avant-vente"
+              ]
+            }
+          ],
+          "formations": [
+            {
+              "diplome": "Master DATA Architecture OC",
+              "ecole": "CentraleSupélec",
+              "annee_obtention": "2022",
+              "niveau": "Bac+5",
+              "specialite": "Architecture de données"
+            }
+          ],
+          "certifications": [
+            {
+              "nom": "Certification PO-PM SAFE",
+              "organisme": "",
+              "annee": "2023"
+            }
+          ],
+          "projets": [],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": ""
+          },
+          "autres": {
+            "loisirs": [],
+            "engagements": []
+          }
+        },
+        "cv": "CV H-PMO AE NF v1.json"
+      }
+    },
+    {
+      "cv": "Karim_B_ABSIS_Conseil_Aout_2025[1719].json",
+      "score_base": 0.6577321887016296,
+      "score_final": 0.4272227081170679,
+      "malus_multiplicateur": 0.5904900000000001,
+      "bonus_multiplicateur": 1.1,
+      "nice_have_manquants": [
+        "TOGAF",
+        "ISACA",
+        "SAFE",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 5,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Karim.B",
+            "prenom": "",
+            "email": "",
+            "telephone": "",
+            "adresse": "39, rue Anatole France - CS 50227 - 92532 Levallois Perret CEDEX",
+            "linkedin": "",
+            "autres_reseaux": []
+          },
+          "titre": "Architecte de données/ Architecte Solution",
+          "resume_professionnel": "",
+          "competences_techniques": [
+            "J2EE",
+            "JSF (Primefaces)",
+            "SQL",
+            "Git",
+            "JUnit",
+            "Circle CI",
+            "Docker",
+            "Terraform",
+            "Hadoop",
+            "Cassandra",
+            "Spark",
+            "Hive",
+            "Datastax DSE",
+            "Solr",
+            "AWS",
+            "AirFlow",
+            "MS Project",
+            "Jira/Confluence"
+          ],
+          "competences_transversales": [
+            "Banque de détail",
+            "Programmes de CashBack",
+            "Finance de marché (prêt/emprunt)"
+          ],
+          "langues": [
+            "Anglais"
+          ],
+          "experiences_professionnelles": [
+            {
+              "poste": "Directeur Technique",
+              "entreprise": "Describy.com",
+              "lieu": "",
+              "date_debut": "01/2025",
+              "date_fin": "06/2025",
+              "durée": "6 mois",
+              "missions": []
+            },
+            {
+              "poste": "Architecte Produits et Solutions",
+              "entreprise": "Banque de France",
+              "lieu": "",
+              "date_debut": "03/2024",
+              "date_fin": "12/2024",
+              "durée": "9 mois",
+              "missions": []
+            },
+            {
+              "poste": "Architecte de données",
+              "entreprise": "Société Générale",
+              "lieu": "",
+              "date_debut": "03/2019",
+              "date_fin": "02/2024",
+              "durée": "5 ans",
+              "missions": []
+            },
+            {
+              "poste": "Co-Fondateur et Directeur Technique",
+              "entreprise": "Paylead",
+              "lieu": "",
+              "date_debut": "2016",
+              "date_fin": "2018",
+              "durée": "2 ans",
+              "missions": []
+            }
+          ],
+          "formations": [
+            {
+              "diplome": "Ingénieur en Informatique",
+              "ecole": "Polytech Tours",
+              "annee_obtention": "2004",
+              "niveau": "Bac+5",
+              "specialite": "Informatique"
+            }
+          ],
+          "certifications": [
+            {
+              "nom": "AWS Certified Cloud Practitioner",
+              "organisme": "",
+              "annee": "2022"
+            }
+          ],
+          "projets": [],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": "Asap"
+          },
+          "autres": {
+            "loisirs": [],
+            "engagements": []
+          }
+        },
+        "cv": "Karim_B_ABSIS_Conseil_Aout_2025[1719].json"
+      }
+    },
+    {
+      "cv": "OmkarResume_extracted.json",
+      "score_base": 0.5845867395401001,
+      "score_final": 0.3797118862141372,
+      "malus_multiplicateur": 0.5904900000000001,
+      "bonus_multiplicateur": 1.1,
+      "nice_have_manquants": [
+        "TOGAF",
+        "ISACA",
+        "SAFE",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 5,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Pathak",
+            "prenom": "Omkar",
+            "email": "omkarpathak27@gmail.com",
+            "telephone": "+91 8087996634",
+            "adresse": "Pune, Maharashtra, India",
+            "linkedin": "OmkarPathak",
+            "autres_reseaux": [
+              "omkarpathak27"
+            ]
+          },
+          "titre_cv": "SENIOR SOFTWARE ENGINEER",
+          "resume_professionnel": "",
+          "competences_techniques": [
+            "Python",
+            "C",
+            "PHP",
+            "C++",
+            "Shell Script",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Django",
+            "Flask",
+            "Linux",
+            "Unix",
+            "Windows",
+            "MySQL",
+            "PostgreSQL",
+            "SQLite",
+            "MongoDB",
+            "Snowflake",
+            "CI/CD",
+            "Travis CI",
+            "Github Actions",
+            "Azure DevOps",
+            "Docker",
+            "Kubernetes",
+            "Apache Airflow",
+            "Git",
+            "NLP",
+            "Scikit-Learn",
+            "GCP",
+            "Azure",
+            "DigitalOcean"
+          ],
+          "competences_transversales": [],
+          "langues": [],
+          "experiences_professionnelles": [
+            {
+              "entreprise": "Ellicium Solutions",
+              "ville": "Pune, Maharashtra, India",
+              "poste": "SENIOR CONSULTANT",
+              "dates": "May 2022 - Present",
+              "description": "• Led the designing, developing and supporting enterprise-grade of two SaaS products using Microsoft stack on Azure\n• Managed a team of 11 developers and 9 developers respectively, for each SaaS product development. Collaborated with cross-\nfunctional teams, including supply chain, procurement, and IT, to define requirements, develop solutions, and implement the appli-\ncation\n• Conducted data analysis and risk assessments to identify critical supply chain risks and develop mitigation strategies\n• Oversaw the integration of the application with external data sources to provide real-time risk monitoring and alerts\n• Worked closely with the user interface and user experience (UI/UX) team to ensure the application was user-friendly and intuitive\n• Conducted various workshops on Python, Data Science, Machine Learning, and software development life cycles\n• Led and developed various PoCs with engagement to major product deliverables"
+            },
+            {
+              "entreprise": "Numerator",
+              "ville": "Pune, Maharashtra, India",
+              "poste": "PYTHON ETL ENGINEER",
+              "dates": "November 2020 - May 2022",
+              "description": "• Responsible for designing, setting up, and implementing ETL pipelines using Airflow for ensuring smooth data transfers between\nrequired sources\n• Developed Airflow framework for fetching data from various data sources like emails, PostgreSQL database, oracle database, CSV\nfiles; performing data transformations and storing it in snowflake data warehouse\n• Author and maintainer for CI/CD pipelines for deployments in various environments\n• Developed various REST APIs for Numerator data lake products"
+            },
+            {
+              "entreprise": "Schlumberger",
+              "ville": "Pune, Maharashtra, India",
+              "poste": "DATA ENGINEER",
+              "dates": "July 2018 - November 2020",
+              "description": "• Developed and managed custom containerized data ingestion framework using Nifi\n• Author and maintainer of Source to Hub project which loads data directly from the source into google bigquery. The project mainly\naimed at eliminating intermediate data loading in native Hadoop clusters for more efficiency, reliability, and speed\n• Responsible for implementing and managing an end-to-end CI/CD Pipelines with custom validations for Informatica migrations\nwhich brought migration time to 1.5 hours from 9 hours without any manual intervention\n• Enhancing,auditingandmaintainingcustomdataingestionframeworkthatingestsaround1TBofdataeachdaytoover70business\nunits\n• Working with L3 developer team to ensure the discussed Scrum PBIs are delivered on time for data ingestions\n• Planning and Executing QA and Production Release Cycle activities"
+            },
+            {
+              "entreprise": "Truso",
+              "ville": "Pune, Maharashtra, India",
+              "poste": "FULL STACK DEVELOPER INTERN",
+              "dates": "June 2018 - July 2018",
+              "description": "• Created RESTful APIs using Django REST Framework\n• Created event-based fully dynamic frontend using Angular 5/6\n• Developed and managed MySQL databases and RDBMS architecture"
+            },
+            {
+              "entreprise": "Propeluss",
+              "ville": "Pune, Maharashtra, India",
+              "poste": "DATA ENGINEERING INTERN",
+              "dates": "October 2017 - January 2018",
+              "description": "• Wrote various automation scripts to scrape data from various websites that were managed by messaging queue using Celery\npipelines and RabbitMQ\n• Applied Natural Language Processing to articles scraped from the internet to extract different entities in these articles using entity\nextraction algorithms and applying Machine Learning algorithms like Naive Bayes to classify these articles\n• Applied KNN with LSA for extracting relevant tags for various startups based on their works"
+            }
+          ],
+          "formations": [
+            {
+              "etablissement": "Marathwada Mitra Mandal's College of Engineering",
+              "ville": "Pune, Maharashtra, India",
+              "diplome": "B.E. IN COMPUTER ENGINEERING",
+              "dates": "2014 - 2018"
+            }
+          ],
+          "certifications": [],
+          "projets": [
+            {
+              "nom": "Pyresparser",
+              "description": "A simple resume parser used for extracting information from resumes\n• Extract information from thousands of resumes in just a few seconds\n• Author and maintainer of this project\n• 300k+ downloads on Github",
+              "dates": "July 2019 - Present"
+            },
+            {
+              "nom": "Pygorithm",
+              "description": "• Author and maintainer of this project\n• An educational library to teach all the major algorithms\n• Got covered in Fosstack, FullStackFeed, Kleiber and Tagged under Hotest Github Project on ITCodeMonkey\n• 35k+ downloads on Github",
+              "dates": "July 2017 - Present"
+            }
+          ],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": ""
+          },
+          "autres": {
+            "loisirs": [
+              "Illustrating",
+              "Competitive Programming",
+              "Photography",
+              "Sketching",
+              "Reading/Writing on Quora",
+              "Contributing to Open Source projects"
+            ],
+            "engagements": []
+          }
+        },
+        "cv": "OmkarResume_extracted.json"
+      }
+    },
+    {
+      "cv": "Othmane_Benayad_extracted.json",
+      "score_base": 0.4790641665458679,
+      "score_final": 0.24059165104797098,
+      "malus_multiplicateur": 0.4782969000000001,
+      "bonus_multiplicateur": 1.05,
+      "nice_have_manquants": [
+        "Expertise Data et IA",
+        "Cloud interne et externe",
+        "TOGAF",
+        "ISACA",
+        "SAFE",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 7,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Benayad",
+            "prenom": "Othmane",
+            "email": "othmane.benayad2000@gmail.com",
+            "telephone": "+33(0)6.99.35.46.40",
+            "adresse": "Paris, France",
+            "linkedin": "",
+            "autres_reseaux": []
+          },
+          "titre_cv": "En recherche active d'un stage pour mon année de césure à partir de juin - août 2024",
+          "resume_professionnel": "",
+          "competences_techniques": [
+            "Pack Microsoft Office (Word, PPT, Excel)",
+            "Python"
+          ],
+          "competences_transversales": [
+            "Excellentes compétences de Leadership",
+            "de communication",
+            "d'analyse",
+            "capacité à gérer efficacement le stress en situations de pression"
+          ],
+          "langues": [
+            "Anglais (Courant – C2)",
+            "Français (Courant - C1)",
+            "Arabe (Langue maternelle)"
+          ],
+          "experiences_professionnelles": [
+            {
+              "entreprise": "PlanetBen.ma",
+              "poste": "Propriétaire, fondateur et PDG",
+              "dates": "Mai 2021 - Juin 2023",
+              "description": "Collaboration avec le développeur web pour améliorer la conception détaillée du site, l'expérience utilisateur et mettre en place un CRM et un ERP complets pour une gestion efficace des opérations. Recrutement, gestion d'équipe et développement des relations clients et partenaires pour la start-up. Supervision de la comptabilité, y compris la gestion des comptes débiteurs et créditeurs, et l'élaboration des états financiers. Gestion des budgets, des flux de trésorerie, des comptes et des dépenses de l'entreprise. Gestion logistique et négociation de partenariats transport compétitifs sans compromettre la qualité du service. Leadership stratégique, prise de décisions éclairées, gestion des risques, et adaptation aux évolutions du marché. Gestion complète du marketing, y compris les réseaux sociaux, les campagnes, les stratégies, les budgets et le design du site (UX)."
+            },
+            {
+              "entreprise": "Loan Cloud Company",
+              "poste": "Chef de Produit et Directeur de Centre d'Appels",
+              "dates": "Septembre 2022 -février 2023",
+              "description": "Création d'un centre d'appels au Maroc pour recouvrer les créances des institutions financières clientes en Égypte. Responsabilité totale du processus, de la conception à l'opération ; englobant la gestion complète des opérations, du recrutement des Agents, de l'évaluation de la performance et de la communication régulière des rapports au siège en Chine. Gestion des opérations financières quotidiennes, y compris le suivi des dépenses, l'analyse des coûts, rentabilité et réduction des coûts. Analyse approfondie des modèles d'affaires des institutions financières partenaires en Égypte, visant à améliorer les taux de remboursement des prêts et à évaluer les risques financiers pour élaborer des stratégies d'atténuation des risques efficaces. Élaboration et gestion du budget opérationnel, assurant une allocation optimale des ressources pour une efficacité maximale et une rentabilité des coûts. Conduite d'études de marchés sur le secteur des prêts dans plusieurs marchés africains, notamment l'Égypte, le Togo, le Sénégal et le Maroc."
+            },
+            {
+              "entreprise": "Biougnach Équipements",
+              "poste": "Stage aux départements comptabilité et financier",
+              "dates": "janvier 2021 - Juin 2021",
+              "description": "Aide à l'élaboration et à l'évaluation de modèles financiers pour l'expansion de nouvelles boutiques et l'extension de gammes de produits. Réalisation de rapprochements bancaires et suivi des paiements/ créances clients. Gestion de trésorerie et analyse d'investissement : Optimisation des flux de trésorerie et l'évaluation des opportunités d'investissement. Préparation et saisie des états financiers et comptables, soutien lors des audits internes et élaboration des déclarations fiscales. Analyse et prévision budgétaire : Élaboration de prévisions financières, analyse des écarts budgétaires, et soutien en planification financière. Négociation d'un accord stratégique pour l'utilisation du stock de Biougnach, aboutissant à la création de ma start-up Planetben.ma."
+            }
+          ],
+          "formations": [
+            {
+              "etablissement": "HEC PARIS",
+              "diplome": "Master en Management",
+              "dates": "2023 - 2025",
+              "description": "Programme 100% en anglais - Classé n°1 mondial par Financial Times, 2023"
+            },
+            {
+              "etablissement": "Université Al-Akhawayn",
+              "diplome": "Bachelor en Administration Des Affaires",
+              "dates": "2017 - 2022",
+              "description": "Programme 100% en anglais, Double concentration en Finance et Marketing"
+            },
+            {
+              "etablissement": "Université Bogaziçi",
+              "diplome": "Programme d'échange",
+              "dates": "2019 - 2020",
+              "description": ""
+            },
+            {
+              "etablissement": "Groupe Scolaire La Préférence",
+              "diplome": "Baccalauréat Sciences Internationale Option Français en Physique-Chimie",
+              "dates": "2016 - 2017",
+              "description": "Mention Bien. (100% en Français)"
+            }
+          ],
+          "certifications": [
+            "Formation sur l'impact de la gestion budgétaire sur la trésorerie de l'entreprise. 05/2021"
+          ],
+          "projets": [],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": ""
+          },
+          "autres": {
+            "loisirs": [
+              "Pratique du football avec l'équipe du CODM au Maroc (2010-2017, l'université Al Akhawayn (2017-2022) et HEC PARIS (2023)"
+            ],
+            "engagements": [
+              "Participer à l'animation d'un don de bois pour les plus démunis à Ifrane avec le Rotaract - 2018",
+              "Participation à une campagne médicale avec l'Unicef – 2019",
+              "Comité directeur lors d'un gala de charité avec Hand in Hand - 2019"
+            ]
+          }
+        },
+        "cv": "Othmane_Benayad_extracted.json"
+      }
+    },
+    {
+      "cv": "Imane_Belhaj_Ingenieur_Informatique_PFE.docx_extracted.json",
+      "score_base": 0.3860689401626587,
+      "score_final": 0.23936834090048079,
+      "malus_multiplicateur": 0.5904900000000001,
+      "bonus_multiplicateur": 1.05,
+      "nice_have_manquants": [
+        "TOGAF",
+        "ISACA",
+        "SAFE",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 5,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Belhaj",
+            "prenom": "Imane",
+            "email": "ibelhaj962@gmail.com",
+            "telephone": "+212693058402",
+            "adresse": "Casablanca, Maroc",
+            "linkedin": "LinkedIn",
+            "autres_reseaux": [
+              "Github"
+            ]
+          },
+          "titre_cv": "",
+          "resume_professionnel": "",
+          "competences_techniques": [
+            "Python",
+            "Flask",
+            "NLP",
+            "Machine Learning",
+            "Scikit-learn",
+            "TensorFlow",
+            "API RESTful",
+            "Django",
+            "SQLite",
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "Spring Boot",
+            "Java",
+            "MySQL",
+            "React",
+            "Jira",
+            "BeautifulSoup",
+            "SpaCy",
+            "NLTK",
+            "Word2Vec",
+            "Power BI",
+            "C#",
+            "C++",
+            "Angular",
+            "SQL Server",
+            "Android",
+            "Firebase",
+            "Google Cloud Console",
+            "UML",
+            "Azure DevOps"
+          ],
+          "competences_transversales": [
+            "Gestion de Projet",
+            "Méthodologies Scrum et Agile",
+            "POO",
+            "MVC",
+            "JEE",
+            "Analyse de données",
+            "Deep Learning",
+            "Pandas",
+            "NumPy",
+            "Matplotlib"
+          ],
+          "langues": [
+            "Anglais : Courant",
+            "Français : Courant",
+            "Arabe : Langue maternelle"
+          ],
+          "experiences_professionnelles": [
+            {
+              "entreprise": "AttijariWafa Bank",
+              "poste": "Stagiaire en Data Science",
+              "periode": "Juillet-Août 2024",
+              "description": "Développement d'un modèle d'IA pour détecter les insultes dans les chatbots en utilisant des techniques de traitement du langage naturel (NLP). Atteint une précision de 99,7 % pour le français et de 94,2 % pour l'anglais dans la détection des insultes, améliorant considérablement les performances du modèle grâce au prétraitement des données, à l'ingénierie des caractéristiques et à l'entraînement du modèle. Réduction des faux positifs et amélioration de la robustesse globale de la détection."
+            },
+            {
+              "entreprise": "IT Solutions Services global",
+              "poste": "Stagiaire Développeur Full-Stack",
+              "periode": "Août 2023",
+              "description": "Application web centrée sur l'utilisateur pour une institution financière, optimisant les transactions en ligne et réduisant les demandes de support client de 25 %, améliorant ainsi l'expérience utilisateur sur la plateforme. Utilisation de Django et Python pour le développement back-end, SQLite pour la gestion de la base de données, et Bootstrap pour le design front-end réactif."
+            }
+          ],
+          "formations": [
+            {
+              "etablissement": "Ecole Marocaine des Sciences de l'Ingénieur (EMSI)",
+              "diplome": "Ingénieure en Génie Informatique",
+              "specialisation": "Management des Systèmes d'Information et Informatique Appliquée (MIAGE)",
+              "periode": "Date de fin prévue : Juin 2025",
+              "cours": [
+                "Génie Logiciel",
+                "JEE",
+                "Gestion de Projet",
+                "Machine Learning"
+              ]
+            },
+            {
+              "etablissement": "Lycée Tarik Ibnou Ziad, Casablanca, Maroc",
+              "diplome": "Baccalauréat Sciences Physiques (Option Française)",
+              "mention": "Très Bien",
+              "periode": "Date de fin graduation 2020"
+            }
+          ],
+          "certifications": [
+            "Building Scalable Java Microservices with Spring Boot and Spring Cloud-Google Cloud",
+            "Machine Learning with Python-IBM",
+            "Microsoft Power BI Data Analyst Professional Certificate"
+          ],
+          "projets": [
+            {
+              "titre": "Système de Gestion des Stocks",
+              "description": "Développement d'une application de gestion des stocks avec gestion des produits, notifications de faibles niveaux de stock et reporting. Amélioration des compétences en gestion de projet en maîtrisant le logiciel Jira et en facilitant des ateliers pour 7 membres de l'équipe; amélioration des sessions de planification des sprints.",
+              "technologies": [
+                "Spring Boot",
+                "Java",
+                "MySQL",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Jira",
+                "Git"
+              ]
+            },
+            {
+              "titre": "Système de Correspondance d'Emploi et de Prédiction de Rétention des Employés avec IA",
+              "description": "Développement d'une plateforme basée sur l'IA intégrant la présélection de CV, la prédiction de la rétention des employés et la correspondance des emplois. Dirigé le développement du modèle de présélection de CV et Candidats en utilisant des techniques NLP pour l'extraction et la classification de texte. Construit et optimisé un modèle de prédiction de la rétention basé sur les données des employés (satisfaction au travail, performance, etc.). Intégré les 3 modèles dans un service de correspondance d'emplois, fournissant aux ressources humaines des correspondances de candidats et des informations sur la rétention. Conçu et déployé la plateforme en utilisant Django, assurant une fonctionnalité fluide pour le personnel RH.",
+              "technologies": [
+                "Python",
+                "BeautifulSoup",
+                "TensorFlow",
+                "Scikit-learn",
+                "SpaCy",
+                "NLTK",
+                "Word2Vec",
+                "Django",
+                "MySQL",
+                "Power BI"
+              ]
+            }
+          ],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": ""
+          },
+          "autres": {
+            "loisirs": [],
+            "engagements": []
+          }
+        },
+        "cv": "Imane_Belhaj_Ingenieur_Informatique_PFE.docx_extracted.json"
+      }
+    },
+    {
+      "cv": "hamza_idrissi_CV_extracted.json",
+      "score_base": 0.42858535051345825,
+      "score_final": 0.23915621862533393,
+      "malus_multiplicateur": 0.531441,
+      "bonus_multiplicateur": 1.05,
+      "nice_have_manquants": [
+        "Cloud interne et externe",
+        "TOGAF",
+        "ISACA",
+        "SAFE",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 6,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "IDRISSI",
+            "prenom": "HAMZA",
+            "email": "hamza.idrissi.oﬃcial@gmail.com",
+            "telephone": "+212 678-188880",
+            "adresse": "Gueznaia, 90100, Tangier, MOROCCO",
+            "linkedin": "Hamza Idrissi",
+            "autres_reseaux": [
+              "Hamzar2",
+              "Portfolio"
+            ]
+          },
+          "titre_cv": "Data Scientist | AI/ML Engineer",
+          "resume_professionnel": "Junior Engineer in Data Sciences and AI with a passion for leveraging data to derive actionable insights. Skilled in statistical modeling, machine learning, and advanced algorithms, with a track record of designing and deploying solutions that enhance decision-making and operational eﬃciency. Experienced in deep learning and ﬁne-tuning large language models for natural language processing and real-time data analysis.",
+          "competences_techniques": [
+            "Python",
+            "JAVA",
+            "SQL",
+            "JavaScript",
+            "Hadoop",
+            "Spark",
+            "Apache Kafka",
+            "MySQL",
+            "PostgreSQL",
+            "MongoDB",
+            "TensorFlow",
+            "Keras",
+            "PyTorch",
+            "NLTK",
+            "spaCy",
+            "Gensim",
+            "Scikit-Learn",
+            "RAG Models",
+            "Fine-Tuned LLMs",
+            "Optimisation",
+            "Transformers Architectures",
+            "Prompt Engineering"
+          ],
+          "competences_transversales": [
+            "Hard-working",
+            "Eye for detail",
+            "Motivator & Leader"
+          ],
+          "langues": [
+            {
+              "langue": "English",
+              "niveau": "3.5"
+            },
+            {
+              "langue": "French",
+              "niveau": "3.5"
+            },
+            {
+              "langue": "Arabic",
+              "niveau": "5"
+            }
+          ],
+          "experiences_professionnelles": [
+            {
+              "titre": "AI/ML Engineer Intern",
+              "entreprise": "Valhko",
+              "dates": "06/2025 – 09/2024",
+              "lieu": "Remote",
+              "description": "Engineered the integration of LLMs and RAG, enhancing user experience on the platform by enabling a more personalized interaction model with an average response time reduction of 30 seconds. Fine-tuned an LLM (GPT-4o mini) for enhanced user interaction, increasing response precision by 20% and improving task ﬂexibility (summarization and report generation) for multiple speciﬁc tasks"
+            },
+            {
+              "titre": "Deep Learning Engineer Intern",
+              "entreprise": "UIR",
+              "dates": "07/2023 – 09/2023",
+              "lieu": "Rabat",
+              "description": "Designed and implemented an AI-based canopy estimation system, improving agricultural productivity estimates by 15%, which led to optimized resource allocation for 3 farms. Optimized deep learning algorithms using PyTorch and TensorFlow, reducing computation time while maintaining model accuracy."
+            },
+            {
+              "titre": "Software Engineer-PFE",
+              "entreprise": "Moulay Ismail University - FST",
+              "dates": "02/2023 – 06/2023",
+              "lieu": "Errachidia",
+              "description": "Led the development of a facial recognition-based attendance system using machine learning and image processing. Spearheaded full project lifecycle, from design through to implementation and testing, ensuring quality standards and timely delivery."
+            }
+          ],
+          "formations": [
+            {
+              "titre": "MST - Artiﬁcial Intelligence and Data Sciences",
+              "etablissement": "Abdelmalek Essaadi University - FST",
+              "dates": "09/2023 – 06/2025"
+            },
+            {
+              "titre": "LST - Bachelor of Science and Technology, Software Engineering",
+              "etablissement": "Moulay Ismail University - FST",
+              "dates": "09/2022 – 06/2023"
+            }
+          ],
+          "certifications": [],
+          "projets": [
+            {
+              "titre": "NLP - Chatbot Fine-Tuned and RAG Systems",
+              "type": "Academic",
+              "description": "Engineered a chatbot ﬁne-tuned on custom French language models (LLMs), enhancing contextual understanding and improving response accuracy."
+            },
+            {
+              "titre": "Twitter Sentiments Analysis",
+              "type": "Academic",
+              "description": "Developed a real-time sentiment prediction model for analyzing social media data streams using Python and NLP tools."
+            },
+            {
+              "titre": "Kappa Architecture - Modern Streaming Data Architecture",
+              "type": "Academic",
+              "description": "Developed a modern streaming architecture to process real-time data and extract actionable insights."
+            }
+          ],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": ""
+          },
+          "autres": {
+            "loisirs": [],
+            "engagements": [
+              {
+                "titre": "3rd Place at Digital Innovation and Entrepreneurship Days",
+                "description": "Designed an AI-based smart irrigation system, developed a web platform, and placed 3rd in the competition."
+              },
+              {
+                "titre": "the 3rd International Day of Computer Science and Applied Mathematics (ICSAM'23)",
+                "description": "Presented ﬁndings on improved facial recognition techniques(SIFT, LBPH, CNNs)."
+              }
+            ]
+          }
+        },
+        "cv": "hamza_idrissi_CV_extracted.json"
+      }
+    },
+    {
+      "cv": "UOB AM_Felyna Lee_Product AVP_extracted.json",
+      "score_base": 0.4524925649166107,
+      "score_final": 0.22724708062629692,
+      "malus_multiplicateur": 0.4782969000000001,
+      "bonus_multiplicateur": 1.05,
+      "nice_have_manquants": [
+        "Expertise Data et IA",
+        "Cloud interne et externe",
+        "TOGAF",
+        "ISACA",
+        "SAFE",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 7,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Lee Hui Chay",
+            "prenom": "Felyna",
+            "email": "felyna.lee@gmail.com",
+            "telephone": "(65) 9650 7466",
+            "adresse": "",
+            "linkedin": "",
+            "autres_reseaux": []
+          },
+          "titre_cv": "",
+          "resume_professionnel": "",
+          "competences_techniques": [
+            "Bloomberg",
+            "Morningstar",
+            "Lipper",
+            "Microsoft Office"
+          ],
+          "competences_transversales": [
+            "Développement de produits",
+            "Marketing",
+            "Communication",
+            "Analyse financière",
+            "Gestion de projet",
+            "Recherche",
+            "Présentation",
+            "Leadership",
+            "Travail d'équipe",
+            "Gestion du temps",
+            "Analyse de données",
+            "Rédaction",
+            "Gestion de projet",
+            "Analyse de marché"
+          ],
+          "langues": [
+            {
+              "langue": "Anglais",
+              "niveau": "Langue maternelle"
+            },
+            {
+              "langue": "Mandarin",
+              "niveau": "Courant"
+            }
+          ],
+          "experiences_professionnelles": [
+            {
+              "entreprise": "UOB Asset Management Ltd (UOBAM)",
+              "poste": "Product Development & Marketing Communications, Assistant Vice President",
+              "dates": "Mar 2014 – Present",
+              "description": "Selected to be in key strategic initiative working group to cross-sell UOBAM investment solutions to other business segments of UOB Group; driving development of product catalogue\nSelected to be in UOBAM strategic review working group to ensure efficient resource allocation to support core/non-core capabilities, developed proposals and designed slides for Senior Management\nSelected to be member of workstream on implementing new capabilities. Developed proposal which resulted in resources being dedicated to launch new investment capability.\nExamine regional product suite and develop new product ideas to plug product gaps by conducting independent research and determining feasibility with input from Fund Managers (FMs), regional Sales and Product teams, and third party strategic partners\nIndependently drive process flow to launch new products: Presenting business case and obtaining approval from Regional Product Committee, liaising with internal and external parties to execute full product launch process (e.g. offering documents, account opening)\nCurrently driving process flow to launch liquid alternative fund\nSuccessfully launched global equity fund with smart beta elements\nProvide market intelligence: Analyse data on fund performance and flows compared with peers, design slides and present findings at monthly management meetings; designed slides for UOBAM Board of Directors February 2016 meeting\nEngage UOB product team, organise monthly meetings, provide product support\nAnalyse features of existing products, develop proposals for improvement while staying competitive, present case to Senior Management and obtain approval, plan and execute fund variation projects\nCurrently planning and executing fee rationalisation for full suite of existing funds\nSuccessfully drove process flow to increase management fees for two funds\nOrganised signing event of Memorandum of Understanding in May 2015 between UOBAM and Wellington Management Singapore, selected to emcee at signing ceremony guested by Senior Management from UOB and Wellington\nRevamped Quarterly Investment Strategy publication by engaging internal and external stakeholders; made the content more concise (50% decrease in length) to improve reader friendliness\nProduced marketing materials: Prepared content and designed two thematic publications on Asian fixed income and Multi-asset Income investing to support the sales of two focus funds; conducted research, drafted content and designed fund brochure and placemat; performed editorial checks and layout of monthly fund/market commentaries and Quarterly Investment Strategy publication"
+            },
+            {
+              "entreprise": "UOBAM",
+              "poste": "Product Development & Marketing Communications, Manager",
+              "dates": "Apr 2012 – Feb 2014",
+              "description": "Designed presentation slides to propose 3-5 year strategic product plan to Senior Management, reviewed products and performed gap analysis, recommended action plans\nAnalysed management fees of existing products, created management fee analysis model in Excel, demonstrated that increasing management fees for one fund can increase the firm's profitability while the fund stays competitive, and successfully executed project\nIndependently drove process flow to launch funds\nUnited Japan Small and Mid Cap Fund: collaborated with Sales and Thai Product team to identify launch opportunity, managed added complexity due to appointment of foreign sub-manager, designed marketing pitchbook. Liaised with internal and external parties to execute full product launch process (documents include Due Diligence Questionnaire, Outsourcing Review, Sub-Management Agreement, tripartite Operating Memorandum and offering documents)\nUnited Asian Local Currency Bond Fund: conducted research and performed peer comparison analysis to support Thai office\nCoordinated termination of United Global Bond Fund; presented business case and obtained approval; planned schedule and ensured project timelines were met\nDeveloped concepts for new products through collaboration with FMs and Sales and designed product pitchbooks\nIn-charge of product development for Taiwan market (Apr 2012 – Apr 2013)\nKey coordinator for unprecedented project to hold Extraordinary General Meeting (EGM) for unit trust (majority stake held by Taiwanese investors), managed entire process flow including feasibility study and liaison with legal counsel, obtained successful result to change the fund's investment objective\nAnalysed information on local business trends and engaged FMs on feasibility of proposed ideas, developed model portfolios, ran back-tests, designed pitchbooks\nEngaged Taiwan Product team with monthly calls on the product pipeline and current industry developments; furnished reports and provided timely support"
+            },
+            {
+              "entreprise": "United Overseas Bank Limited (UOB)",
+              "poste": "Group Compliance – Asset Management, Senior Officer",
+              "dates": "Jan 2012 – Mar 2012",
+              "description": "Performed review and testing of investment valuation process flow, identified gaps in obtaining prices from external third parties and suggested improvements\nCleared fund-related marketing materials from a regulatory perspective, eg. monthly fund commentaries, fund marketing collateral (press advertisements, brochures, placemats)"
+            },
+            {
+              "entreprise": "UOB",
+              "poste": "UOB Management Associate (MA) Programme",
+              "dates": "Aug 2010 – Dec 2011",
+              "description": "1 out of 27 selected from over 1000 applicants via stringent 5-round selection process for the prestigious 16-month UOB MA Programme\nRotation programme through asset management value chain: regional business sales, unit trust operations and institutional mandate operations and compliance\nDesigned pitchbook for Latin American funds appointing foreign sub-manager\nAnalysed regulatory impact of new Representative Notification Framework on UOBAM, developed application templates to facilitate collecting information from employees, performed review and testing of process\nCleared marketing materials (eg. fund advertisements and monthly fund commentaries)\nSelected to join special projects team including McKinsey consultants to streamline end-to-end process flows for mortgage loans and KYC processes for global financial institutions, identified areas for streamlining, identified fields for system inclusion and liaised with business unit on system design"
+            },
+            {
+              "entreprise": "UOB Asset Management Co., Ltd. (Thailand)",
+              "poste": "Product and Investment Strategy (Work Attachment)",
+              "dates": "August 2015 – October 2015",
+              "description": "Initiated and obtained approval for 2-month overseas work attachment to gain regional exposure with Product & Investment Strategy team which plans and executes the firm's product pipeline considering investment market developments and client needs\nIndependently completed Due Diligence Questionnaires accurately for submission to UOB Thailand and UOB Singapore Product Sales Committees\nPerformed post launch reviews of unit trusts to analyse performance and AUM raised\nDesigned slides for upcoming fund launches and refined fund marketing collateral"
+            },
+            {
+              "entreprise": "Regional Product and Sales Committee (RPSC), Secretariat",
+              "poste": "Secrétariat",
+              "dates": "January 2016 – Present",
+              "description": "Developed guidelines and designed slide templates to promote the discussion of new ideas and to determine the feasibility of regional launches; obtained buy-in from Product and Sales teams from Singapore and five overseas subsidiaries\nFacilitate monthly meetings, consolidate materials and ensure they are in order"
+            },
+            {
+              "entreprise": "Regional Product Committee (RPC), Secretariat",
+              "poste": "Secrétariat",
+              "dates": "April 2013 – December 2015",
+              "description": "Developed Terms of Reference and Guidelines, designed all product approval and reporting templates to facilitate committee's oversight of the UOBAM Group's product-related matters. Obtained buy-in from regional product teams and committee and rolled out framework within tight timeline of two months.\nFacilitated monthly meetings and took minutes, consolidated materials and ensured that they are in order"
+            },
+            {
+              "entreprise": "UOBAM Special Regional Projects",
+              "poste": "Foreign Account Tax Compliance Act (FATCA) Working Group, Coordinator",
+              "dates": "January 2014 – August 2015",
+              "description": "Appointed main coordinator to roll out FATCA programme for UOBAM Group (including 5 overseas subsidiaries) while successfully managing existing Product Development jobscope in Singapore\nSet up FATCA project structure for UOBAM Group and coordinated with UOB FATCA Project Management Office and multiple UOBAM departments including overseas subsidiaries to ensure that the UOBAM Group implements policies and procedures to comply with regulatory timelines while staying pro-business, incorporated FATCA language into all legal documents\nPresented project status updates at quarterly UOB Project Steering Committee meeting comprising UOB Group's Senior Management, and monthly UOBAM Regional Risk Committee meetings, including independently conducting major exercise to analyse the business impact of FATCA by performing AUM impact analysis"
+            }
+          ],
+          "formations": [
+            {
+              "etablissement": "Chartered Financial Analyst (CFA) Programme",
+              "dates": "Jun 2012 – Jun 2014",
+              "diplome": "Chartered Financial Analyst (CFA)",
+              "description": "Successfully sat for and passed all three levels of CFA exams on the first attempt"
+            },
+            {
+              "etablissement": "National University of Singapore (NUS)",
+              "dates": "Aug 2006 – May 2010",
+              "diplome": "Bachelor of Business Administration (Accountancy) (Honours)",
+              "description": "Presented the NUS BBA (Merit) Scholarship\nEnrolled in the prestigious University Scholars Programme, a multi-disciplinary academic programme which accepts only 3% of each undergraduate cohort\nAwarded the Dean's List twice (2006 and 2009) for being in top 5% of Business cohort\nCumulative Average Point (CAP): 4.32/5.0 (2nd Upper Class Honours)"
+            },
+            {
+              "etablissement": "University of Edinburgh, Scotland",
+              "dates": "Jan 2009 – May 2009",
+              "diplome": "Student Exchange Programme",
+              "description": ""
+            },
+            {
+              "etablissement": "Hwa Chong Institution",
+              "dates": "Jan 2004 – Dec 2005",
+              "diplome": "GCE 'A' Levels",
+              "description": "Distinctions in Biology and Economics"
+            }
+          ],
+          "certifications": [
+            "CFA",
+            "CMFAS M3",
+            "CMFAS M5",
+            "CMFAS M8A"
+          ],
+          "projets": [],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": ""
+          },
+          "autres": {
+            "loisirs": [
+              "Piano (ATCL Performance Diploma, Trinity Guildhall, Jun 2008)",
+              "Chant (participation active dans une chorale de 2000 à 2014, postes de direction et d'enseignement à partir de 2002)"
+            ],
+            "engagements": []
+          }
+        },
+        "cv": "UOB AM_Felyna Lee_Product AVP_extracted.json"
+      }
+    },
+    {
+      "cv": "Resume_Imane_Belhaj.docx_extracted.json",
+      "score_base": 0.3415205180644989,
+      "score_final": 0.2117476732475013,
+      "malus_multiplicateur": 0.5904900000000001,
+      "bonus_multiplicateur": 1.05,
+      "nice_have_manquants": [
+        "TOGAF",
+        "ISACA",
+        "SAFE",
+        "ITIL",
+        "AWS Certified Solutions Architect"
+      ],
+      "nombre_manquants": 5,
+      "content": {
+        "sections": {
+          "identite": {
+            "nom": "Belhaj",
+            "prenom": "Imane",
+            "email": "ibelhaj962@gmail.com",
+            "telephone": "+212693058402",
+            "adresse": "Casablanca, Morocco",
+            "linkedin": "LinkedIn",
+            "autres_reseaux": [
+              "Github"
+            ]
+          },
+          "titre_cv": "",
+          "resume_professionnel": "",
+          "competences_techniques": [
+            "Python",
+            "Flask",
+            "NLP",
+            "Machine Learning",
+            "Scikit-learn",
+            "TensorFlow",
+            "RESTful APIs",
+            "Django",
+            "SQLite",
+            "Bootstrap",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "Spring Boot",
+            "Java",
+            "MySQL",
+            "React",
+            "Docker",
+            "Jenkins",
+            "Jira",
+            "C#",
+            "C++",
+            "Angular",
+            "SQL Server",
+            "Android",
+            "Firebase",
+            "Google Cloud Console",
+            "UML",
+            "Azure Devops",
+            "JEE",
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "BeautifulSoup",
+            "SpaCy",
+            "NLTK",
+            "Word2Vec",
+            "Power BI"
+          ],
+          "competences_transversales": [
+            "Software Engineering",
+            "Quality Management",
+            "Project Management",
+            "Data Analysis",
+            "Deep Learning",
+            "Scrum and Agile",
+            "Software Design and Architecture",
+            "POO",
+            "Design Patterns",
+            "System Architecture"
+          ],
+          "langues": [
+            "English: Fluent",
+            "French: Fluent",
+            "Arabic: Native Speaker"
+          ],
+          "experiences_professionnelles": [
+            {
+              "titre": "Data Science Intern",
+              "entreprise": "AttijariWafa Bank",
+              "lieu": "Casablanca, Morocco",
+              "date": "July -August 2024",
+              "description": "Developed an AI model for detecting insults in chatbots using NLP techniques. Achieved 99.7% accuracy for French and 94.2% accuracy for English in insult detection, significantly improving model performance through data preprocessing, feature engineering, and model training. Reduced false positives and improved overall detection robustness."
+            },
+            {
+              "titre": "Full-Stack Developer Intern",
+              "entreprise": "IT Solutions Services global",
+              "lieu": "Casablanca, Morocco",
+              "date": "August 2023",
+              "description": "Engineered a user-centric web application for a financial institution, streamlining online transactions and reducing customer support inquiries by 25%, thereby enhancing operational efficiency and user experience across the platform. Utilized Django and Python for back-end development, SQLite for database management, and Bootstrap for responsive front-end design."
+            }
+          ],
+          "formations": [
+            {
+              "etablissement": "Moroccan school of engineering sciences (EMSI)",
+              "date": "June 2025",
+              "diplome": "Engineering Degree in Computer Engineering",
+              "specialisation": "Management of Information Systems and Applied Computer Science (MIAGE)"
+            },
+            {
+              "etablissement": "Lycée Tarik Ibnou Ziad, Casablanca, Maroc",
+              "date": "2020",
+              "diplome": "Baccalaureate in Physical Sciences (French Option)",
+              "mention": "Graduated with High Honors"
+            }
+          ],
+          "certifications": [
+            "Building Scalable Java Microservices with Spring Boot and Spring Cloud-Google Cloud",
+            "Machine Learning with Python-IBM",
+            "Microsoft Power BI Data Analyst Professional Certificate"
+          ],
+          "projets": [
+            {
+              "titre": "Stock Management System",
+              "description": "Developed a stock management application with product management, low stock notifications, and reporting. Enhanced project management skills by mastering Jira software and facilitating workshops for 7 team members; improved sprint planning sessions, which increased task completion rates and optimized workflow processes across multiple projects.",
+              "technologies": [
+                "Spring Boot",
+                "Java",
+                "MySQL",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React",
+                "Docker",
+                "Jenkins",
+                "Jira",
+                "Git"
+              ]
+            },
+            {
+              "titre": "Task Management System | Tasky",
+              "description": "A task management tool for organizing and boosting productivity",
+              "fonctionnalites": [
+                "Task and subtask management",
+                "user authentication",
+                "profile updates",
+                "responsive design"
+              ],
+              "technologies": [
+                "Spring Boot",
+                "Hibernate",
+                "HTML",
+                "CSS (Bootstrap)",
+                "JavaScript",
+                "MySQL",
+                "Maven",
+                "Git"
+              ]
+            },
+            {
+              "titre": "AI-Powered Employee & Job Matching System",
+              "description": "Developed an AI-based platform integrating resume screening, employee attrition prediction, and job matching. Led the development of the resume screening model using NLP techniques for text extraction and classification. Built and optimized an attrition prediction model based on employee data (job satisfaction, performance, etc.). Integrated both models into a job matching service, providing HR with candidate matches and retention insights. Designed and deployed the platform using Django, ensuring seamless functionality for HR personnel.",
+              "technologies": [
+                "Python",
+                "BeautifulSoup",
+                "TensorFlow",
+                "Scikit-learn",
+                "SpaCy",
+                "NLTK",
+                "Word2Vec",
+                "Django",
+                "MySQL",
+                "Power BI"
+              ]
+            }
+          ],
+          "mobilite": {
+            "permis_conduire": false,
+            "disponibilite_geographique": ""
+          },
+          "autres": {
+            "loisirs": [],
+            "engagements": []
+          }
+        },
+        "cv": "Resume_Imane_Belhaj.docx_extracted.json"
+      }
+    }
+  ],
+  "reranked_cvs": [
+    {
+      "cv": "Houssam_N_Absis_Conseill 1012.json",
+      "commentaire": "Architecte SI d'entreprise senior, expérience Banque de France et La Poste."
+    },
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].json",
+      "commentaire": "Architecte des données, migration Snowflake et stratégie de valorisation data."
+    },
+    {
+      "cv": "CV H-PMO AE NF v1.json",
+      "commentaire": "PMO/Architecte avec SDSI data-centric, modélisation et stratégie data."
+    },
+    {
+      "cv": "OmkarResume_extracted.json",
+      "commentaire": "Data engineer senior, Azure, Airflow, Snowflake et gestion d'équipes."
+    },
+    {
+      "cv": "Karim_B_ABSIS_Conseil_Aout_2025[1719].json",
+      "commentaire": "Directeur technique et architecte produits, expérience Banque de France."
+    },
+    {
+      "cv": "hamza_idrissi_CV_extracted.json",
+      "commentaire": "AI/ML Engineer, intégration LLMs et RAG, deep learning."
+    },
+    {
+      "cv": "Imane_Belhaj_Ingenieur_Informatique_PFE.docx_extracted.json",
+      "commentaire": "Stagiaire Data Science, NLP/ML performant sur détection d'insultes."
+    },
+    {
+      "cv": "Resume_Imane_Belhaj.docx_extracted.json",
+      "commentaire": "Stagiaire Data Science similaire, compétences NLP et développement web."
+    },
+    {
+      "cv": "Othmane_Benayad_extracted.json",
+      "commentaire": "Fondateur/PDG avec gestion et produits, peu d'architecture data."
+    },
+    {
+      "cv": "UOB AM_Felyna Lee_Product AVP_extracted.json",
+      "commentaire": "Profil produit/stratégie finance, non centré sur architecture Data/IA."
+    }
+  ],
+  "indispensables": [
+    "Architecture d'entreprise"
+  ],
+  "nice_have": [
+    "Modélisation architecture d'entreprise",
+    "Stratégies valorisation de la data",
+    "Expertise Data et IA",
+    "Maîtrise outils analytiques",
+    "Cloud interne et externe",
+    "TOGAF",
+    "ISACA",
+    "SAFE",
+    "ITIL",
+    "AWS Certified Solutions Architect",
+    "Anglais"
+  ],
+  "total_cvs": 125,
+  "filtered_count": 10,
+  "scored_count": 10,
+  "reranked_count": 10
+}

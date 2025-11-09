@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].docx",
+      "score_final": 0.6975514948368072,
+      "score_base": 0.7342647314071655,
+      "bonus_nice_have_multiplicateur": 0.95,
+      "nice_have_manquants": [
+        "python"
+      ],
+      "coefficient_qualite_experience": 1.2,
+      "commentaire_scoring": "Score base de 0.734 reflétant une bonne adéquation sémantique avec l'offre. Multiplicateur de 0.95 (×0.95^1) appliqué en raison d'un nice-have manquant : python. Score final fourni : 0.698.",
+      "appreciation_globale": "Profil pertinent pour le poste d'Architecte d'entreprise Data/IA (coefficient: 1.2). Le candidat présente une solide expérience en modélisation (Merise/UML) et en outillage d'architecture (MEGA, HOPEX), ainsi que la conduite de migrations de plateformes (SQL Server → Snowflake) et le travail transverse avec un Data Office. Ces éléments sont des atouts directs pour la gouvernance des données, le socle technique et la mise en place de services de valorisation de la data. Points de vigilance : absence de preuve d'animation d'une feuille de route IA / définition de cas d'usage IA et manque de compétences Python, qui limitent la dimension IA/innovation. Recommandation RH : Recommandé pour un entretien ciblé sur stratégie IA, sécurité infra et capacités d'industrialisation (vérifier leadership sur projets d'architecture à grande échelle)."
+    }
+  ],
+  "metadata": {
+    "total_cvs": 3,
+    "filtered_must_have": 1,
+    "top_reranked": 1,
+    "duree_totale_s": 59.6,
+    "timestamp": "2025-10-12T16:44:50Z"
+  }
+}

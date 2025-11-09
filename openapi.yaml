@@ -1,0 +1,1232 @@
+openapi: 3.1.0
+info:
+  title: Brain RH API
+  version: 1.0.0
+  description: |
+    API de matching intelligent CV/Offre d'emploi avec analyse LLM.
+
+    **Fonctionnalités:**
+    - Parsing de CVs (PDF/DOCX) avec extraction LLM
+    - Enrichissement d'offres avec génération must-have/nice-have
+    - Matching avec filtrage, scoring et re-ranking LLM
+    - Streaming temps-réel (SSE) pour traitements longs
+    - Gestion de projets et entreprises
+    - Export CSV/JSON des résultats
+
+  contact:
+    name: Brain RH API Support
+    email: support@brainrh.com
+
+servers:
+  - url: http://localhost:8000/api/v1
+    description: Serveur de développement
+  - url: https://api.brainrh.com/api/v1
+    description: Serveur de production
+
+tags:
+  - name: CVs
+    description: Parsing et gestion des CVs
+  - name: Offres
+    description: Création et enrichissement d'offres
+  - name: Matching
+    description: Matching CV/Offre avec scoring
+  - name: Projets
+    description: Gestion des projets de recrutement
+  - name: Entreprises
+    description: Gestion des entreprises clientes
+
+paths:
+  # ==================== CVS ====================
+
+  /cvs/parse:
+    post:
+      tags: [CVs]
+      summary: Parser des CVs en mode batch
+      description: |
+        Upload et parse plusieurs CVs (PDF/DOCX) en parallèle avec extraction LLM.
+        Retourne les résultats complets une fois terminé.
+
+        **Pour streaming temps-réel, utiliser `/cvs/parse/stream`**
+      operationId: parseCVs
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - files
+              properties:
+                files:
+                  type: array
+                  items:
+                    type: string
+                    format: binary
+                  description: Fichiers CVs (PDF ou DOCX)
+                model:
+                  type: string
+                  default: gpt-5-mini
+                  enum: [gpt-5-mini, gpt-4.1-mini, gpt-4o-mini]
+                  description: Modèle LLM pour parsing
+                concurrency:
+                  type: integer
+                  default: 500
+                  description: Nombre max de CVs traités en parallèle
+                qps:
+                  type: number
+                  format: float
+                  default: 10.0
+                  description: Requêtes par seconde max vers OpenAI
+      responses:
+        '200':
+          description: CVs parsés avec succès
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CVParseResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /cvs/parse/stream:
+    post:
+      tags: [CVs]
+      summary: Parser des CVs avec streaming SSE
+      description: |
+        Upload et parse plusieurs CVs avec événements temps-réel (Server-Sent Events).
+
+        **Événements émis:**
+        - `progress`: Progression du parsing (current/total)
+        - `result`: CV parsé (un par CV)
+        - `done`: Fin du traitement avec statistiques
+        - `error`: Erreur globale
+      operationId: parseCVsStream
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - files
+              properties:
+                files:
+                  type: array
+                  items:
+                    type: string
+                    format: binary
+                model:
+                  type: string
+                  default: gpt-5-mini
+                concurrency:
+                  type: integer
+                  default: 500
+                qps:
+                  type: number
+                  format: float
+                  default: 10.0
+      responses:
+        '200':
+          description: Stream d'événements de parsing
+          content:
+            text/event-stream:
+              schema:
+                type: string
+                description: |
+                  Événements SSE au format:
+                  ```
+                  event: progress
+                  data: {"step": "parsing", "current": 5, "total": 10, "progress": 0.5}
+
+                  event: result
+                  data: {"filename": "cv.pdf", "success": true, "data": {...}}
+
+                  event: done
+                  data: {"success_count": 9, "failed_count": 1, "total": 10}
+                  ```
+
+  /cvs/{cv_id}:
+    get:
+      tags: [CVs]
+      summary: Récupérer un CV parsé
+      operationId: getCV
+      parameters:
+        - name: cv_id
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID du CV (nom de fichier)
+      responses:
+        '200':
+          description: CV trouvé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CV'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+    delete:
+      tags: [CVs]
+      summary: Supprimer un CV
+      operationId: deleteCV
+      parameters:
+        - name: cv_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: CV supprimé
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  # ==================== OFFRES ====================
+
+  /offres:
+    post:
+      tags: [Offres]
+      summary: Créer une offre manuelle
+      description: Créer une offre d'emploi avec critères must-have/nice-have définis manuellement
+      operationId: createOffre
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OffreInput'
+      responses:
+        '201':
+          description: Offre créée
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Offre'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+  /offres/enrich:
+    post:
+      tags: [Offres]
+      summary: Enrichir une offre via LLM
+      description: |
+        Génère automatiquement les critères must-have et nice-have à partir d'une description d'offre.
+        Peut optionnellement intégrer des données France Travail (API ROME).
+      operationId: enrichOffre
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - description
+              properties:
+                description:
+                  type: string
+                  description: Description textuelle de l'offre
+                use_rome_api:
+                  type: boolean
+                  default: false
+                  description: Utiliser France Travail API pour enrichissement
+                rome_code:
+                  type: string
+                  description: Code ROME (si use_rome_api=true)
+                model:
+                  type: string
+                  default: gpt-5-mini
+                  enum: [gpt-5-mini, gpt-4.1-mini, gpt-4o-mini]
+      responses:
+        '200':
+          description: Offre enrichie
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Offre'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+  /offres/{offre_id}:
+    get:
+      tags: [Offres]
+      summary: Récupérer une offre
+      operationId: getOffre
+      parameters:
+        - name: offre_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Offre trouvée
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Offre'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+    put:
+      tags: [Offres]
+      summary: Modifier une offre
+      operationId: updateOffre
+      parameters:
+        - name: offre_id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OffreInput'
+      responses:
+        '200':
+          description: Offre modifiée
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Offre'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+    delete:
+      tags: [Offres]
+      summary: Supprimer une offre
+      operationId: deleteOffre
+      parameters:
+        - name: offre_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Offre supprimée
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  # ==================== MATCHING ====================
+
+  /matching/run:
+    post:
+      tags: [Matching]
+      summary: Lancer un matching en mode batch
+      description: |
+        Lance un matching complet CV/Offre:
+        1. Filtrage must-have (éliminatoire)
+        2. Calcul similarité embeddings
+        3. Détection nice-have manquants
+        4. Re-ranking LLM du top N
+
+        Retourne résultats une fois terminé. **Pour streaming, utiliser `/matching/run/stream`**
+      operationId: runMatching
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MatchingRequest'
+      responses:
+        '200':
+          description: Matching terminé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MatchingResponse'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+        '500':
+          $ref: '#/components/responses/InternalError'
+
+  /matching/run/stream:
+    post:
+      tags: [Matching]
+      summary: Lancer un matching avec streaming SSE
+      description: |
+        Matching avec événements temps-réel:
+
+        **Événements:**
+        - `progress`: Progression (must_have_filtering, embedding, nice_have_detection, reranking)
+        - `result`: Résultat intermédiaire (CV filtré, scoré)
+        - `done`: Résultats finaux + métadonnées
+        - `error`: Erreur
+      operationId: runMatchingStream
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/MatchingRequest'
+      responses:
+        '200':
+          description: Stream d'événements de matching
+          content:
+            text/event-stream:
+              schema:
+                type: string
+
+  /matching/{matching_id}/results:
+    get:
+      tags: [Matching]
+      summary: Récupérer résultats d'un matching
+      operationId: getMatchingResults
+      parameters:
+        - name: matching_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Résultats trouvés
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MatchingResponse'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /matching/{matching_id}/export/csv:
+    get:
+      tags: [Matching]
+      summary: Exporter résultats en CSV
+      operationId: exportMatchingCSV
+      parameters:
+        - name: matching_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: CSV généré
+          content:
+            text/csv:
+              schema:
+                type: string
+                format: binary
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /matching/{matching_id}/export/json:
+    get:
+      tags: [Matching]
+      summary: Exporter résultats en JSON
+      operationId: exportMatchingJSON
+      parameters:
+        - name: matching_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: JSON généré
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MatchingResponse'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  # ==================== PROJETS ====================
+
+  /projects:
+    get:
+      tags: [Projets]
+      summary: Lister tous les projets
+      operationId: listProjects
+      parameters:
+        - name: enterprise_id
+          in: query
+          schema:
+            type: string
+          description: Filtrer par entreprise
+        - name: status
+          in: query
+          schema:
+            type: string
+            enum: [actif, archive]
+          description: Filtrer par status
+      responses:
+        '200':
+          description: Liste des projets
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Project'
+
+    post:
+      tags: [Projets]
+      summary: Créer un projet
+      operationId: createProject
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProjectInput'
+      responses:
+        '201':
+          description: Projet créé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Project'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+  /projects/{project_id}:
+    get:
+      tags: [Projets]
+      summary: Récupérer un projet
+      operationId: getProject
+      parameters:
+        - name: project_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Projet trouvé
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Project'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+    put:
+      tags: [Projets]
+      summary: Modifier un projet
+      operationId: updateProject
+      parameters:
+        - name: project_id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProjectInput'
+      responses:
+        '200':
+          description: Projet modifié
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Project'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+    delete:
+      tags: [Projets]
+      summary: Supprimer un projet
+      operationId: deleteProject
+      parameters:
+        - name: project_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Projet supprimé
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+  /projects/{project_id}/history:
+    get:
+      tags: [Projets]
+      summary: Historique des matchings d'un projet
+      operationId: getProjectHistory
+      parameters:
+        - name: project_id
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 50
+        - name: offset
+          in: query
+          schema:
+            type: integer
+            default: 0
+      responses:
+        '200':
+          description: Historique trouvé
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  total:
+                    type: integer
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/MatchingHistoryEntry'
+
+  # ==================== ENTREPRISES ====================
+
+  /enterprises:
+    get:
+      tags: [Entreprises]
+      summary: Lister toutes les entreprises
+      operationId: listEnterprises
+      responses:
+        '200':
+          description: Liste des entreprises
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Enterprise'
+
+    post:
+      tags: [Entreprises]
+      summary: Créer une entreprise
+      operationId: createEnterprise
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EnterpriseInput'
+      responses:
+        '201':
+          description: Entreprise créée
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Enterprise'
+        '400':
+          $ref: '#/components/responses/BadRequest'
+
+  /enterprises/{enterprise_id}:
+    get:
+      tags: [Entreprises]
+      summary: Récupérer une entreprise
+      operationId: getEnterprise
+      parameters:
+        - name: enterprise_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Entreprise trouvée
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Enterprise'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+    put:
+      tags: [Entreprises]
+      summary: Modifier une entreprise
+      operationId: updateEnterprise
+      parameters:
+        - name: enterprise_id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/EnterpriseInput'
+      responses:
+        '200':
+          description: Entreprise modifiée
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Enterprise'
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+    delete:
+      tags: [Entreprises]
+      summary: Supprimer une entreprise
+      operationId: deleteEnterprise
+      parameters:
+        - name: enterprise_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Entreprise supprimée
+        '404':
+          $ref: '#/components/responses/NotFound'
+
+# ==================== COMPONENTS ====================
+
+components:
+  schemas:
+    # ==================== CV ====================
+
+    Identite:
+      type: object
+      properties:
+        nom:
+          type: string
+        prenom:
+          type: string
+        email:
+          type: string
+          format: email
+        telephone:
+          type: string
+        adresse:
+          type: string
+        linkedin:
+          type: string
+        autres_reseaux:
+          type: array
+          items:
+            type: string
+
+    Experience:
+      type: object
+      properties:
+        poste:
+          type: string
+        entreprise:
+          type: string
+        lieu:
+          type: string
+        date_debut:
+          type: string
+        date_fin:
+          type: string
+        duree:
+          type: string
+        missions:
+          type: array
+          items:
+            type: string
+
+    CV:
+      type: object
+      required:
+        - cv
+      properties:
+        cv:
+          type: string
+          description: Nom du fichier CV
+        identite:
+          $ref: '#/components/schemas/Identite'
+        titre:
+          type: string
+        resume_professionnel:
+          type: string
+        competences_techniques:
+          type: array
+          items:
+            type: string
+        competences_transversales:
+          type: array
+          items:
+            type: string
+        langues:
+          type: array
+          items:
+            type: string
+        experiences_professionnelles:
+          type: array
+          items:
+            $ref: '#/components/schemas/Experience'
+        formations:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+        certifications:
+          type: array
+          items:
+            type: string
+        projets:
+          type: array
+          items:
+            type: string
+
+    CVParseResult:
+      type: object
+      required:
+        - filename
+        - success
+      properties:
+        filename:
+          type: string
+        success:
+          type: boolean
+        data:
+          $ref: '#/components/schemas/CV'
+        error:
+          type: string
+        timings:
+          type: object
+          properties:
+            total:
+              type: number
+            extraction:
+              type: number
+            parsing:
+              type: number
+
+    CVParseResponse:
+      type: object
+      required:
+        - success_count
+        - failed_count
+        - total
+        - results
+      properties:
+        success_count:
+          type: integer
+        failed_count:
+          type: integer
+        total:
+          type: integer
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/CVParseResult'
+        timings:
+          type: object
+          properties:
+            total:
+              type: number
+
+    # ==================== OFFRE ====================
+
+    OffreSection:
+      type: object
+      properties:
+        titre:
+          type: string
+        resume_professionnel:
+          type: string
+        competences_techniques:
+          type: array
+          items:
+            type: string
+        competences_transversales:
+          type: array
+          items:
+            type: string
+        langues:
+          type: array
+          items:
+            type: string
+        experiences_professionnelles:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+        formations:
+          type: array
+          items:
+            type: object
+            additionalProperties: true
+        certifications:
+          type: array
+          items:
+            type: string
+        projets:
+          type: array
+          items:
+            type: string
+
+    Offre:
+      type: object
+      required:
+        - sections
+      properties:
+        sections:
+          $ref: '#/components/schemas/OffreSection'
+        must_have:
+          type: array
+          items:
+            type: string
+          description: Critères éliminatoires
+        nice_have:
+          type: array
+          items:
+            type: string
+          description: Critères souhaitables
+
+    OffreInput:
+      type: object
+      required:
+        - sections
+      properties:
+        sections:
+          $ref: '#/components/schemas/OffreSection'
+        must_have:
+          type: array
+          items:
+            type: string
+        nice_have:
+          type: array
+          items:
+            type: string
+
+    # ==================== MATCHING ====================
+
+    ResultatMatching:
+      type: object
+      required:
+        - cv
+        - score_final
+        - score_base
+        - bonus_nice_have_multiplicateur
+        - coefficient_qualite_experience
+      properties:
+        cv:
+          type: string
+          description: Nom du fichier CV
+        score_final:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+          description: Score final (0-1)
+        score_base:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+          description: Score de similarité base (embeddings)
+        bonus_nice_have_multiplicateur:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+          description: Malus nice-have (0.95^nb_manquants)
+        coefficient_qualite_experience:
+          type: number
+          format: float
+          minimum: 1.0
+          maximum: 1.4
+          description: Coefficient qualité expérience (1.0-1.4)
+        nice_have_manquants:
+          type: array
+          items:
+            type: string
+          description: Liste des nice-have manquants
+        commentaire_scoring:
+          type: string
+          description: Commentaire LLM sur le scoring (si re-ranking)
+        appreciation_globale:
+          type: string
+          description: Appréciation globale LLM (si re-ranking)
+
+    MatchingMetadata:
+      type: object
+      properties:
+        total_cvs:
+          type: integer
+        filtered_must_have:
+          type: integer
+          description: Nombre de CVs éliminés au filtrage must-have
+        top_reranked:
+          type: integer
+          description: Nombre de CVs re-rankés par LLM
+        duree_totale_s:
+          type: number
+          format: float
+        timestamp:
+          type: string
+          format: date-time
+
+    MatchingResponse:
+      type: object
+      required:
+        - results
+        - metadata
+      properties:
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/ResultatMatching'
+        metadata:
+          $ref: '#/components/schemas/MatchingMetadata'
+
+    MatchingRequest:
+      type: object
+      required:
+        - offre
+        - cvs
+      properties:
+        offre:
+          $ref: '#/components/schemas/Offre'
+        cvs:
+          type: array
+          items:
+            type: string
+          description: Liste des IDs de CVs (noms de fichiers)
+        top_n_rerank:
+          type: integer
+          default: 10
+          description: Nombre de CVs à re-ranker avec LLM
+        model:
+          type: string
+          default: gpt-5-mini
+          enum: [gpt-5-mini, gpt-4.1-mini, gpt-4o-mini]
+        concurrency:
+          type: integer
+          default: 500
+        qps:
+          type: number
+          format: float
+          default: 10.0
+
+    MatchingHistoryEntry:
+      type: object
+      properties:
+        matching_id:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+        offre_titre:
+          type: string
+        total_cvs:
+          type: integer
+        top_score:
+          type: number
+          format: float
+
+    # ==================== PROJETS ====================
+
+    Project:
+      type: object
+      required:
+        - id
+        - nom
+        - created_at
+        - last_modified
+      properties:
+        id:
+          type: string
+        nom:
+          type: string
+        enterprise_id:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+        last_modified:
+          type: string
+          format: date-time
+        status:
+          type: string
+          enum: [actif, archive]
+          default: actif
+
+    ProjectInput:
+      type: object
+      required:
+        - nom
+      properties:
+        nom:
+          type: string
+        enterprise_id:
+          type: string
+        status:
+          type: string
+          enum: [actif, archive]
+
+    # ==================== ENTREPRISES ====================
+
+    Enterprise:
+      type: object
+      required:
+        - id
+        - nom
+        - created_at
+      properties:
+        id:
+          type: string
+        nom:
+          type: string
+        secteur:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+        projects_count:
+          type: integer
+
+    EnterpriseInput:
+      type: object
+      required:
+        - nom
+      properties:
+        nom:
+          type: string
+        secteur:
+          type: string
+
+    # ==================== EVENTS SSE ====================
+
+    SSEProgressEvent:
+      type: object
+      required:
+        - event
+        - step
+      properties:
+        event:
+          type: string
+          enum: [progress]
+        step:
+          type: string
+          enum: [extracting, parsing, must_have_filtering, embedding, nice_have_detection, reranking]
+        current:
+          type: integer
+        total:
+          type: integer
+        progress:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+        message:
+          type: string
+        filename:
+          type: string
+
+    SSEResultEvent:
+      type: object
+      required:
+        - event
+        - data
+      properties:
+        event:
+          type: string
+          enum: [result]
+        data:
+          type: object
+          description: CV, ResultatMatching, ou autre résultat intermédiaire
+
+    SSEDoneEvent:
+      type: object
+      required:
+        - event
+        - summary
+      properties:
+        event:
+          type: string
+          enum: [done]
+        summary:
+          type: object
+          description: Résumé final du traitement
+
+    SSEErrorEvent:
+      type: object
+      required:
+        - event
+        - code
+        - message
+      properties:
+        event:
+          type: string
+          enum: [error]
+        code:
+          type: string
+        message:
+          type: string
+        details:
+          type: object
+
+    # ==================== ERRORS ====================
+
+    APIError:
+      type: object
+      required:
+        - code
+        - message
+      properties:
+        code:
+          type: string
+          description: Code d'erreur machine-readable
+        message:
+          type: string
+          description: Message d'erreur human-readable
+        details:
+          type: object
+          description: Détails additionnels
+        status:
+          type: integer
+          description: Code HTTP
+
+  responses:
+    BadRequest:
+      description: Requête invalide
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/APIError'
+          example:
+            code: INVALID_REQUEST
+            message: "Le champ 'files' est requis"
+            status: 400
+
+    NotFound:
+      description: Ressource non trouvée
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/APIError'
+          example:
+            code: NOT_FOUND
+            message: "Ressource non trouvée"
+            status: 404
+
+    InternalError:
+      description: Erreur serveur interne
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/APIError'
+          example:
+            code: INTERNAL_ERROR
+            message: "Erreur interne du serveur"
+            status: 500
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+      description: Clé API pour authentification (à implémenter si nécessaire)
+
+# Note: Pas de sécurité activée pour le moment (développement local)
+# security:
+#   - ApiKeyAuth: []

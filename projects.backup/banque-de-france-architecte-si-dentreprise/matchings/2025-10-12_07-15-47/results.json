@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "cv": "Karima_T_ABSIS_Conseil_Septembre_2025[1717].docx",
+      "score_final": 0.6975514948368072,
+      "score_base": 0.7342647314071655,
+      "bonus_nice_have_multiplicateur": 0.95,
+      "nice_have_manquants": [
+        "python"
+      ],
+      "coefficient_qualite_experience": 1.2,
+      "commentaire_scoring": "Score base de 0.734 indiquant une bonne adéquation data/architecture. Nice-have manquant : python (1 absent) → multiplicateur de 0.95 (0.95^1), réduction d'environ 5 %. Score final indiqué : 0.698 (0.734 × 0.95).",
+      "appreciation_globale": "Profil pertinent pour un rôle d'Architecte d'entreprise Data/IA (coefficient 1.2) grâce à des missions concrètes de modélisation, gouvernance et migration de plateforme (SQL Server → Snowflake). Points forts : maîtrise des outils de modélisation (MEGA, HOPEX, UML), expérience opérationnelle sur gouvernance Data Office et conduite de changements, et exposition à des projets réglementaires (LCB-FT) montrant crédibilité opérationnelle. Axes de vigilance : durée limitée des missions récentes, faibles preuves d'expertise IA (définition de cas d'usage, schéma directeur IA), compétences Python absentes et peu d'informations sur sécurité/infra cloud externe et automatisation. Recommandation RH : Recommandé — convoquer en entretien technique focalisé sur stratégie IA, capacités d'industrialisation (automation, infra cloud) et appétence au développement/ML (Python) pour valider l'adéquation au poste senior."
+    }
+  ],
+  "metadata": {
+    "total_cvs": 3,
+    "filtered_must_have": 1,
+    "top_reranked": 1,
+    "duree_totale_s": 40.19,
+    "timestamp": "2025-10-12T05:16:27Z"
+  }
+}
